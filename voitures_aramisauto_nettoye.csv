@@ -1,0 +1,2296 @@
+Marque,Modèle,Année,Kilométrage,Etat,Prix
+Mercedes,Classe A,2023,5245.0,Occasion,36499.0
+Peugeot,208,2023,20.0,Occasion,26999.0
+Opel,Mokka,2023,1675.0,Occasion,26799.0
+Toyota,YARIS CROSS,2022,5810.0,Occasion,24999.0
+Peugeot,3008,2019,37630.0,Occasion,16499.0
+Volkswagen,Golf 8,2024,26515.0,Occasion,38299.0
+Dacia,Duster,2022,26232.0,Occasion,21799.0
+Renault,Zoé,2016,62515.0,Occasion,6799.0
+Tesla,MODEL 3,2021,85510.0,Occasion,31999.0
+BMW,Série 1,2023,27628.0,Occasion,28099.0
+Toyota,RAV 4,2019,42730.0,Occasion,26799.0
+DS,DS7 CROSSBACK,2023,27014.0,Occasion,31999.0
+Toyota,Yaris 4,2023,26941.0,Occasion,17799.0
+Audi,A1 Sportback,2023,12065.0,Occasion,28999.0
+Renault,Twingo 3,2022,29230.0,Occasion,11199.0
+Hyundai,Tucson,2023,21864.0,Occasion,29999.0
+Renault,Mégane 4,2021,30482.0,Occasion,20499.0
+Opel,Corsa,2020,59736.0,Occasion,10999.0
+Toyota,Yaris,2019,117511.0,Occasion,12999.0
+Renault,Clio 4,2017,133867.0,Occasion,10999.0
+Volkswagen,Polo,2019,70652.0,Occasion,14199.0
+BMW,X1,2023,49907.0,Occasion,42499.0
+Toyota,Corolla,2019,58967.0,Occasion,18799.0
+Peugeot,308 SW,2022,36184.0,Occasion,19499.0
+Tesla,MODEL Y,2023,27783.0,Occasion,39499.0
+DS,DS3 Crossback,2022,18675.0,Occasion,21999.0
+Renault,Kadjar,2016,127154.0,Occasion,10699.0
+Citroën,Berlingo,2019,40325.0,Occasion,16499.0
+Citroën,C4 Cactus,2019,45938.0,Occasion,12499.0
+Toyota,Aygo X,2023,12235.0,Occasion,15999.0
+MG,ZS,2023,8448.0,Occasion,17999.0
+Mercedes,Classe C,2015,91611.0,Occasion,18499.0
+Peugeot,RIFTER,2019,64105.0,Occasion,17799.0
+Volkswagen,Golf 7,2018,137225.0,Occasion,13999.0
+Peugeot,508,2020,141096.0,Occasion,17799.0
+Renault,Grand Scénic 4,2017,133175.0,Occasion,14999.0
+Opel,Crossland X,2020,39763.0,Occasion,12899.0
+Jeep,Renegade,2023,25738.0,Occasion,22699.0
+Dacia,SPRING,2021,17085.0,Occasion,10499.0
+Seat,Ibiza,2021,46105.0,Occasion,15799.0
+Audi,Q2,2024,10205.0,Occasion,31499.0
+Mini,Mini,2021,82513.0,Occasion,16299.0
+Peugeot,508 SW,2024,12000.0,Occasion,44999.0
+MG,MG ZS,2021,34969.0,Occasion,16499.0
+Mercedes,GLA,2024,9240.0,Occasion,46899.0
+Opel,Crossland,2023,15636.0,Occasion,16199.0
+Ford,Kuga,2023,10.0,Occasion,29599.0
+Fiat,500C,2024,472.0,Occasion,17199.0
+BYD,Atto 3,2022,18639.0,Occasion,27999.0
+Hyundai,i20,2017,110217.0,Occasion,9499.0
+Renault,Scénic 4,2019,45102.0,Occasion,17499.0
+Hyundai,Bayon,2021,44407.0,Occasion,14699.0
+Opel,GRANDLAND,2023,17925.0,Occasion,21299.0
+DS,DS3,2016,60432.0,Occasion,9999.0
+Kia,Niro,2019,106072.0,Occasion,15299.0
+Citroën,C4 SPACETOURER,2018,85949.0,Occasion,11499.0
+BMW,Série 2 Active Tourer,2023,2905.0,Occasion,44499.0
+BMW,X2,2019,54288.0,Occasion,23699.0
+Opel,Astra,2022,18397.0,Occasion,19799.0
+Toyota,Aygo,2018,17887.0,Occasion,10999.0
+Citroën,GRAND C4 SPACETOURER,2018,110040.0,Occasion,12499.0
+Ford,Fiesta,2023,13079.0,Occasion,24999.0
+Land,Rover Range Rover Evoque,2019,44812.0,Occasion,29999.0
+Peugeot,108,2018,75425.0,Occasion,8499.0
+Fiat,Tipo,2019,31509.0,Occasion,12599.0
+Kia,Picanto,2022,12799.0,Occasion,15999.0
+Skoda,Karoq,2021,42644.0,Occasion,24199.0
+Lynk&Co,01,2022,13314.0,Occasion,26999.0
+Audi,Q3,2017,113195.0,Occasion,19499.0
+BMW,X3,2023,32200.0,Occasion,53399.0
+Lexus,UX,2023,7100.0,Occasion,33999.0
+Audi,A4 Avant,2020,43670.0,Occasion,28099.0
+Suzuki,VITARA,2020,39320.0,Occasion,17499.0
+Opel,Grandland X,2018,82487.0,Occasion,13999.0
+Seat,Leon,2019,57921.0,Occasion,13999.0
+Nissan,Micra,2021,12237.0,Occasion,16299.0
+Citroën,C1,2018,23856.0,Occasion,9299.0
+Renault,Mégane 5,2022,29600.0,Occasion,28999.0
+Volvo,XC40,2023,10.0,Occasion,44299.0
+Renault,Espace 5,2018,67718.0,Occasion,21999.0
+Audi,E-TRON SPORTBACK,2020,63387.0,Occasion,34999.0
+Honda,ZR-V,2023,27312.0,Occasion,33499.0
+Jeep,Compass,2023,23856.0,Occasion,28999.0
+MG,EHS,2021,19518.0,Occasion,22999.0
+Volvo,EX30,2024,5013.0,Occasion,36999.0
+Kia,Stonic,2020,48780.0,Occasion,15999.0
+BMW,X5,2017,133678.0,Occasion,27999.0
+Skoda,Fabia,2023,9869.0,Occasion,17999.0
+Seat,Ateca,2020,50002.0,Occasion,25299.0
+Mercedes,Classe B,2019,85925.0,Occasion,20999.0
+Nissan,Leaf,2022,920.0,Occasion,19999.0
+Renault,Mégane 4 Estate,2017,120215.0,Occasion,15499.0
+Citroën,C4 Picasso,2017,106445.0,Occasion,11999.0
+Honda,CR-V,2019,95598.0,Occasion,22499.0
+Volkswagen,E-Golf ELECTRIQUE,2018,20996.0,Occasion,16199.0
+Mercedes,CLA Coupé,2023,14211.0,Occasion,37799.0
+Skoda,Kodiaq,2022,85852.0,Occasion,29999.0
+Kia,Xceed,2022,35344.0,Occasion,21999.0
+Suzuki,Swift,2024,8410.0,Occasion,21999.0
+Dacia,Lodgy,2018,50042.0,Occasion,13999.0
+Seat,Mii,2016,82055.0,Occasion,7499.0
+Mini,Countryman,2022,35840.0,Occasion,29999.0
+Ford,Focus SW,2019,58846.0,Occasion,15899.0
+Toyota,Corolla Touring Sports,2021,50889.0,Occasion,25999.0
+Mini,Clubman,2022,47689.0,Occasion,21899.0
+Mercedes,CLA Shooting Brake,2019,69772.0,Occasion,24999.0
+Kia,E-Soul,2021,9599.0,Occasion,19699.0
+Volkswagen,ID.5,2022,15630.0,Occasion,36799.0
+BMW,Série 4 Coupé,2023,73357.0,Occasion,39799.0
+Audi,A1,2018,58305.0,Occasion,14299.0
+Volkswagen,Up,2022,6159.0,Occasion,14999.0
+Volkswagen,Tiguan Allspace,2023,19831.0,Occasion,37299.0
+Peugeot,Expert Fourgon,2023,2934.0,Occasion,30999.0
+Audi,A6 Allroad,2015,129711.0,Occasion,23499.0
+Renault,Mégane,2019,105793.0,Occasion,10999.0
+Mercedes,CLA,2018,54898.0,Occasion,25999.0
+Kia,Ceed,2023,24751.0,Occasion,21499.0
+Fiat,Panda,2020,48000.0,Occasion,10999.0
+Infiniti,Q30,2018,61427.0,Occasion,15999.0
+Tesla,MODEL S,2017,112315.0,Occasion,29999.0
+Toyota,CAMRY,2019,56967.0,Occasion,23999.0
+Skoda,Octavia Combi,2022,28260.0,Occasion,25399.0
+Citroën,JUMPY FOURGON,2022,810.0,Occasion,26999.0
+Mitsubishi,ECLIPSE CROSS,2023,3101.0,Occasion,29999.0
+Hyundai,Ioniq,2020,88706.0,Occasion,16499.0
+Ford,Ecosport,2018,44910.0,Occasion,15999.0
+Kia,EV6,2022,67275.0,Occasion,28999.0
+Ford,S-Max,2020,114474.0,Occasion,21499.0
+Mazda,CX-5,2014,120271.0,Occasion,14999.0
+Toyota,Proace Verso,2023,10.0,Occasion,34499.0
+DS,DS5,2016,108856.0,Occasion,15999.0
+Volkswagen,Passat SW,2019,103571.0,Occasion,15499.0
+Audi,A5 Sportback,2019,47830.0,Occasion,32099.0
+Renault,Talisman Estate,2020,77343.0,Occasion,18499.0
+Opel,INSIGNIA GRAND SPORT,2021,29115.0,Occasion,21999.0
+Kia,Rio,2022,12312.0,Occasion,15499.0
+Audi,Q5,2020,25744.0,Occasion,43099.0
+Alfa,Romeo Giulietta,2019,35917.0,Occasion,15699.0
+Dacia,Logan MCV,2015,117320.0,Occasion,8999.0
+Opel,VIVARO FOURGON,2020,74870.0,Occasion,20999.0
+Renault,Talisman,2016,74380.0,Occasion,15499.0
+Opel,CORSA ELECTRIQUE,2021,35490.0,Occasion,16499.0
+Skoda,Superb,2023,27104.0,Occasion,32999.0
+Hyundai,i30,2024,12322.0,Occasion,21999.0
+Citroën,Grand C4 Picasso,2016,82271.0,Occasion,14999.0
+BMW,I3,2018,92400.0,Occasion,14699.0
+Opel,Grandland X Business,2019,56782.0,Occasion,14299.0
+Audi,SQ7,2016,106015.0,Occasion,49999.0
+Smart,Fortwo Coupé,2019,52895.0,Occasion,13999.0
+Ford,EDGE,2016,102797.0,Occasion,19999.0
+Alfa,Romeo Stelvio,2019,89966.0,Occasion,22999.0
+Volkswagen,Golf SW,2018,114870.0,Occasion,12499.0
+Mercedes,GLB,2024,19799.0,Occasion,47299.0
+Renault,Clio 4 Société,2018,77675.0,Occasion,9999.0
+BMW,Série 3,2021,71135.0,Occasion,27999.0
+Opel,Mokka X,2018,62393.0,Occasion,13999.0
+Volvo,XC60,2022,64513.0,Occasion,36999.0
+Citroën,E-BERLINGO,2023,15.0,Occasion,24999.0
+Citroën,C-Elysee,2018,5475.0,Occasion,9499.0
+Jeep,Avenger,2024,18615.0,Occasion,22999.0
+MG,MARVEL R,2022,19217.0,Occasion,30799.0
+Volvo,V40,2019,84548.0,Occasion,18499.0
+Ford,C-Max,2016,79040.0,Occasion,11299.0
+Skoda,Fabia Combi,2022,26359.0,Occasion,18499.0
+Ford,KA+,2019,44759.0,Occasion,10999.0
+Ford,Mondeo SW,2020,113072.0,Occasion,17299.0
+Fiat,500 L,2018,114472.0,Occasion,10999.0
+Skoda,Octavia,2021,86286.0,Occasion,18499.0
+Renault,Koleos,2018,44831.0,Occasion,22499.0
+Volvo,V60,2021,46688.0,Occasion,26599.0
+Audi,A3 Berline,2019,84810.0,Occasion,24499.0
+Dacia,Dokker,2020,69332.0,Occasion,16199.0
+Mini,Mini countryman,2023,28845.0,Occasion,33999.0
+Skoda,Scala,2023,26243.0,Occasion,24999.0
+Alfa,Romeo Tonale,2023,16706.0,Occasion,31499.0
+Mazda,CX-30,2024,9780.0,Occasion,29499.0
+Fiat,TIPO Station Wagon,2019,83680.0,Occasion,10999.0
+Volkswagen,Golf Sportsvan,2019,60160.0,Occasion,18699.0
+Audi,A3 Berline,2023,3585.0,Occasion,33799.0
+Seat,Tarraco,2021,32835.0,Occasion,31799.0
+Opel,Adam,2015,76285.0,Occasion,10499.0
+Mercedes,GLC,2022,59723.0,Occasion,42099.0
+Volkswagen,Arteon Shooting Brake,2023,18736.0,Occasion,36499.0
+BMW,Série 2 Gran Tourer,2022,94647.0,Occasion,22999.0
+BMW,X4,2017,78414.0,Occasion,27999.0
+Volkswagen,Golf 8 SW,2021,85890.0,Occasion,19999.0
+Renault,Scenic 3,2016,72002.0,Occasion,11999.0
+Citroën,C-ZERO,2017,26685.0,Occasion,7299.0
+Skoda,ENYAQ,2023,31224.0,Occasion,36999.0
+Hyundai,Ioniq 5,2022,19747.0,Occasion,28699.0
+Volkswagen,T-Roc Cabriolet,2023,23750.0,Occasion,33899.0
+Ford,Mondeo,2018,63584.0,Occasion,16999.0
+BMW,Série 5,2019,90949.0,Occasion,24499.0
+Mini,Mini Cabriolet,2020,81105.0,Occasion,17999.0
+Skoda,Superb Combi,2022,28963.0,Occasion,29999.0
+Opel,Karl,2019,94985.0,Occasion,8599.0
+Lexus,NX 300h,2020,34480.0,Occasion,29999.0
+Volkswagen,Golf 7 SW,2020,69412.0,Occasion,17599.0
+Audi,A6 Avant,2014,138645.0,Occasion,16699.0
+Peugeot,308 AFFAIRE,2021,79565.0,Occasion,12999.0
+Renault,Grand Scenic 3,2017,143221.0,Occasion,11999.0
+Lexus,CT,2019,24807.0,Occasion,20399.0
+BMW,Série 3 Touring,2022,4046.0,Occasion,35499.0
+Renault,Twizy,2021,7180.0,Occasion,7499.0
+Mazda,CX-3,2017,99915.0,Occasion,12999.0
+Toyota,bZ4X,2024,8418.0,Occasion,31999.0
+Renault,Clio,2019,97790.0,Occasion,10499.0
+Peugeot,Partner Fourgon,2021,46525.0,Occasion,17999.0
+Seat,Leon ST,2021,63592.0,Occasion,21999.0
+Smart,Fortwo EQ,2020,22175.0,Occasion,10999.0
+Citroën,Berlingo Fourgon,2020,69371.0,Occasion,14799.0
+Mercedes,Classe C Break,2019,84017.0,Occasion,22999.0
+Mercedes,Classe A Berline,2024,15294.0,Occasion,35499.0
+Kia,Cee'd,2017,95127.0,Occasion,10799.0
+Hyundai,Santa Fe,2021,62982.0,Occasion,37499.0
+Ford,B-Max,2017,49862.0,Occasion,11699.0
+Kia,ProCeed,2023,20290.0,Occasion,25476.0
+Jeep,Grand Cherokee,2016,143201.0,Occasion,24699.0
+Smart,FORTWO,2015,58640.0,Occasion,8299.0
+Volkswagen,Sharan,2018,113681.0,Occasion,21937.0
+Citroën,Berlingo Van,2023,18402.0,Occasion,20999.0
+Audi,Q4 E-TRON,2021,46852.0,Occasion,34999.0
+BMW,Série 5 Touring,2021,73094.0,Occasion,41999.0
+BMW,Série 2 coupé,2019,39277.0,Occasion,24999.0
+Mercedes,Classe E,2017,90355.0,Occasion,28499.0
+Citroën,Jumper Fourgon,2023,10.0,Occasion,29499.0
+Jaguar,E-Pace,2019,71443.0,Occasion,22999.0
+Alfa,Romeo Giulia,2017,102400.0,Occasion,23999.0
+Hyundai,Ioniq 6,2023,6398.0,Occasion,47999.0
+Peugeot,208 ELECTRIQUE,2023,11573.0,Occasion,25499.0
+Mercedes,Classe E Break,2019,150753.0,Occasion,25599.0
+Toyota,Verso,2017,110730.0,Occasion,13499.0
+Audi,A4 Allroad,2019,125929.0,Occasion,23078.0
+Audi,A6,2020,141541.0,Occasion,27999.0
+Volkswagen,Arteon,2018,129205.0,Occasion,23999.0
+Mercedes,CLASSE A BERLINE,2020,32955.0,Occasion,31799.0
+Opel,Insignia,2021,38414.0,Occasion,19499.0
+Volkswagen,Coccinelle,2015,75782.0,Occasion,17399.0
+Audi,A5 Cabriolet,2021,60843.0,Occasion,37099.0
+Volkswagen,Golf,2022,61417.0,Occasion,23799.0
+Opel,Movano,2022,20.0,Occasion,30099.0
+Renault,Clio 4 Estate,2018,39215.0,Occasion,12999.0
+Suzuki,Ignis,2024,490.0,Occasion,16999.0
+Volvo,XC90,2017,71240.0,Occasion,37999.0
+Renault,CLIO V,2024,3980.0,Occasion,26499.0
+Skoda,Citigo,2019,36990.0,Occasion,8999.0
+Honda,HR-V,2022,54040.0,Occasion,24999.0
+Citroën,C4 CACTUS BUSINESS,2018,33903.0,Occasion,10999.0
+Renault,Clio 5,2023,1081.0,Occasion,25299.0
+Citroën,C5 Aircross,2020,59980.0,Occasion,14999.0
+Peugeot,308,2018,51640.0,Occasion,10699.0
+Citroën,C3,2018,81025.0,Occasion,8999.0
+Fiat,500,2022,10.0,Occasion,18699.0
+Citroën,C3 Aircross,2023,23472.0,Occasion,17999.0
+Dacia,Sandero,2023,8587.0,Occasion,14499.0
+Volkswagen,T-Roc,2023,25550.0,Occasion,23899.0
+Mercedes,CITAN,2021,95561.0,Occasion,11299.0
+Volkswagen,Tiguan,2015,62703.0,Occasion,15999.0
+DS,DS4,2023,14564.0,Occasion,32899.0
+Nissan,Juke,2024,11316.0,Occasion,18899.0
+Citroën,C5 X,2023,8937.0,Occasion,21999.0
+Ford,Focus,2024,7037.0,Occasion,24499.0
+Skoda,KAMIQ,2020,14500.0,Occasion,19999.0
+Volkswagen,Touran,2018,97902.0,Occasion,18999.0
+Opel,Astra Sports Tourer,2019,80533.0,Occasion,12999.0
+Fiat,Tipo SW,2020,78477.0,Occasion,14599.0
+Renault,MASTER FOURGON,2023,10.0,Occasion,31499.0
+Peugeot,Boxer,2023,10.0,Occasion,31499.0
+Peugeot,2008,2024,8702.0,Occasion,23699.0
+Toyota,C-HR,2021,34395.0,Occasion,23999.0
+Audi,A3 Sportback,2023,12.0,Occasion,42699.0
+Kia,Sportage,2022,41860.0,Occasion,30999.0
+MG,MG4,2023,7610.0,Occasion,23299.0
+Audi,Q3 Sportback,2022,22610.0,Occasion,39499.0
+Peugeot,408,2024,10890.0,Occasion,24999.0
+Seat,Arona,2020,21858.0,Occasion,17499.0
+DS,DS7,2023,28605.0,Occasion,33499.0
+Volkswagen,Caddy,2018,72891.0,Occasion,16999.0
+Ford,PUMA,2020,44438.0,Occasion,18499.0
+Hyundai,Kona,2022,12331.0,Occasion,21499.0
+Volkswagen,T-CROSS,2023,10052.0,Occasion,22999.0
+Fiat,500X,2017,64390.0,Occasion,12499.0
+Citroën,C4,2017,99625.0,Occasion,9299.0
+Toyota,Corolla Touring Sport,2024,440.0,Occasion,28999.0
+Dacia,JOGGER,2023,15585.0,Occasion,19499.0
+Citroën,C4 X,2023,6820.0,Occasion,20499.0
+Volkswagen,Taigo,2023,19406.0,Occasion,19399.0
+Cupra,LEON SPORTSTOURER,2023,16617.0,Occasion,29999.0
+Suzuki,S-CROSS,2017,68726.0,Occasion,15999.0
+Renault,Captur,2023,13252.0,Occasion,21799.0
+Nissan,Qashqai,2018,66886.0,Occasion,15299.0
+Renault,Arkana,2022,26352.0,Occasion,20399.0
+Peugeot,5008,2017,101549.0,Occasion,15999.0
+Renault,Austral,2023,15655.0,Occasion,28999.0
+Peugeot,3008,2023,6267.0,Occasion,24999.0
+Dacia,Duster,2023,21846.0,Occasion,24499.0
+Mercedes,Classe A,2018,89750.0,Occasion,17999.0
+Hyundai,Tucson,2020,34852.0,Occasion,21499.0
+Opel,Mokka,2023,8.0,Occasion,25999.0
+BMW,Série 1,2016,126043.0,Occasion,14299.0
+Toyota,YARIS CROSS,2023,30464.0,Occasion,25199.0
+Renault,Twingo 3,2017,61019.0,Occasion,11499.0
+DS,DS7 CROSSBACK,2022,32850.0,Occasion,32499.0
+Renault,Zoé,2020,53268.0,Occasion,13799.0
+Tesla,MODEL 3,2022,38674.0,Occasion,36999.0
+Renault,Clio 4,2016,79565.0,Occasion,12499.0
+Renault,Mégane 4,2019,56480.0,Occasion,17299.0
+Toyota,RAV 4,2018,107898.0,Occasion,19499.0
+Volkswagen,Polo,2018,36657.0,Occasion,13499.0
+Renault,Kadjar,2021,59592.0,Occasion,18799.0
+Toyota,Yaris,2019,99053.0,Occasion,14999.0
+Citroën,C4 Cactus,2019,9630.0,Occasion,12999.0
+DS,DS3 Crossback,2020,74887.0,Occasion,16699.0
+Toyota,Corolla,2022,61695.0,Occasion,20999.0
+Citroën,Berlingo,2019,60265.0,Occasion,15999.0
+Dacia,SPRING,2021,9635.0,Occasion,11299.0
+Volkswagen,Golf 7,2019,81250.0,Occasion,18999.0
+Opel,Crossland,2021,49955.0,Occasion,15399.0
+Audi,A1 Sportback,2018,116965.0,Occasion,13999.0
+Mini,Mini,2023,13013.0,Occasion,24999.0
+BMW,X1,2023,22622.0,Occasion,44499.0
+Jeep,Renegade,2021,36619.0,Occasion,16799.0
+Ford,Kuga,2021,47800.0,Occasion,23499.0
+Toyota,Aygo X,2023,8262.0,Occasion,15999.0
+Renault,Grand Scénic 4,2017,123480.0,Occasion,15999.0
+Kia,Niro,2018,68177.0,Occasion,16799.0
+Opel,GRANDLAND,2023,12.0,Occasion,27999.0
+Audi,Q2,2020,115103.0,Occasion,19299.0
+Tesla,MODEL Y,2024,3778.0,Occasion,37999.0
+DS,DS3,2023,16920.0,Occasion,22999.0
+Fiat,500C,2022,24306.0,Occasion,21499.0
+BMW,Série 2 Active Tourer,2019,17641.0,Occasion,23699.0
+Renault,Scénic 4,2018,99051.0,Occasion,13999.0
+Ford,Fiesta,2018,44752.0,Occasion,12799.0
+Citroën,GRAND C4 SPACETOURER,2022,23691.0,Occasion,25999.0
+Peugeot,108,2019,30952.0,Occasion,10299.0
+BYD,Atto 3,2022,339.0,Occasion,29899.0
+Skoda,Karoq,2023,8450.0,Occasion,31499.0
+Kia,Picanto,2021,21785.0,Occasion,11999.0
+Lynk&Co,01,2022,64800.0,Occasion,22499.0
+Peugeot,508 SW,2022,70.0,Occasion,34099.0
+Audi,Q3,2019,69845.0,Occasion,28999.0
+Fiat,Tipo,2017,97490.0,Occasion,12499.0
+Opel,Grandland X,2018,98458.0,Occasion,13499.0
+Citroën,C4 SPACETOURER,2019,45618.0,Occasion,20799.0
+Nissan,Micra,2021,34125.0,Occasion,11999.0
+Land,Rover Range Rover Evoque,2019,75834.0,Occasion,29499.0
+Opel,Astra,2023,8.0,Occasion,24999.0
+Peugeot,RIFTER,2020,52862.0,Occasion,24999.0
+BMW,X3,2023,25986.0,Occasion,53399.0
+Cupra,Leon,2021,28176.0,Occasion,25899.0
+BMW,X2,2021,52211.0,Occasion,27099.0
+Renault,Mégane 5,2022,18013.0,Occasion,29699.0
+Audi,A4 Avant,2023,22092.0,Occasion,36499.0
+Hyundai,BAYON,2022,13374.0,Occasion,16799.0
+Mercedes,GLA,2015,124533.0,Occasion,17499.0
+Jeep,Compass,2018,98131.0,Occasion,15999.0
+Suzuki,VITARA,2021,18170.0,Occasion,18999.0
+Kia,Stonic,2022,10723.0,Occasion,17499.0
+Seat,Ateca,2018,106912.0,Occasion,16999.0
+Citroën,C4 Picasso,2017,129450.0,Occasion,9999.0
+Renault,Mégane 4 Estate,2017,123253.0,Occasion,11499.0
+Skoda,Fabia,2023,42706.0,Occasion,21999.0
+Toyota,Aygo,2021,37208.0,Occasion,12999.0
+Renault,Espace 5,2020,122819.0,Occasion,22499.0
+Citroën,C1,2020,6040.0,Occasion,12999.0
+Ford,Focus SW,2023,19556.0,Occasion,25399.0
+Nissan,Leaf,2020,68027.0,Occasion,13799.0
+MG,EHS,2023,47363.0,Occasion,23099.0
+Mini,Clubman,2016,95580.0,Occasion,15499.0
+Volkswagen,ID.5,2022,30587.0,Occasion,36599.0
+Volkswagen,Up,2017,24299.0,Occasion,10499.0
+Kia,Xceed,2023,10046.0,Occasion,24499.0
+Dacia,Lodgy,2018,144260.0,Occasion,9599.0
+Fiat,Panda,2022,68132.0,Occasion,9999.0
+Volvo,XC40,2020,62928.0,Occasion,24599.0
+Kia,Ceed,2024,15694.0,Occasion,19499.0
+Toyota,CAMRY,2023,21940.0,Occasion,34499.0
+Mercedes,CLA,2020,38378.0,Occasion,31499.0
+Lexus,UX,2021,38539.0,Occasion,24999.0
+Mitsubishi,ECLIPSE CROSS,2022,61075.0,Occasion,23999.0
+Mini,Countryman,2023,9985.0,Occasion,32899.0
+Ford,Ecosport,2018,79146.0,Occasion,12699.0
+Skoda,Octavia Combi,2023,30941.0,Occasion,29999.0
+Opel,INSIGNIA GRAND SPORT,2021,75880.0,Occasion,17799.0
+BMW,Série 4 Coupé,2017,58658.0,Occasion,21999.0
+Mercedes,CLA Shooting Brake,2023,13690.0,Occasion,39499.0
+Volkswagen,Passat SW,2019,35263.0,Occasion,25399.0
+Skoda,Superb,2023,12827.0,Occasion,34999.0
+Citroën,Grand C4 Picasso,2016,82960.0,Occasion,11999.0
+Hyundai,Ioniq,2020,42566.0,Occasion,19799.0
+Smart,Fortwo Coupé,2020,27463.0,Occasion,14499.0
+Kia,Rio,2022,16827.0,Occasion,14499.0
+Kia,EV6,2023,10893.0,Occasion,38999.0
+BMW,I3,2020,89870.0,Occasion,15299.0
+Mazda,CX-5,2018,75830.0,Occasion,19299.0
+Hyundai,i30,2023,12330.0,Occasion,25999.0
+Audi,A5 Sportback,2022,17160.0,Occasion,35399.0
+Opel,Mokka X,2018,25117.0,Occasion,14999.0
+Dacia,Logan MCV,2020,39970.0,Occasion,14199.0
+Audi,Q5,2020,101834.0,Occasion,34099.0
+Volvo,XC60,2022,65610.0,Occasion,36999.0
+BMW,Série 3,2021,25033.0,Occasion,31099.0
+Ford,KA+,2019,29867.0,Occasion,11999.0
+Skoda,Octavia,2023,19754.0,Occasion,27999.0
+Skoda,Fabia Combi,2018,67658.0,Occasion,13199.0
+Renault,Koleos,2019,85417.0,Occasion,19999.0
+Volkswagen,Tiguan Allspace,2018,91563.0,Occasion,22499.0
+Skoda,Scala,2022,14920.0,Occasion,20999.0
+Mazda,CX-30,2024,8039.0,Occasion,30999.0
+Audi,A3 Berline,2022,58828.0,Occasion,22699.0
+Volvo,V60,2020,99342.0,Occasion,21999.0
+Mini,Mini countryman,2020,67211.0,Occasion,25999.0
+BMW,X4,2019,54837.0,Occasion,38699.0
+Volkswagen,Golf 8 SW,2021,77952.0,Occasion,28599.0
+BMW,Série 2 Gran Tourer,2021,82673.0,Occasion,20999.0
+Volkswagen,Golf 7 SW,2020,72145.0,Occasion,17299.0
+Hyundai,Ioniq 5,2022,52000.0,Occasion,33499.0
+Lexus,CT,2017,69348.0,Occasion,16799.0
+BMW,Série 3 Touring,2021,36555.0,Occasion,37499.0
+Volkswagen,Arteon Shooting Brake,2023,29024.0,Occasion,36999.0
+Mazda,CX-3,2018,70627.0,Occasion,15999.0
+Mercedes,GLC,2021,66891.0,Occasion,37999.0
+Opel,Karl,2018,92780.0,Occasion,9499.0
+Renault,Clio,2022,27926.0,Occasion,15999.0
+Peugeot,Partner Fourgon,2022,62552.0,Occasion,16499.0
+Kia,ProCeed,2024,5380.0,Occasion,28999.0
+Mercedes,Classe C Break,2019,91515.0,Occasion,24999.0
+Audi,A6 Avant,2020,133331.0,Occasion,26499.0
+Hyundai,Santa Fe,2022,92139.0,Occasion,36999.0
+Smart,FORTWO,2018,30422.0,Occasion,12299.0
+Kia,Cee'd,2016,91893.0,Occasion,11999.0
+Smart,Fortwo EQ,2020,31702.0,Occasion,11299.0
+Mercedes,GLB,2020,84408.0,Occasion,30999.0
+Ford,B-Max,2016,74009.0,Occasion,10999.0
+Alfa,Romeo Giulia,2020,49621.0,Occasion,39099.0
+Lexus,NX 300h,2018,115440.0,Occasion,24499.0
+Jaguar,E-Pace,2019,91754.0,Occasion,21999.0
+Mercedes,Classe E,2016,96738.0,Occasion,29999.0
+Peugeot,208 ELECTRIQUE,2021,30277.0,Occasion,18999.0
+Suzuki,Ignis,2018,45635.0,Occasion,12399.0
+Renault,Talisman Estate,2022,61472.0,Occasion,21999.0
+Mercedes,Classe C,2022,45209.0,Occasion,33999.0
+Audi,A1,2017,22217.0,Occasion,16499.0
+Volvo,XC90,2016,114375.0,Occasion,29499.0
+Renault,Talisman,2017,99875.0,Occasion,12699.0
+Peugeot,208,2023,5703.0,Occasion,17399.0
+Citroën,C3 Aircross,2018,54929.0,Occasion,10799.0
+Volkswagen,Golf 8,2023,15885.0,Occasion,37799.0
+Fiat,500,2022,11467.0,Occasion,13799.0
+Opel,Corsa,2023,12775.0,Occasion,15699.0
+DS,DS4,2023,19240.0,Occasion,34999.0
+Peugeot,508,2018,22961.0,Occasion,18999.0
+Ford,Focus,2019,81050.0,Occasion,17499.0
+Hyundai,i20,2018,65135.0,Occasion,11499.0
+Volkswagen,Touran,2024,9000.0,Occasion,38499.0
+Opel,Astra Sports Tourer,2020,45904.0,Occasion,16299.0
+Peugeot,Expert Fourgon,2023,22693.0,Occasion,21999.0
+Fiat,Tipo SW,2020,104073.0,Occasion,11899.0
+Renault,Master Fourgon,2023,10.0,Occasion,33699.0
+Opel,Movano,2022,38.0,Occasion,32099.0
+Toyota,Corolla Touring Sports,2022,56775.0,Occasion,21999.0
+Peugeot,308,2022,56306.0,Occasion,16999.0
+Citroën,C3,2020,110773.0,Occasion,10999.0
+Audi,A3 Sportback,2017,123095.0,Occasion,16999.0
+Kia,Sportage,2023,45.0,Occasion,31299.0
+Volkswagen,Tiguan,2019,82114.0,Occasion,20999.0
+Volkswagen,T-Roc,2019,45754.0,Occasion,23499.0
+Peugeot,308 SW,2020,68077.0,Occasion,13999.0
+Peugeot,408,2022,35365.0,Occasion,32499.0
+Audi,Q3 Sportback,2023,17516.0,Occasion,45999.0
+Seat,Arona,2018,39505.0,Occasion,13499.0
+Citroën,C5 X,2022,54903.0,Occasion,23499.0
+Nissan,Juke,2019,54030.0,Occasion,15299.0
+Skoda,KAMIQ,2023,24535.0,Occasion,23999.0
+MG,MG4,2023,13581.0,Occasion,24699.0
+DS,DS7,2023,13745.0,Occasion,34899.0
+Dacia,Sandero,2018,29850.0,Occasion,11499.0
+Ford,Puma,2021,89206.0,Occasion,14999.0
+Volkswagen,T-CROSS,2021,34230.0,Occasion,21499.0
+Cupra,Formentor,2022,9000.0,Occasion,29399.0
+Hyundai,Kona,2019,83450.0,Occasion,17999.0
+Dacia,JOGGER,2022,84510.0,Occasion,15699.0
+Fiat,500X,2020,34515.0,Occasion,17799.0
+Citroën,C4 X,2023,24693.0,Occasion,19999.0
+Cupra,Leon Sportstourer,2023,1990.0,Occasion,36899.0
+Peugeot,2008,2024,2025.0,Occasion,27499.0
+Renault,Captur,2020,75733.0,Occasion,18499.0
+Toyota,Corolla Touring Sport,2023,14090.0,Occasion,25499.0
+Volkswagen,TAIGO,2022,20941.0,Occasion,22999.0
+Renault,Clio 5,2023,5808.0,Occasion,15399.0
+Toyota,C-HR,2018,75151.0,Occasion,18799.0
+Citroën,C5 Aircross,2019,41365.0,Occasion,14999.0
+Renault,Arkana,2021,71537.0,Occasion,18999.0
+Nissan,Qashqai,2023,23310.0,Occasion,28999.0
+Peugeot,5008,2019,105815.0,Occasion,18499.0
+Citroën,C4,2016,86914.0,Occasion,8999.0
+Renault,Austral,2024,2411.0,Occasion,38499.0
+Peugeot,3008,2024,149.0,Occasion,31499.0
+Renault,Clio 5,2024,11376.0,Occasion,18399.0
+Dacia,Duster,2020,74495.0,Occasion,15799.0
+Mercedes,Classe A,2022,56866.0,Occasion,25099.0
+Opel,Mokka,2021,48945.0,Occasion,16499.0
+Toyota,Yaris Cross,2023,23045.0,Occasion,25999.0
+Hyundai,Tucson,2021,38963.0,Occasion,31499.0
+Renault,Twingo 3,2021,13924.0,Occasion,11199.0
+DS,DS7 CROSSBACK,2022,7976.0,Occasion,35799.0
+Tesla,MODEL 3,2021,135925.0,Occasion,22999.0
+Renault,Clio 4,2019,20919.0,Occasion,13499.0
+Renault,Zoé,2016,54867.0,Occasion,6799.0
+Renault,Mégane 4,2016,44470.0,Occasion,12999.0
+Renault,Kadjar,2016,51630.0,Occasion,13999.0
+Volkswagen,Polo,2023,20495.0,Occasion,29899.0
+Toyota,Yaris,2020,100907.0,Occasion,15999.0
+Toyota,RAV 4,2022,37572.0,Occasion,33499.0
+Citroën,C4 Cactus,2019,42475.0,Occasion,13499.0
+DS,DS3 CROSSBACK,2020,47222.0,Occasion,16999.0
+BMW,Série 1,2020,59094.0,Occasion,20099.0
+Citroën,Berlingo,2021,45851.0,Occasion,18999.0
+Toyota,Corolla,2019,78265.0,Occasion,20999.0
+Dacia,SPRING,2022,13578.0,Occasion,11499.0
+Volkswagen,Golf 7,2019,120209.0,Occasion,15499.0
+Audi,A1 Sportback,2023,13283.0,Occasion,27799.0
+Opel,Crossland,2022,28376.0,Occasion,18099.0
+Mini,Mini,2022,45364.0,Occasion,23399.0
+Jeep,Renegade,2018,67493.0,Occasion,13999.0
+Renault,Grand Scénic 4,2019,79545.0,Occasion,18999.0
+Opel,Crossland X,2020,59031.0,Occasion,14799.0
+Kia,Niro,2024,2760.0,Occasion,29999.0
+DS,DS3,2017,98414.0,Occasion,8999.0
+Opel,GRANDLAND,2023,24450.0,Occasion,20999.0
+Audi,Q2,2023,10.0,Occasion,32499.0
+Fiat,500C,2023,3079.0,Occasion,16999.0
+Ford,Kuga,2022,53527.0,Occasion,22699.0
+BMW,X1,2020,119551.0,Occasion,21699.0
+BMW,Série 2 Active Tourer,2018,26873.0,Occasion,20999.0
+Tesla,MODEL Y,2023,8820.0,Occasion,34599.0
+Toyota,Aygo X,2023,7083.0,Occasion,17999.0
+Ford,Fiesta,2023,19125.0,Occasion,17499.0
+Renault,Scénic 4,2017,80975.0,Occasion,13999.0
+Citroën,GRAND C4 SPACETOURER,2020,70240.0,Occasion,15499.0
+Peugeot,108,2018,81400.0,Occasion,9299.0
+Skoda,Karoq,2023,14529.0,Occasion,27999.0
+Opel,Grandland X,2021,72101.0,Occasion,16799.0
+Peugeot,508 SW,2020,35105.0,Occasion,21999.0
+Citroën,C4 SPACETOURER,2019,76926.0,Occasion,13499.0
+Lynk&Co,01,2023,29809.0,Occasion,27399.0
+Fiat,Tipo,2019,29736.0,Occasion,12499.0
+BMW,X2,2022,40865.0,Occasion,32999.0
+Nissan,Micra,2021,19061.0,Occasion,12799.0
+Peugeot,RIFTER,2019,36483.0,Occasion,19499.0
+Audi,Q3,2016,95532.0,Occasion,19999.0
+Opel,Astra,2024,31279.0,Occasion,26499.0
+Land,Rover Range Rover Evoque,2019,63352.0,Occasion,29999.0
+Cupra,Leon,2021,51088.0,Occasion,24999.0
+Seat,Ateca,2020,109548.0,Occasion,23999.0
+Citroën,C4 Picasso,2017,112865.0,Occasion,12999.0
+Renault,Mégane 4 Estate,2020,129163.0,Occasion,11699.0
+Skoda,Fabia,2018,36383.0,Occasion,15999.0
+Kia,Stonic,2018,104255.0,Occasion,11999.0
+Audi,A4 Avant,2022,61874.0,Occasion,27699.0
+Citroën,C1,2018,22403.0,Occasion,9999.0
+BYD,Atto 3,2022,18277.0,Occasion,27999.0
+BMW,X3,2020,31987.0,Occasion,35999.0
+Mercedes,GLA,2017,92600.0,Occasion,23999.0
+MG,EHS,2023,43346.0,Occasion,23499.0
+Renault,Espace 5,2020,92925.0,Occasion,27999.0
+Mini,Clubman,2018,20720.0,Occasion,20999.0
+Ford,Focus SW,2023,24125.0,Occasion,24999.0
+Nissan,Leaf,2019,33821.0,Occasion,14299.0
+Kia,Xceed,2022,16167.0,Occasion,27799.0
+Suzuki,VITARA,2016,124006.0,Occasion,11499.0
+Kia,Ceed,2023,13841.0,Occasion,24999.0
+Volvo,XC40,2019,118762.0,Occasion,21699.0
+Volkswagen,Up,2022,13572.0,Occasion,14999.0
+Dacia,Lodgy,2019,81862.0,Occasion,14499.0
+Fiat,Panda,2019,39746.0,Occasion,9499.0
+Mitsubishi,ECLIPSE CROSS,2023,19005.0,Occasion,30499.0
+Lexus,UX,2021,36347.0,Occasion,25799.0
+Toyota,CAMRY,2023,24494.0,Occasion,36899.0
+Volkswagen,Passat SW,2023,13030.0,Occasion,49399.0
+Mini,Countryman,2019,50500.0,Occasion,23999.0
+Mercedes,CLA Shooting Brake,2020,56839.0,Occasion,25399.0
+Skoda,Octavia Combi,2023,26531.0,Occasion,31499.0
+Skoda,Superb,2023,20640.0,Occasion,36199.0
+Hyundai,i30,2022,29609.0,Occasion,22299.0
+Citroën,Grand C4 Picasso,2017,101630.0,Occasion,13499.0
+Audi,A5 Sportback,2021,45617.0,Occasion,36099.0
+Mercedes,CLA,2020,56642.0,Occasion,29999.0
+Kia,Rio,2022,28175.0,Occasion,15499.0
+Renault,Koleos,2021,59112.0,Occasion,23499.0
+Dacia,Logan MCV,2019,50676.0,Occasion,12027.0
+Skoda,Scala,2023,30295.0,Occasion,17999.0
+Volvo,XC60,2016,129162.0,Occasion,18599.0
+BMW,Série 3,2020,26729.0,Occasion,27899.0
+Mazda,CX-30,2024,8340.0,Occasion,29499.0
+Audi,A3 Berline,2019,26054.0,Occasion,28399.0
+BMW,X4,2018,101907.0,Occasion,26999.0
+Volkswagen,Golf 7 SW,2020,70956.0,Occasion,17399.0
+Volkswagen,Golf 8 SW,2021,85148.0,Occasion,21499.0
+Hyundai,Ioniq 5,2022,17154.0,Occasion,28999.0
+BMW,Série 3 Touring,2020,63276.0,Occasion,25799.0
+Renault,Clio,2021,27976.0,Occasion,13699.0
+Kia,ProCeed,2022,32031.0,Occasion,26999.0
+Kia,Cee'd,2017,76902.0,Occasion,12999.0
+Smart,Fortwo EQ,2020,13919.0,Occasion,12999.0
+Smart,FORTWO,2018,81190.0,Occasion,9299.0
+Mercedes,GLC,2021,93677.0,Occasion,37399.0
+Lexus,NX 300h,2017,59668.0,Occasion,27999.0
+Kia,Picanto,2020,16992.0,Occasion,12999.0
+Toyota,Aygo,2015,58734.0,Occasion,9999.0
+Hyundai,BAYON,2022,45140.0,Occasion,16999.0
+Ford,Ecosport,2019,54383.0,Occasion,14499.0
+Opel,Karl,2016,71015.0,Occasion,7999.0
+Citroën,E-BERLINGO,2023,15.0,Occasion,24799.0
+Mazda,CX-3,2017,34290.0,Occasion,16499.0
+Mercedes,Classe C Break,2019,79842.0,Occasion,27999.0
+Peugeot,208,2022,5737.0,Occasion,16999.0
+Citroën,C3 Aircross,2023,11884.0,Occasion,16699.0
+Fiat,500,2022,25519.0,Occasion,18499.0
+Opel,Corsa,2021,33811.0,Occasion,16999.0
+DS,DS4,2022,19380.0,Occasion,25999.0
+Peugeot,508,2017,45950.0,Occasion,13999.0
+Ford,Focus,2024,6350.0,Occasion,24899.0
+Jeep,Compass,2022,60417.0,Occasion,23499.0
+Volkswagen,Touran,2023,52261.0,Occasion,31999.0
+Opel,Astra Sports Tourer,2018,83880.0,Occasion,11999.0
+Peugeot,Expert Fourgon,2022,10.0,Occasion,24499.0
+Fiat,Tipo SW,2018,69250.0,Occasion,13099.0
+Renault,Master Fourgon,2023,5.0,Occasion,38799.0
+Peugeot,308,2024,10100.0,Occasion,27999.0
+Citroën,C3,2022,44133.0,Occasion,10799.0
+Audi,A3 Sportback,2012,107250.0,Occasion,11999.0
+Volkswagen,Golf 8,2020,38811.0,Occasion,20499.0
+Volkswagen,Tiguan,2020,60840.0,Occasion,32999.0
+Volkswagen,T-Roc,2024,17680.0,Occasion,37899.0
+Peugeot,308 SW,2020,30775.0,Occasion,14799.0
+Peugeot,408,2023,47442.0,Occasion,31399.0
+Nissan,Juke,2022,9075.0,Occasion,20499.0
+Citroën,C5 X,2023,24760.0,Occasion,20799.0
+Audi,Q3 Sportback,2021,30043.0,Occasion,29599.0
+Skoda,Kamiq,2020,41434.0,Occasion,18999.0
+Mazda,CX-5,2017,89215.0,Occasion,16999.0
+Opel,Movano,2023,50.0,Occasion,38199.0
+Dacia,Sandero,2021,24805.0,Occasion,15299.0
+Ford,Puma,2020,48534.0,Occasion,20599.0
+Kia,Sportage,2017,47839.0,Occasion,17499.0
+Seat,Arona,2022,21031.0,Occasion,23299.0
+Volkswagen,T-Cross,2021,36564.0,Occasion,20499.0
+Dacia,JOGGER,2023,45556.0,Occasion,18499.0
+Citroën,C4 X,2023,19908.0,Occasion,19999.0
+Cupra,LEON SPORTSTOURER,2023,45132.0,Occasion,31499.0
+Peugeot,2008,2021,18805.0,Occasion,18499.0
+Toyota,Corolla Touring Sport,2022,41075.0,Occasion,23999.0
+Volkswagen,Taigo,2023,15650.0,Occasion,24999.0
+Hyundai,Kona,2022,12119.0,Occasion,18499.0
+Renault,Captur,2017,64911.0,Occasion,13999.0
+Fiat,500X,2018,86211.0,Occasion,12499.0
+Renault,Clio 5,2023,14755.0,Occasion,21999.0
+Toyota,C-HR,2022,26061.0,Occasion,22499.0
+Nissan,Qashqai,2022,13762.0,Occasion,25199.0
+Peugeot,5008,2018,138347.0,Occasion,21999.0
+Citroën,C5 Aircross,2023,9177.0,Occasion,31499.0
+Citroën,C4,2017,88550.0,Occasion,10799.0
+Renault,Arkana,2023,11610.0,Occasion,24699.0
+Renault,Austral,2024,350.0,Occasion,32399.0
+Peugeot,3008,2023,4620.0,Occasion,24999.0
+Dacia,Duster,2023,22744.0,Occasion,24499.0
+Mercedes,Classe A,2016,136185.0,Occasion,18499.0
+Toyota,YARIS CROSS,2023,11978.0,Occasion,27999.0
+Opel,Mokka,2016,87280.0,Occasion,12599.0
+Renault,Twingo 3,2021,6349.0,Occasion,12499.0
+Volkswagen,Polo,2016,129648.0,Occasion,11999.0
+Renault,Mégane 4,2018,11836.0,Occasion,14999.0
+Renault,Zoé,2020,9504.0,Occasion,16199.0
+DS,DS7 CROSSBACK,2020,47728.0,Occasion,27799.0
+Toyota,RAV 4,2022,4142.0,Occasion,39999.0
+Citroën,C4 Cactus,2019,23396.0,Occasion,15799.0
+DS,DS3 Crossback,2021,27332.0,Occasion,20699.0
+Renault,Kadjar,2022,49170.0,Occasion,22299.0
+Toyota,Corolla,2022,25604.0,Occasion,24799.0
+Toyota,Yaris,2020,51425.0,Occasion,12999.0
+BMW,Série 1,2017,91428.0,Occasion,15999.0
+Citroën,Berlingo,2019,43677.0,Occasion,18999.0
+Tesla,MODEL 3,2020,83640.0,Occasion,33999.0
+Volkswagen,Golf 7,2019,89310.0,Occasion,16499.0
+Opel,Crossland,2023,20185.0,Occasion,16999.0
+Dacia,SPRING,2023,6155.0,Occasion,14799.0
+Mini,Mini,2021,33565.0,Occasion,18799.0
+Renault,Grand Scénic 4,2018,67430.0,Occasion,18999.0
+Audi,A1 Sportback,2017,115264.0,Occasion,13999.0
+Kia,Niro,2021,42285.0,Occasion,21999.0
+Opel,Crossland X,2019,84018.0,Occasion,11999.0
+Ford,Kuga,2022,45750.0,Occasion,24999.0
+Audi,Q2,2020,55500.0,Occasion,24999.0
+DS,DS3,2018,21737.0,Occasion,12999.0
+BMW,Série 2 Active Tourer,2017,106355.0,Occasion,17999.0
+BMW,X1,2022,35256.0,Occasion,30199.0
+Jeep,Renegade,2018,65895.0,Occasion,14499.0
+Renault,Scénic 4,2018,95293.0,Occasion,17499.0
+Citroën,GRAND C4 SPACETOURER,2021,29343.0,Occasion,19999.0
+Ford,Fiesta,2019,102818.0,Occasion,11499.0
+Peugeot,108,2020,23252.0,Occasion,10599.0
+Opel,GRANDLAND,2023,18460.0,Occasion,20499.0
+Toyota,Aygo X,2024,10571.0,Occasion,17299.0
+Opel,Grandland X,2019,41029.0,Occasion,14699.0
+Fiat,Tipo,2017,54516.0,Occasion,12499.0
+Skoda,Karoq,2018,110235.0,Occasion,16499.0
+Peugeot,508 SW,2021,61730.0,Occasion,21999.0
+Citroën,C4 SPACETOURER,2018,59791.0,Occasion,13999.0
+Peugeot,RIFTER,2019,91334.0,Occasion,18799.0
+Nissan,Micra,2019,93002.0,Occasion,11799.0
+Opel,Astra,2019,50472.0,Occasion,14299.0
+Audi,Q3,2020,104026.0,Occasion,26799.0
+Cupra,Leon,2021,32229.0,Occasion,24999.0
+BMW,X2,2020,73955.0,Occasion,27099.0
+Seat,Ateca,2023,22555.0,Occasion,27599.0
+Tesla,MODEL Y,2022,53696.0,Occasion,38999.0
+Citroën,C4 Picasso,2017,41847.0,Occasion,17999.0
+Skoda,Fabia,2023,37011.0,Occasion,20999.0
+Renault,Mégane 4 Estate,2020,65684.0,Occasion,15999.0
+Lynk&Co,01,2021,64251.0,Occasion,22499.0
+Kia,Stonic,2018,52725.0,Occasion,13999.0
+Audi,A4 Avant,2020,36172.0,Occasion,25999.0
+BMW,X3,2021,64463.0,Occasion,40099.0
+Citroën,C1,2019,27505.0,Occasion,10299.0
+BYD,Atto 3,2022,5555.0,Occasion,29499.0
+MG,EHS,2023,650.0,Occasion,28499.0
+Ford,Focus SW,2019,67864.0,Occasion,16099.0
+Suzuki,Vitara,2022,9595.0,Occasion,24499.0
+Kia,Ceed,2018,117394.0,Occasion,12299.0
+Kia,Xceed,2022,53423.0,Occasion,21999.0
+Nissan,Leaf,2020,63695.0,Occasion,16499.0
+Volkswagen,Up,2020,33089.0,Occasion,11999.0
+Fiat,Panda,2017,73388.0,Occasion,9999.0
+Dacia,Lodgy,2020,76915.0,Occasion,14999.0
+Volvo,XC40,2019,72441.0,Occasion,27699.0
+Mercedes,CLA Shooting Brake,2023,9332.0,Occasion,40999.0
+Volkswagen,Passat SW,2020,27558.0,Occasion,27399.0
+Mini,Countryman,2019,74839.0,Occasion,21499.0
+Skoda,Superb,2023,20236.0,Occasion,33499.0
+Hyundai,i30,2023,12857.0,Occasion,24999.0
+Skoda,Octavia Combi,2020,107377.0,Occasion,20999.0
+Fiat,500C,2024,312.0,Occasion,18399.0
+Renault,Koleos,2017,114415.0,Occasion,17999.0
+Volvo,XC60,2020,95329.0,Occasion,27999.0
+Skoda,Scala,2023,12756.0,Occasion,21499.0
+BMW,Série 3,2020,62281.0,Occasion,29199.0
+Mazda,CX-30,2024,8120.0,Occasion,29499.0
+Volkswagen,Golf 8 SW,2022,48556.0,Occasion,21299.0
+Hyundai,Ioniq 5,2022,31971.0,Occasion,27999.0
+Renault,Clio,2021,19628.0,Occasion,13899.0
+BMW,Série 3 Touring,2021,89124.0,Occasion,31599.0
+Smart,FORTWO,2017,20715.0,Occasion,10499.0
+Lexus,NX 300h,2019,101992.0,Occasion,26499.0
+Mitsubishi,ECLIPSE CROSS,2023,15295.0,Occasion,30999.0
+Citroën,Grand C4 Picasso,2018,73516.0,Occasion,16499.0
+Dacia,Logan MCV,2020,12659.0,Occasion,12899.0
+Opel,Karl,2019,15471.0,Occasion,9799.0
+Citroën,C3 Aircross,2023,10665.0,Occasion,17799.0
+Hyundai,Tucson,2023,21649.0,Occasion,35099.0
+Opel,Corsa,2020,79533.0,Occasion,10999.0
+DS,DS4,2023,26510.0,Occasion,25999.0
+Ford,Focus,2021,33602.0,Occasion,18099.0
+Jeep,Compass,2018,106093.0,Occasion,12999.0
+Volkswagen,Touran,2024,11470.0,Occasion,38699.0
+Renault,Master Fourgon,2023,10.0,Occasion,32899.0
+Fiat,Tipo SW,2022,48478.0,Occasion,15299.0
+Peugeot,308,2015,73830.0,Occasion,9499.0
+Fiat,500,2023,29714.0,Occasion,14199.0
+Audi,A3 Sportback,2021,26000.0,Occasion,32499.0
+Volkswagen,Tiguan,2019,88542.0,Occasion,25999.0
+Peugeot,308 SW,2024,4992.0,Occasion,27999.0
+Volkswagen,T-Roc,2023,21475.0,Occasion,23817.0
+Peugeot,408,2024,7536.0,Occasion,30999.0
+Nissan,Juke,2017,68667.0,Occasion,12299.0
+Peugeot,508,2023,80.0,Occasion,28999.0
+Audi,Q3 Sportback,2022,22940.0,Occasion,36899.0
+Skoda,KAMIQ,2023,22665.0,Occasion,21999.0
+Citroën,C3,2018,88147.0,Occasion,11499.0
+Volkswagen,Golf 8,2023,24765.0,Occasion,37299.0
+Ford,PUMA,2021,60025.0,Occasion,18999.0
+Kia,Sportage,2017,146170.0,Occasion,12999.0
+Seat,Arona,2018,32788.0,Occasion,15099.0
+Volkswagen,T-Cross,2022,32550.0,Occasion,20999.0
+Peugeot,Expert Fourgon,2022,3693.0,Occasion,25399.0
+Dacia,Sandero,2021,11235.0,Occasion,13999.0
+Citroën,C5 X,2023,3767.0,Occasion,24999.0
+Dacia,Jogger,2023,26280.0,Occasion,18799.0
+Citroën,C4 X,2023,4035.0,Occasion,20999.0
+Seat,Leon Sportstourer,2022,85238.0,Occasion,21599.0
+Cupra,FORMENTOR,2022,71598.0,Occasion,23999.0
+Volkswagen,Taigo,2022,33018.0,Occasion,20499.0
+Toyota,Corolla Touring Sport,2023,13120.0,Occasion,25499.0
+Hyundai,Kona,2023,48526.0,Occasion,19999.0
+Peugeot,2008,2018,79809.0,Occasion,9999.0
+Renault,Clio 5,2021,96988.0,Occasion,12999.0
+Toyota,C-HR,2022,42179.0,Occasion,23999.0
+Fiat,500X,2021,53163.0,Occasion,18299.0
+Renault,Captur,2014,91175.0,Occasion,10899.0
+Citroën,C5 Aircross,2024,7110.0,Occasion,26999.0
+Nissan,Qashqai,2019,130138.0,Occasion,14999.0
+Peugeot,5008,2017,148069.0,Occasion,14499.0
+Renault,Arkana,2023,19223.0,Occasion,22499.0
+Citroën,C4,2024,853.0,Occasion,22999.0
+Peugeot,3008,2024,5088.0,Occasion,30399.0
+Dacia,Duster,2018,101590.0,Occasion,12499.0
+Mercedes,Classe A,2023,9745.0,Occasion,30899.0
+Opel,Mokka,2023,13425.0,Occasion,19299.0
+Renault,Twingo 3,2018,20612.0,Occasion,10599.0
+Renault,Clio 4,2017,83153.0,Occasion,12699.0
+Volkswagen,Polo,2015,59030.0,Occasion,14999.0
+Renault,Mégane 4,2019,98800.0,Occasion,16999.0
+Citroën,C4 Cactus,2019,47045.0,Occasion,12999.0
+Toyota,RAV 4,2023,9538.0,Occasion,46475.0
+Renault,Zoé,2016,43390.0,Occasion,6999.0
+Renault,Kadjar,2021,43288.0,Occasion,19499.0
+DS,DS7 CROSSBACK,2019,108750.0,Occasion,21799.0
+Toyota,Corolla,2023,45183.0,Occasion,21999.0
+BMW,Série 1,2022,49839.0,Occasion,27999.0
+Citroën,Berlingo,2019,35943.0,Occasion,19999.0
+Mini,Mini,2021,5470.0,Occasion,20699.0
+DS,DS3 CROSSBACK,2021,11165.0,Occasion,20999.0
+Dacia,SPRING,2022,19435.0,Occasion,10999.0
+Opel,Crossland,2023,19834.0,Occasion,16699.0
+Renault,Grand Scénic 4,2017,52960.0,Occasion,16999.0
+Volkswagen,Golf 7,2019,84519.0,Occasion,18499.0
+Opel,Crossland X,2020,84275.0,Occasion,14799.0
+Ford,Kuga,2021,25605.0,Occasion,23499.0
+Audi,Q2,2024,17445.0,Occasion,30799.0
+DS,DS3,2018,100430.0,Occasion,11999.0
+Audi,A1 Sportback,2021,32479.0,Occasion,19799.0
+Kia,Niro,2021,22295.0,Occasion,25499.0
+Ford,Fiesta,2019,65377.0,Occasion,11599.0
+Citroën,GRAND C4 SPACETOURER,2020,77149.0,Occasion,17999.0
+Jeep,Renegade,2021,58892.0,Occasion,18999.0
+Renault,Scénic 4,2018,93606.0,Occasion,15999.0
+Opel,Grandland X,2020,66756.0,Occasion,16999.0
+BMW,Série 2 Active Tourer,2017,60949.0,Occasion,19099.0
+Toyota,Aygo X,2023,15870.0,Occasion,15499.0
+Opel,GRANDLAND,2023,10.0,Occasion,26499.0
+Skoda,Karoq,2023,10657.0,Occasion,25999.0
+Fiat,Tipo,2022,46667.0,Occasion,17499.0
+Peugeot,508 SW,2019,99363.0,Occasion,19999.0
+Citroën,C4 SPACETOURER,2019,106470.0,Occasion,13999.0
+Seat,Leon,2021,24940.0,Occasion,25399.0
+Peugeot,RIFTER,2019,88425.0,Occasion,16999.0
+Opel,Astra,2021,103147.0,Occasion,12499.0
+BMW,X2,2018,100691.0,Occasion,19999.0
+Seat,Ateca,2024,26720.0,Occasion,35799.0
+Citroën,C4 Picasso,2017,104395.0,Occasion,12999.0
+Skoda,Fabia,2023,9343.0,Occasion,21799.0
+Audi,Q3,2019,80786.0,Occasion,26499.0
+Renault,Mégane 4 Estate,2019,114626.0,Occasion,13499.0
+Audi,A4 Avant,2021,141050.0,Occasion,21999.0
+BMW,X3,2019,79230.0,Occasion,29999.0
+BYD,Atto 3,2022,16577.0,Occasion,28999.0
+MG,EHS,2023,56925.0,Occasion,23099.0
+Fiat,Panda,2020,25511.0,Occasion,9999.0
+Kia,Ceed,2023,11672.0,Occasion,19999.0
+Nissan,Leaf,2021,21910.0,Occasion,15999.0
+Volkswagen,Up,2023,3965.0,Occasion,16499.0
+Mercedes,CLA Shooting Brake,2021,58159.0,Occasion,28099.0
+Volkswagen,Passat SW,2023,10.0,Occasion,35899.0
+Mini,Countryman,2019,72095.0,Occasion,21999.0
+Volvo,XC40,2022,32415.0,Occasion,34499.0
+Renault,Koleos,2019,99480.0,Occasion,19499.0
+Skoda,Scala,2023,23776.0,Occasion,21999.0
+Volvo,XC60,2016,105458.0,Occasion,22999.0
+BMW,Série 3,2022,99061.0,Occasion,32999.0
+Mazda,CX-30,2024,9405.0,Occasion,29499.0
+Tesla,MODEL 3,2021,46715.0,Occasion,27999.0
+Toyota,Yaris,2018,19300.0,Occasion,14999.0
+Peugeot,108,2016,23070.0,Occasion,11499.0
+Hyundai,i30,2020,72190.0,Occasion,15499.0
+Volkswagen,Golf 8 SW,2021,52550.0,Occasion,26099.0
+Citroën,C3 Aircross,2020,26241.0,Occasion,13999.0
+Hyundai,Tucson,2021,54605.0,Occasion,30399.0
+Opel,Corsa,2021,26921.0,Occasion,11999.0
+DS,DS4,2023,30867.0,Occasion,26299.0
+Ford,Focus,2017,103029.0,Occasion,13999.0
+Jeep,Compass,2020,107281.0,Occasion,18499.0
+Toyota,YARIS CROSS,2022,39114.0,Occasion,23699.0
+Fiat,Tipo SW,2021,108115.0,Occasion,11199.0
+Peugeot,208,2021,17460.0,Occasion,18499.0
+Fiat,500,2023,38316.0,Occasion,17299.0
+Audi,A3 Sportback,2018,58275.0,Occasion,20699.0
+Volkswagen,Tiguan,2019,71019.0,Occasion,30699.0
+Peugeot,308 SW,2020,65311.0,Occasion,13999.0
+Volkswagen,T-Roc,2018,139670.0,Occasion,18999.0
+Peugeot,408,2023,961.0,Occasion,30999.0
+Nissan,Juke,2022,19350.0,Occasion,23999.0
+Peugeot,508,2023,3673.0,Occasion,27399.0
+Skoda,KAMIQ,2020,45494.0,Occasion,15499.0
+Audi,Q3 Sportback,2022,29250.0,Occasion,42499.0
+Renault,Master Fourgon,2023,10.0,Occasion,32999.0
+Peugeot,308,2022,48656.0,Occasion,21299.0
+Volkswagen,Golf 8,2021,20420.0,Occasion,21699.0
+Ford,PUMA,2022,54161.0,Occasion,19999.0
+Kia,Sportage,2020,47885.0,Occasion,24999.0
+Seat,Arona,2023,24605.0,Occasion,19499.0
+Volkswagen,T-CROSS,2019,56861.0,Occasion,16799.0
+Citroën,C5 X,2023,25891.0,Occasion,20799.0
+Dacia,JOGGER,2024,2622.0,Occasion,21499.0
+Citroën,C4 X,2023,21344.0,Occasion,19999.0
+Cupra,Leon Sportstourer,2022,68909.0,Occasion,23999.0
+Cupra,Formentor,2022,88690.0,Occasion,25099.0
+Dacia,Sandero,2023,17146.0,Occasion,15999.0
+Hyundai,Kona,2018,83620.0,Occasion,13999.0
+Peugeot,2008,2020,43586.0,Occasion,16999.0
+Renault,Clio 5,2020,36645.0,Occasion,14999.0
+Fiat,500X,2017,111592.0,Occasion,12699.0
+Volkswagen,Taigo,2022,43900.0,Occasion,20499.0
+Renault,Captur,2022,43745.0,Occasion,19499.0
+Toyota,C-HR,2023,21286.0,Occasion,26999.0
+Nissan,Qashqai,2023,22130.0,Occasion,27999.0
+Citroën,C5 Aircross,2023,23162.0,Occasion,24199.0
+Peugeot,5008,2018,80090.0,Occasion,22999.0
+Renault,Arkana,2022,50259.0,Occasion,22999.0
+Citroën,C4,2023,19434.0,Occasion,22999.0
+Peugeot,3008,2021,24078.0,Occasion,26499.0
+Dacia,Duster,2019,15088.0,Occasion,17999.0
+Mercedes,Classe A,2021,62444.0,Occasion,26099.0
+Opel,Mokka,2021,38863.0,Occasion,15499.0
+Renault,Twingo 3,2015,3905.0,Occasion,9299.0
+Renault,Clio 4,2019,73407.0,Occasion,13999.0
+Renault,Mégane 4,2020,48769.0,Occasion,14499.0
+Volkswagen,Polo,2015,114150.0,Occasion,10999.0
+Renault,Zoé,2016,35193.0,Occasion,7299.0
+Citroën,C4 Cactus,2016,110045.0,Occasion,9499.0
+Renault,Kadjar,2017,123250.0,Occasion,12699.0
+Toyota,RAV 4,2023,17086.0,Occasion,36499.0
+Toyota,Corolla,2020,52903.0,Occasion,18999.0
+DS,DS7 CROSSBACK,2021,80335.0,Occasion,23999.0
+BMW,Série 1,2023,6968.0,Occasion,33999.0
+Mini,Mini,2021,43658.0,Occasion,19599.0
+DS,DS3 CROSSBACK,2020,90833.0,Occasion,16499.0
+Dacia,SPRING,2020,11550.0,Occasion,10999.0
+Renault,Grand Scénic 4,2019,97734.0,Occasion,15999.0
+Opel,Crossland X,2020,96100.0,Occasion,13499.0
+Volkswagen,Golf 7,2019,61999.0,Occasion,15299.0
+Citroën,Berlingo,2019,106805.0,Occasion,15999.0
+Audi,Q2,2024,14320.0,Occasion,31299.0
+Ford,Kuga,2018,95779.0,Occasion,16799.0
+DS,DS3,2023,18624.0,Occasion,24999.0
+Audi,A1 Sportback,2023,10800.0,Occasion,26799.0
+Citroën,GRAND C4 SPACETOURER,2020,56645.0,Occasion,17499.0
+Jeep,Renegade,2017,83181.0,Occasion,15399.0
+Renault,Scénic 4,2019,97890.0,Occasion,15499.0
+Opel,Grandland X,2020,80759.0,Occasion,16499.0
+Opel,GRANDLAND,2023,20245.0,Occasion,20499.0
+Skoda,Karoq,2023,12615.0,Occasion,30999.0
+Kia,Niro,2019,59690.0,Occasion,18999.0
+Citroën,C4 SPACETOURER,2019,59325.0,Occasion,18499.0
+Peugeot,508 SW,2019,73726.0,Occasion,19199.0
+Cupra,Leon,2022,33692.0,Occasion,25499.0
+BMW,Série 2 Active Tourer,2019,44863.0,Occasion,25799.0
+BMW,X2,2022,47715.0,Occasion,33999.0
+Seat,Ateca,2023,13063.0,Occasion,28599.0
+Citroën,C4 Picasso,2017,83340.0,Occasion,10999.0
+Skoda,Fabia,2023,35044.0,Occasion,21199.0
+Opel,Astra,2023,10.0,Occasion,24699.0
+Peugeot,RIFTER,2019,67845.0,Occasion,21999.0
+BMW,X3,2020,66732.0,Occasion,35199.0
+Renault,Mégane 4 Estate,2020,71842.0,Occasion,14999.0
+BYD,Atto 3,2022,15953.0,Occasion,28999.0
+Suzuki,VITARA,2019,102886.0,Occasion,12999.0
+Audi,A4 Avant,2017,103525.0,Occasion,16999.0
+Kia,Ceed,2023,17902.0,Occasion,19799.0
+Nissan,Leaf,2019,13140.0,Occasion,16799.0
+MG,EHS,2023,42460.0,Occasion,22999.0
+Fiat,Panda,2020,17593.0,Occasion,10899.0
+Mercedes,CLA Shooting Brake,2021,42205.0,Occasion,28499.0
+Volkswagen,Up,2022,29765.0,Occasion,13999.0
+Volkswagen,Passat SW,2020,93286.0,Occasion,22999.0
+Mini,Countryman,2018,43040.0,Occasion,26499.0
+Skoda,Scala,2023,26199.0,Occasion,22399.0
+Renault,Koleos,2020,107290.0,Occasion,22499.0
+Volvo,XC60,2017,113137.0,Occasion,25999.0
+BMW,Série 3,2021,51327.0,Occasion,32999.0
+Tesla,MODEL 3,2021,111200.0,Occasion,23999.0
+Toyota,Yaris,2022,8480.0,Occasion,19499.0
+Opel,Crossland,2021,42200.0,Occasion,15499.0
+Toyota,Aygo X,2024,235.0,Occasion,18499.0
+Ford,Fiesta,2018,76977.0,Occasion,12999.0
+Peugeot,108,2018,91410.0,Occasion,8999.0
+Fiat,Tipo,2018,91469.0,Occasion,11199.0
+BMW,X1,2019,64995.0,Occasion,21999.0
+Volvo,XC40,2019,118165.0,Occasion,21999.0
+Hyundai,i30,2022,43455.0,Occasion,20499.0
+Citroën,C3 Aircross,2021,61343.0,Occasion,17499.0
+Hyundai,Tucson,2021,60898.0,Occasion,26699.0
+Opel,Corsa,2022,49260.0,Occasion,13299.0
+Ford,Focus,2020,99057.0,Occasion,13999.0
+Jeep,Compass,2022,65380.0,Occasion,24499.0
+Peugeot,208,2020,16542.0,Occasion,14799.0
+Fiat,500,2022,23175.0,Occasion,13199.0
+Volkswagen,Tiguan,2019,124193.0,Occasion,20999.0
+Peugeot,308 SW,2024,5396.0,Occasion,28399.0
+Volkswagen,T-Roc,2024,18980.0,Occasion,33999.0
+Audi,A3 Sportback,2024,15465.0,Occasion,33299.0
+Peugeot,408,2024,5498.0,Occasion,27999.0
+DS,DS4,2023,17570.0,Occasion,35999.0
+Nissan,Juke,2024,18530.0,Occasion,18499.0
+Peugeot,508,2023,961.0,Occasion,27499.0
+Skoda,KAMIQ,2020,72607.0,Occasion,19999.0
+Citroën,C3,2023,15070.0,Occasion,12999.0
+Volkswagen,Golf 8,2023,11.0,Occasion,32299.0
+Ford,Puma,2021,97199.0,Occasion,14299.0
+Kia,Sportage,2024,12913.0,Occasion,31499.0
+Seat,Arona,2021,27098.0,Occasion,18499.0
+Volkswagen,T-CROSS,2023,6979.0,Occasion,23199.0
+Citroën,C5 X,2023,2660.0,Occasion,23999.0
+Dacia,JOGGER,2023,27665.0,Occasion,20499.0
+Citroën,C4 X,2023,17502.0,Occasion,19999.0
+Cupra,Leon Sportstourer,2022,18390.0,Occasion,30599.0
+Peugeot,308,2016,65855.0,Occasion,11499.0
+Cupra,Formentor,2021,21946.0,Occasion,31399.0
+Dacia,Sandero,2017,92472.0,Occasion,9999.0
+Hyundai,Kona,2020,79316.0,Occasion,17999.0
+Peugeot,2008,2023,10909.0,Occasion,24999.0
+Renault,Clio 5,2020,41732.0,Occasion,16699.0
+Fiat,500X,2016,89230.0,Occasion,13499.0
+Volkswagen,Taigo,2024,15410.0,Occasion,22899.0
+Renault,Captur,2023,26783.0,Occasion,23499.0
+Toyota,C-HR,2017,122790.0,Occasion,17399.0
+Citroën,C5 Aircross,2019,85643.0,Occasion,13499.0
+Peugeot,5008,2024,2475.0,Occasion,33299.0
+Renault,Arkana,2022,25890.0,Occasion,20999.0
+Nissan,Qashqai,2022,33525.0,Occasion,23799.0
+Citroën,C4,2021,40660.0,Occasion,19799.0
+Dacia,Duster,2022,16676.0,Occasion,18899.0
+Opel,Mokka,2016,135844.0,Occasion,10699.0
+Mercedes,Classe A,2024,19354.0,Occasion,37499.0
+Renault,Twingo 3,2019,54052.0,Occasion,9599.0
+Renault,Clio 4,2019,46958.0,Occasion,11899.0
+Renault,Mégane 4,2017,104770.0,Occasion,12799.0
+Volkswagen,Polo,2019,108446.0,Occasion,15499.0
+Renault,Zoé,2015,43984.0,Occasion,6999.0
+Renault,Kadjar,2021,57553.0,Occasion,17999.0
+Citroën,C4 Cactus,2017,76446.0,Occasion,12499.0
+Toyota,RAV 4,2021,53880.0,Occasion,29999.0
+Toyota,Corolla,2023,32476.0,Occasion,22699.0
+DS,DS7 Crossback,2019,78322.0,Occasion,20999.0
+BMW,Série 1,2023,29086.0,Occasion,27699.0
+Mini,Mini,2022,24841.0,Occasion,21999.0
+Dacia,SPRING,2021,6506.0,Occasion,11599.0
+DS,DS3 CROSSBACK,2022,48430.0,Occasion,18999.0
+Renault,Grand Scénic 4,2019,103203.0,Occasion,17699.0
+Opel,Crossland X,2018,51760.0,Occasion,12799.0
+Audi,Q2,2024,8830.0,Occasion,31899.0
+Volkswagen,Golf 7,2017,90379.0,Occasion,14999.0
+Ford,Kuga,2022,58560.0,Occasion,24999.0
+Citroën,Berlingo,2020,83191.0,Occasion,17199.0
+DS,DS3,2023,13914.0,Occasion,28799.0
+Citroën,GRAND C4 SPACETOURER,2020,38975.0,Occasion,17599.0
+Renault,Scénic 4,2016,100945.0,Occasion,12999.0
+Opel,Grandland X,2019,76682.0,Occasion,14499.0
+Jeep,Renegade,2019,73628.0,Occasion,14499.0
+Skoda,Karoq,2023,7823.0,Occasion,30499.0
+Citroën,C4 SPACETOURER,2018,51005.0,Occasion,14999.0
+Opel,Grandland,2023,11853.0,Occasion,29999.0
+Kia,Niro,2019,66427.0,Occasion,20499.0
+Peugeot,508 SW,2020,119531.0,Occasion,15999.0
+Cupra,Leon,2022,22250.0,Occasion,25999.0
+BMW,X2,2023,17155.0,Occasion,34999.0
+Seat,Ateca,2023,24260.0,Occasion,27599.0
+Skoda,Fabia,2023,26220.0,Occasion,21699.0
+Citroën,C4 Picasso,2018,99823.0,Occasion,10799.0
+Peugeot,RIFTER,2019,85885.0,Occasion,17299.0
+Suzuki,VITARA,2018,94149.0,Occasion,15899.0
+Audi,A4 Avant,2018,108502.0,Occasion,18999.0
+Nissan,Leaf,2018,27267.0,Occasion,14899.0
+Kia,Ceed,2018,78780.0,Occasion,15999.0
+Fiat,Panda,2016,82259.0,Occasion,9499.0
+MG,EHS,2023,43055.0,Occasion,23299.0
+Mercedes,CLA Shooting Brake,2022,14702.0,Occasion,36999.0
+Volkswagen,Passat SW,2023,26320.0,Occasion,30999.0
+Mini,Countryman,2022,22734.0,Occasion,23999.0
+Skoda,Scala,2023,26810.0,Occasion,22499.0
+Renault,Koleos,2018,123240.0,Occasion,16499.0
+BMW,Série 3,2021,39770.0,Occasion,27999.0
+Toyota,Yaris,2019,86255.0,Occasion,10499.0
+Tesla,MODEL 3,2021,82750.0,Occasion,25499.0
+Audi,A1 Sportback,2014,38055.0,Occasion,18999.0
+BMW,Série 2 Active Tourer,2015,136319.0,Occasion,14499.0
+Renault,Mégane 4 Estate,2020,76435.0,Occasion,13999.0
+Peugeot,3008,2020,57030.0,Occasion,17499.0
+Citroën,C3 Aircross,2023,28135.0,Occasion,18999.0
+Opel,Corsa,2022,9345.0,Occasion,18999.0
+Ford,Focus,2018,120213.0,Occasion,12299.0
+Jeep,Compass,2022,50663.0,Occasion,22899.0
+Fiat,500,2022,17143.0,Occasion,13499.0
+Hyundai,Tucson,2021,43012.0,Occasion,28099.0
+Volkswagen,Tiguan,2021,56586.0,Occasion,33999.0
+Peugeot,308 SW,2024,4845.0,Occasion,24399.0
+Volkswagen,T-Roc,2018,42240.0,Occasion,19499.0
+Audi,A3 Sportback,2019,74234.0,Occasion,19399.0
+Peugeot,408,2024,10667.0,Occasion,25399.0
+DS,DS4,2017,92925.0,Occasion,14499.0
+Nissan,Juke,2022,62306.0,Occasion,18499.0
+Peugeot,508,2018,86292.0,Occasion,17499.0
+Skoda,Kamiq,2023,21886.0,Occasion,22999.0
+Citroën,C3,2022,31586.0,Occasion,15999.0
+Volkswagen,Golf 8,2020,29000.0,Occasion,23999.0
+Ford,Puma,2020,56669.0,Occasion,17299.0
+Kia,Sportage,2022,41290.0,Occasion,30999.0
+Seat,Arona,2020,59916.0,Occasion,16199.0
+Citroën,C5 X,2023,5016.0,Occasion,24999.0
+Dacia,JOGGER,2022,38117.0,Occasion,18499.0
+Citroën,C4 X,2023,24515.0,Occasion,19999.0
+Cupra,LEON SPORTSTOURER,2024,739.0,Occasion,31499.0
+Cupra,Formentor,2022,20092.0,Occasion,32399.0
+Peugeot,208,2018,88272.0,Occasion,9999.0
+Peugeot,308,2023,11122.0,Occasion,29499.0
+Dacia,Sandero,2021,42055.0,Occasion,14799.0
+Fiat,500X,2019,53523.0,Occasion,15499.0
+Renault,Clio 5,2019,33170.0,Occasion,12199.0
+Toyota,C-HR,2018,102140.0,Occasion,16499.0
+Renault,Captur,2020,66979.0,Occasion,17499.0
+Peugeot,2008,2023,9212.0,Occasion,19399.0
+Citroën,C5 Aircross,2020,37923.0,Occasion,15499.0
+Renault,Arkana,2023,14700.0,Occasion,23199.0
+Nissan,Qashqai,2016,72827.0,Occasion,14999.0
+Peugeot,5008,2018,83536.0,Occasion,16999.0
+Citroën,C4,2023,10.0,Occasion,23299.0
+Dacia,Duster,2023,31720.0,Occasion,21499.0
+Opel,Mokka,2023,9229.0,Occasion,26999.0
+Mercedes,Classe A,2023,7695.0,Occasion,35799.0
+Renault,Twingo 3,2019,34384.0,Occasion,9799.0
+Volkswagen,Polo,2018,108200.0,Occasion,15299.0
+Renault,Clio 4,2017,29806.0,Occasion,12999.0
+Renault,Mégane 4,2016,87309.0,Occasion,11199.0
+Renault,Zoé,2019,24014.0,Occasion,8999.0
+Renault,Kadjar,2020,119686.0,Occasion,14699.0
+Citroën,C4 Cactus,2018,31237.0,Occasion,13499.0
+Toyota,Corolla,2020,62143.0,Occasion,22499.0
+DS,DS7 CROSSBACK,2022,56612.0,Occasion,26999.0
+Toyota,RAV 4,2023,12801.0,Occasion,42999.0
+BMW,Série 1,2017,66168.0,Occasion,15999.0
+Mini,Mini,2016,63390.0,Occasion,13299.0
+Dacia,SPRING,2023,6695.0,Occasion,14499.0
+DS,DS3 Crossback,2022,33315.0,Occasion,23499.0
+Opel,Crossland X,2020,83968.0,Occasion,15499.0
+Volkswagen,Golf 7,2019,24510.0,Occasion,26999.0
+Audi,Q2,2019,81970.0,Occasion,19499.0
+Ford,Kuga,2021,44040.0,Occasion,23499.0
+Citroën,Grand C4 Spacetourer,2020,72806.0,Occasion,19699.0
+DS,DS3,2018,69890.0,Occasion,10999.0
+Renault,Scénic 4,2018,60056.0,Occasion,14999.0
+Opel,Grandland X,2021,81685.0,Occasion,17499.0
+Jeep,Renegade,2021,83405.0,Occasion,21499.0
+Skoda,Karoq,2023,29017.0,Occasion,28499.0
+Citroën,C4 SPACETOURER,2020,120475.0,Occasion,13999.0
+Opel,Grandland,2022,35780.0,Occasion,23099.0
+Peugeot,508 SW,2020,83498.0,Occasion,23999.0
+Kia,Niro,2023,19747.0,Occasion,29999.0
+Seat,Leon,2018,72608.0,Occasion,13999.0
+Seat,Ateca,2023,23870.0,Occasion,27599.0
+BMW,X2,2021,56913.0,Occasion,27899.0
+Skoda,Fabia,2023,22573.0,Occasion,17799.0
+Citroën,C4 Picasso,2016,114530.0,Occasion,9999.0
+Peugeot,RIFTER,2022,24815.0,Occasion,22999.0
+Suzuki,Vitara,2022,7593.0,Occasion,26499.0
+Nissan,Leaf,2018,30223.0,Occasion,15599.0
+Fiat,Panda,2022,63840.0,Occasion,10599.0
+MG,EHS,2023,45630.0,Occasion,22999.0
+Volkswagen,Passat SW,2023,26750.0,Occasion,33999.0
+Mini,Countryman,2023,42921.0,Occasion,27799.0
+Mercedes,CLA Shooting Brake,2023,24725.0,Occasion,40299.0
+Skoda,Scala,2023,16290.0,Occasion,21999.0
+BMW,Série 3,2022,95769.0,Occasion,28999.0
+Toyota,Yaris,2020,50452.0,Occasion,13499.0
+Renault,Grand Scénic 4,2018,68467.0,Occasion,16499.0
+Citroën,Berlingo,2019,116114.0,Occasion,15999.0
+Tesla,MODEL 3,2020,56885.0,Occasion,29999.0
+BMW,Série 2 Active Tourer,2018,63805.0,Occasion,19999.0
+Kia,Ceed,2018,82407.0,Occasion,16499.0
+Citroën,C3 Aircross,2021,53928.0,Occasion,12299.0
+Opel,Corsa,2021,19328.0,Occasion,17999.0
+Ford,Focus,2017,112730.0,Occasion,11299.0
+Jeep,Compass,2017,100558.0,Occasion,18999.0
+Peugeot,3008,2023,18605.0,Occasion,22999.0
+Fiat,500,2021,43115.0,Occasion,11999.0
+Hyundai,Tucson,2021,47619.0,Occasion,30699.0
+Peugeot,308 SW,2024,4000.0,Occasion,28999.0
+Volkswagen,Polo,2023,23243.0,Occasion,26299.0
+Volkswagen,Tiguan,2021,71913.0,Occasion,39199.0
+Audi,A3 Sportback,2021,70718.0,Occasion,27399.0
+Volkswagen,T-Roc,2024,19660.0,Occasion,33999.0
+DS,DS4,2018,85481.0,Occasion,10999.0
+Nissan,Juke,2023,17039.0,Occasion,20999.0
+Peugeot,508,2018,115125.0,Occasion,16999.0
+Skoda,KAMIQ,2023,19745.0,Occasion,22499.0
+Citroën,C3,2023,7950.0,Occasion,14499.0
+Ford,Puma,2021,103008.0,Occasion,14799.0
+Kia,Sportage,2021,99386.0,Occasion,21999.0
+Volkswagen,Golf 8,2022,41153.0,Occasion,34499.0
+Peugeot,408,2023,5602.0,Occasion,27999.0
+Citroën,C5 X,2023,3017.0,Occasion,24999.0
+Dacia,JOGGER,2023,19942.0,Occasion,20999.0
+Peugeot,208,2022,57142.0,Occasion,15999.0
+Peugeot,308,2022,15960.0,Occasion,18999.0
+Dacia,Sandero,2019,90260.0,Occasion,11299.0
+Cupra,Formentor,2023,14900.0,Occasion,33899.0
+Fiat,500X,2018,88330.0,Occasion,12999.0
+Toyota,C-HR,2023,12599.0,Occasion,25199.0
+Renault,Clio 5,2021,40361.0,Occasion,17199.0
+Peugeot,2008,2021,128511.0,Occasion,16799.0
+Renault,Captur,2022,35385.0,Occasion,17999.0
+Citroën,C5 Aircross,2020,35993.0,Occasion,16299.0
+Renault,Arkana,2023,5545.0,Occasion,26499.0
+Peugeot,5008,2024,1872.0,Occasion,33499.0
+Nissan,Qashqai,2019,51512.0,Occasion,20999.0
+Citroën,C4,2023,6386.0,Occasion,22399.0
+Dacia,Duster,2020,108641.0,Occasion,15199.0
+Opel,Mokka,2023,12335.0,Occasion,19299.0
+Mercedes,Classe A,2024,1550.0,Occasion,37999.0
+Renault,Twingo 3,2023,7002.0,Occasion,17499.0
+Volkswagen,Polo,2023,14810.0,Occasion,20999.0
+Renault,Kadjar,2018,32083.0,Occasion,15499.0
+Renault,Mégane 4,2017,28310.0,Occasion,13999.0
+Renault,Zoé,2021,32483.0,Occasion,14999.0
+Citroën,C4 Cactus,2020,31155.0,Occasion,12999.0
+Toyota,Corolla,2022,19655.0,Occasion,22499.0
+DS,DS7 CROSSBACK,2018,126300.0,Occasion,22499.0
+Toyota,RAV 4,2021,51250.0,Occasion,29999.0
+BMW,Série 1,2022,19796.0,Occasion,33199.0
+Mini,Mini,2023,10962.0,Occasion,25899.0
+Dacia,SPRING,2021,12358.0,Occasion,10999.0
+DS,DS3 CROSSBACK,2021,37512.0,Occasion,23999.0
+Opel,Crossland X,2020,63573.0,Occasion,13999.0
+Volkswagen,Golf 7,2019,76595.0,Occasion,17399.0
+Audi,Q2,2017,75462.0,Occasion,21499.0
+Ford,Kuga,2022,48165.0,Occasion,25499.0
+Citroën,GRAND C4 SPACETOURER,2019,103451.0,Occasion,13999.0
+DS,DS3,2018,62718.0,Occasion,10999.0
+Renault,Scénic 4,2019,118630.0,Occasion,14999.0
+Opel,Grandland X,2018,76334.0,Occasion,19999.0
+Citroën,C4 SPACETOURER,2018,85045.0,Occasion,11499.0
+Peugeot,508 SW,2020,82080.0,Occasion,22999.0
+Skoda,Karoq,2023,13088.0,Occasion,27499.0
+Opel,Grandland,2023,13733.0,Occasion,25299.0
+Cupra,Leon,2021,29102.0,Occasion,24999.0
+Seat,Ateca,2023,59430.0,Occasion,25799.0
+Skoda,Fabia,2023,34083.0,Occasion,21199.0
+Citroën,C4 Picasso,2017,105955.0,Occasion,10799.0
+BMW,X2,2020,50049.0,Occasion,27499.0
+Peugeot,RIFTER,2020,61015.0,Occasion,19499.0
+Suzuki,VITARA,2017,71031.0,Occasion,14499.0
+Fiat,Panda,2022,43951.0,Occasion,11299.0
+MG,EHS,2023,43875.0,Occasion,23299.0
+Volkswagen,Passat SW,2023,26480.0,Occasion,30999.0
+Mini,Countryman,2018,72147.0,Occasion,17999.0
+Mercedes,CLA Shooting Brake,2023,12440.0,Occasion,42199.0
+BMW,Série 3,2020,103203.0,Occasion,26499.0
+Renault,Clio 4,2017,41599.0,Occasion,13499.0
+Citroën,Berlingo,2020,53350.0,Occasion,19499.0
+Tesla,MODEL 3,2021,77014.0,Occasion,26999.0
+Kia,Niro,2024,2120.0,Occasion,29999.0
+Nissan,Leaf,2018,130716.0,Occasion,11299.0
+Citroën,C3 Aircross,2018,43590.0,Occasion,11699.0
+Opel,Corsa,2023,15876.0,Occasion,15699.0
+Ford,Focus,2019,66554.0,Occasion,13999.0
+Jeep,Compass,2022,62055.0,Occasion,21999.0
+Peugeot,3008,2017,124051.0,Occasion,11499.0
+Fiat,500,2022,10.0,Occasion,18999.0
+Hyundai,Tucson,2021,36450.0,Occasion,30999.0
+Peugeot,308 SW,2016,111885.0,Occasion,10299.0
+Volkswagen,Tiguan,2017,103015.0,Occasion,22799.0
+Audi,A3 Sportback,2020,80510.0,Occasion,20799.0
+Volkswagen,T-Roc,2022,64161.0,Occasion,23999.0
+DS,DS4,2017,80308.0,Occasion,14299.0
+Nissan,Juke,2023,24535.0,Occasion,24099.0
+Peugeot,508,2018,106063.0,Occasion,16499.0
+Skoda,Kamiq,2023,28707.0,Occasion,26299.0
+Citroën,C3,2018,43132.0,Occasion,10299.0
+Ford,PUMA,2020,82360.0,Occasion,18999.0
+Kia,Sportage,2021,21362.0,Occasion,29499.0
+Volkswagen,Golf 8,2022,65092.0,Occasion,38999.0
+Peugeot,408,2023,6258.0,Occasion,25499.0
+Citroën,C5 X,2023,9900.0,Occasion,24399.0
+Dacia,JOGGER,2023,43050.0,Occasion,18999.0
+Dacia,Sandero,2023,14697.0,Occasion,17699.0
+Cupra,Formentor,2021,26579.0,Occasion,31399.0
+Peugeot,208,2020,71676.0,Occasion,13799.0
+Peugeot,308,2020,116483.0,Occasion,18999.0
+Fiat,500X,2018,65100.0,Occasion,13299.0
+Toyota,C-HR,2022,19631.0,Occasion,26799.0
+Peugeot,2008,2019,78718.0,Occasion,14799.0
+Renault,Clio 5,2023,13835.0,Occasion,20999.0
+Renault,Captur,2017,69724.0,Occasion,11999.0
+Renault,Arkana,2022,42001.0,Occasion,23999.0
+Citroën,C5 Aircross,2021,26698.0,Occasion,25499.0
+Peugeot,5008,2024,1738.0,Occasion,33499.0
+Citroën,C4,2018,90569.0,Occasion,8999.0
+Nissan,Qashqai,2018,88170.0,Occasion,16499.0
+Dacia,Duster,2020,100523.0,Occasion,16699.0
+Opel,Mokka,2021,54742.0,Occasion,18999.0
+Renault,Twingo 3,2022,12220.0,Occasion,14499.0
+Mercedes,Classe A,2021,59820.0,Occasion,25499.0
+Renault,Kadjar,2018,109553.0,Occasion,13999.0
+Volkswagen,Polo,2018,55622.0,Occasion,16499.0
+Renault,Mégane 4,2016,28544.0,Occasion,13999.0
+Citroën,C4 Cactus,2019,58570.0,Occasion,13599.0
+Toyota,Corolla,2022,36505.0,Occasion,21499.0
+Renault,Zoé,2019,76050.0,Occasion,8799.0
+DS,DS7 CROSSBACK,2022,45625.0,Occasion,29699.0
+BMW,Série 1,2023,43905.0,Occasion,29999.0
+Mini,Mini,2016,92700.0,Occasion,13399.0
+Dacia,SPRING,2023,10123.0,Occasion,12999.0
+Toyota,RAV 4,2021,85015.0,Occasion,29999.0
+DS,DS3 CROSSBACK,2021,62372.0,Occasion,17299.0
+Audi,Q2,2020,74299.0,Occasion,21599.0
+Ford,Kuga,2022,33895.0,Occasion,28799.0
+Citroën,GRAND C4 SPACETOURER,2022,61445.0,Occasion,22499.0
+Volkswagen,Golf 8,2023,29945.0,Occasion,35499.0
+DS,DS3,2017,40122.0,Occasion,10499.0
+Opel,Grandland X,2021,98573.0,Occasion,16999.0
+Skoda,Karoq,2023,16730.0,Occasion,30199.0
+Citroën,C4 SPACETOURER,2019,71862.0,Occasion,15199.0
+Opel,GRANDLAND,2023,19875.0,Occasion,20599.0
+Seat,Leon,2022,55150.0,Occasion,22999.0
+Skoda,Fabia,2023,10473.0,Occasion,21799.0
+Seat,Ateca,2020,93186.0,Occasion,21499.0
+BMW,X2,2022,22005.0,Occasion,34199.0
+Fiat,Panda,2020,59963.0,Occasion,10299.0
+Volkswagen,Passat SW,2023,22900.0,Occasion,31199.0
+Mini,Countryman,2018,132050.0,Occasion,17999.0
+Skoda,Scala,2023,16318.0,Occasion,20499.0
+Renault,Clio 4,2017,81368.0,Occasion,11499.0
+Opel,Crossland X,2020,73555.0,Occasion,11999.0
+Peugeot,508 SW,2021,35706.0,Occasion,23999.0
+Citroën,C4 Picasso,2016,85130.0,Occasion,12799.0
+Suzuki,VITARA,2020,20692.0,Occasion,17999.0
+BMW,Série 3,2020,21399.0,Occasion,40299.0
+Citroën,C3 Aircross,2018,61660.0,Occasion,12799.0
+Opel,Corsa,2020,72852.0,Occasion,10499.0
+Ford,Focus,2018,64221.0,Occasion,16099.0
+Peugeot,3008,2024,6525.0,Occasion,30499.0
+Fiat,500,2020,37624.0,Occasion,12299.0
+Hyundai,Tucson,2021,31704.0,Occasion,31799.0
+Peugeot,308 SW,2020,47625.0,Occasion,15499.0
+Volkswagen,Tiguan,2019,104062.0,Occasion,23999.0
+Audi,A3 Sportback,2021,72583.0,Occasion,30999.0
+Volkswagen,T-Roc,2024,18290.0,Occasion,34899.0
+Nissan,Juke,2020,64824.0,Occasion,15499.0
+Peugeot,508,2021,44792.0,Occasion,23499.0
+Skoda,Kamiq,2023,28640.0,Occasion,22199.0
+Citroën,C3,2019,43003.0,Occasion,10999.0
+DS,DS4,2017,111998.0,Occasion,14299.0
+Ford,PUMA,2020,92151.0,Occasion,14999.0
+Volkswagen,Golf 8,2023,20370.0,Occasion,36899.0
+Peugeot,408,2024,5038.0,Occasion,25399.0
+Citroën,C5 X,2023,3069.0,Occasion,25499.0
+Dacia,JOGGER,2023,42620.0,Occasion,19299.0
+Dacia,Sandero,2021,22514.0,Occasion,14199.0
+Cupra,Formentor,2021,42150.0,Occasion,29999.0
+Peugeot,208,2023,18995.0,Occasion,18499.0
+Peugeot,308,2023,19728.0,Occasion,19999.0
+Fiat,500X,2019,62222.0,Occasion,13999.0
+Toyota,C-HR,2019,86666.0,Occasion,18499.0
+Peugeot,2008,2018,50760.0,Occasion,10499.0
+Renault,Captur,2018,107568.0,Occasion,12499.0
+Renault,Arkana,2021,38961.0,Occasion,22999.0
+Peugeot,5008,2020,105850.0,Occasion,20999.0
+Citroën,C5 Aircross,2024,9783.0,Occasion,27999.0
+Citroën,C4,2017,41811.0,Occasion,12999.0
+Nissan,Qashqai,2017,90871.0,Occasion,14499.0
+Dacia,Duster,2019,138010.0,Occasion,13999.0
+Opel,Mokka,2022,24131.0,Occasion,18999.0
+Renault,Twingo 3,2021,35268.0,Occasion,12199.0
+Mercedes,Classe A,2019,30372.0,Occasion,23099.0
+Volkswagen,Polo,2023,17310.0,Occasion,20999.0
+Renault,Kadjar,2019,72810.0,Occasion,15999.0
+Renault,Mégane 4,2018,130217.0,Occasion,15499.0
+Citroën,C4 Cactus,2020,69850.0,Occasion,13299.0
+Toyota,Corolla,2022,30045.0,Occasion,22199.0
+Renault,Zoé,2019,32085.0,Occasion,9999.0
+DS,DS7 CROSSBACK,2021,62720.0,Occasion,25999.0
+BMW,Série 1,2020,88200.0,Occasion,21699.0
+Dacia,SPRING,2023,6116.0,Occasion,14799.0
+Mini,Mini,2021,50544.0,Occasion,19699.0
+Toyota,RAV 4,2019,86115.0,Occasion,25999.0
+DS,DS3 Crossback,2022,25267.0,Occasion,24899.0
+Audi,Q2,2017,104100.0,Occasion,20999.0
+Ford,Kuga,2021,63439.0,Occasion,23099.0
+Citroën,GRAND C4 SPACETOURER,2020,42110.0,Occasion,20499.0
+Skoda,Karoq,2021,119213.0,Occasion,19699.0
+Opel,Grandland,2022,22500.0,Occasion,27399.0
+Cupra,Leon,2022,48294.0,Occasion,25999.0
+Skoda,Fabia,2022,10880.0,Occasion,17999.0
+BMW,X2,2023,31150.0,Occasion,34599.0
+Fiat,Panda,2020,55551.0,Occasion,10299.0
+Mini,Countryman,2023,13829.0,Occasion,30199.0
+Skoda,Scala,2023,35111.0,Occasion,21999.0
+Renault,Clio 4,2017,61405.0,Occasion,11999.0
+DS,DS3,2017,80157.0,Occasion,9699.0
+Renault,Scénic 4,2018,79643.0,Occasion,16999.0
+Opel,Grandland X,2019,147530.0,Occasion,13999.0
+Citroën,C4 SPACETOURER,2018,55529.0,Occasion,18699.0
+Peugeot,408,2024,3876.0,Occasion,25399.0
+Peugeot,508 SW,2021,63410.0,Occasion,21999.0
+Citroën,C4 Picasso,2016,99754.0,Occasion,9799.0
+Seat,Ateca,2021,48715.0,Occasion,22299.0
+Volkswagen,Passat SW,2020,78534.0,Occasion,22499.0
+Citroën,C3 Aircross,2021,26715.0,Occasion,13799.0
+Opel,Corsa,2022,23475.0,Occasion,17999.0
+Jeep,Compass,2023,37599.0,Occasion,30799.0
+Peugeot,3008,2021,65900.0,Occasion,22799.0
+Hyundai,Tucson,2021,47716.0,Occasion,30699.0
+Peugeot,308 SW,2017,127018.0,Occasion,11499.0
+Volkswagen,Tiguan,2020,116694.0,Occasion,22699.0
+Audi,A3 Sportback,2024,15778.0,Occasion,33399.0
+Volkswagen,T-Roc,2023,30466.0,Occasion,25799.0
+Nissan,Juke,2024,12515.0,Occasion,20799.0
+Peugeot,508,2022,27490.0,Occasion,26999.0
+Skoda,KAMIQ,2023,15730.0,Occasion,22499.0
+Citroën,C3,2021,71454.0,Occasion,11999.0
+Fiat,500,2019,37140.0,Occasion,11999.0
+Ford,PUMA,2022,33605.0,Occasion,19499.0
+Volkswagen,Golf 8,2021,38330.0,Occasion,25999.0
+Peugeot,408,2023,18260.0,Occasion,25999.0
+Citroën,C5 X,2023,6798.0,Occasion,24999.0
+Dacia,JOGGER,2022,59350.0,Occasion,16999.0
+Volkswagen,Tiguan,2019,51732.0,Occasion,29099.0
+Dacia,Sandero,2023,20898.0,Occasion,17699.0
+Cupra,Formentor,2022,32216.0,Occasion,30499.0
+Peugeot,308,2022,63003.0,Occasion,17999.0
+Fiat,500X,2019,68015.0,Occasion,15499.0
+Peugeot,208,2018,53257.0,Occasion,9999.0
+Toyota,C-HR,2020,44135.0,Occasion,20999.0
+Peugeot,2008,2020,84001.0,Occasion,13199.0
+Renault,Captur,2020,41003.0,Occasion,16999.0
+Renault,Clio 5,2021,40535.0,Occasion,16499.0
+Renault,Arkana,2021,29176.0,Occasion,21899.0
+Peugeot,5008,2018,104447.0,Occasion,16499.0
+Citroën,C5 Aircross,2024,3725.0,Occasion,28999.0
+Nissan,Qashqai,2021,61324.0,Occasion,16999.0
+Citroën,C4,2024,3213.0,Occasion,24999.0
+Dacia,Duster,2020,73285.0,Occasion,14599.0
+Opel,Mokka,2022,22898.0,Occasion,16999.0
+Renault,Twingo 3,2022,12008.0,Occasion,12499.0
+Mercedes,Classe A,2023,4675.0,Occasion,35499.0
+Renault,Kadjar,2018,145845.0,Occasion,12199.0
+Renault,Mégane 4,2021,68485.0,Occasion,16999.0
+Citroën,C4 Cactus,2019,58487.0,Occasion,13499.0
+Volkswagen,Polo,2019,67695.0,Occasion,15799.0
+Renault,Zoé,2020,40045.0,Occasion,9499.0
+DS,DS7 CROSSBACK,2023,41634.0,Occasion,30499.0
+BMW,Série 1,2017,76005.0,Occasion,21299.0
+Mini,Mini,2016,109716.0,Occasion,12999.0
+Toyota,RAV 4,2023,21185.0,Occasion,37999.0
+Dacia,SPRING,2021,10805.0,Occasion,11199.0
+DS,DS3 CROSSBACK,2019,45552.0,Occasion,17999.0
+Audi,Q2,2021,117346.0,Occasion,20599.0
+Ford,Kuga,2022,51280.0,Occasion,25499.0
+Citroën,GRAND C4 SPACETOURER,2018,87831.0,Occasion,14299.0
+Skoda,Karoq,2023,32087.0,Occasion,32199.0
+Opel,Grandland,2023,20486.0,Occasion,25999.0
+Cupra,Leon,2022,16177.0,Occasion,26499.0
+Skoda,Fabia,2023,23993.0,Occasion,17999.0
+Fiat,Panda,2020,40772.0,Occasion,10099.0
+Mini,Countryman,2018,100849.0,Occasion,21999.0
+Skoda,Scala,2023,31695.0,Occasion,21499.0
+Renault,Clio 4,2019,38708.0,Occasion,13499.0
+Toyota,Corolla,2020,106934.0,Occasion,16999.0
+Citroën,C4 SPACETOURER,2019,62895.0,Occasion,14499.0
+Citroën,C3 Aircross,2022,24060.0,Occasion,18499.0
+Jeep,Compass,2019,47866.0,Occasion,19799.0
+Opel,Corsa,2021,40450.0,Occasion,13999.0
+Hyundai,Tucson,2021,58375.0,Occasion,29999.0
+Peugeot,308 SW,2024,5875.0,Occasion,27999.0
+Audi,A3 Sportback,2021,50325.0,Occasion,28599.0
+Volkswagen,T-Roc,2019,55919.0,Occasion,18499.0
+Nissan,Juke,2024,17530.0,Occasion,20699.0
+Peugeot,508,2020,50586.0,Occasion,20899.0
+Skoda,Kamiq,2023,26349.0,Occasion,24999.0
+Volkswagen,Tiguan,2017,108709.0,Occasion,19999.0
+Peugeot,3008,2020,55163.0,Occasion,21699.0
+Citroën,C3,2018,90155.0,Occasion,9799.0
+Fiat,500,2023,6502.0,Occasion,20999.0
+Peugeot,408,2024,1931.0,Occasion,25399.0
+Citroën,C5 X,2022,15861.0,Occasion,23399.0
+Dacia,JOGGER,2023,41890.0,Occasion,18499.0
+Volkswagen,Golf 8,2023,20215.0,Occasion,37999.0
+Dacia,Sandero,2022,34216.0,Occasion,14999.0
+Cupra,FORMENTOR,2022,16368.0,Occasion,31399.0
+Peugeot,308,2022,38956.0,Occasion,27999.0
+Toyota,C-HR,2022,29789.0,Occasion,27499.0
+Fiat,500X,2018,40668.0,Occasion,12999.0
+Peugeot,208,2020,38878.0,Occasion,17599.0
+Renault,Captur,2019,63590.0,Occasion,15699.0
+Renault,Clio 5,2022,23257.0,Occasion,17999.0
+Peugeot,2008,2017,111979.0,Occasion,9999.0
+Renault,Arkana,2021,48362.0,Occasion,20699.0
+Peugeot,5008,2021,37235.0,Occasion,27999.0
+Citroën,C5 Aircross,2024,5035.0,Occasion,27499.0
+Nissan,Qashqai,2020,45457.0,Occasion,20699.0
+Citroën,C4,2023,12320.0,Occasion,17499.0
+Dacia,Duster,2019,78361.0,Occasion,15999.0
+Opel,Mokka,2023,6424.0,Occasion,24999.0
+Renault,Twingo 3,2023,1135.0,Occasion,17999.0
+Mercedes,Classe A,2023,17830.0,Occasion,33999.0
+Renault,Kadjar,2021,54527.0,Occasion,18299.0
+Renault,Mégane 4,2017,73715.0,Occasion,13499.0
+Citroën,C4 Cactus,2020,39650.0,Occasion,13499.0
+Volkswagen,Polo,2018,121706.0,Occasion,14499.0
+Renault,Zoé,2018,81917.0,Occasion,8499.0
+DS,DS7 CROSSBACK,2021,85500.0,Occasion,24299.0
+BMW,Série 1,2023,14056.0,Occasion,23699.0
+Mini,Mini,2016,114325.0,Occasion,12799.0
+Dacia,SPRING,2023,18016.0,Occasion,12499.0
+DS,DS3 CROSSBACK,2020,49562.0,Occasion,17999.0
+Audi,Q2,2024,14096.0,Occasion,31299.0
+Citroën,GRAND C4 SPACETOURER,2022,64844.0,Occasion,24999.0
+Skoda,Scala,2023,26518.0,Occasion,18499.0
+Renault,Clio 4,2017,90629.0,Occasion,12299.0
+Toyota,Corolla,2022,37590.0,Occasion,21499.0
+Toyota,RAV 4,2023,12498.0,Occasion,42999.0
+Ford,Kuga,2021,49750.0,Occasion,24499.0
+Citroën,C4 SPACETOURER,2019,77850.0,Occasion,14999.0
+Citroën,C3 Aircross,2023,38610.0,Occasion,19499.0
+Jeep,Compass,2020,110165.0,Occasion,16999.0
+Hyundai,Tucson,2021,49205.0,Occasion,31699.0
+Peugeot,308 SW,2024,18.0,Occasion,25099.0
+Audi,A3 Sportback,2017,46460.0,Occasion,22499.0
+Volkswagen,T-Roc,2020,86283.0,Occasion,18499.0
+Nissan,Juke,2020,18950.0,Occasion,19499.0
+Peugeot,508,2021,40608.0,Occasion,22499.0
+Skoda,KAMIQ,2019,86361.0,Occasion,15999.0
+Volkswagen,Tiguan,2018,146023.0,Occasion,19999.0
+Peugeot,3008,2023,14625.0,Occasion,24399.0
+Citroën,C3,2018,63215.0,Occasion,9999.0
+Fiat,500,2020,47920.0,Occasion,11599.0
+Peugeot,408,2023,12827.0,Occasion,27499.0
+Citroën,C5 X,2023,31457.0,Occasion,20999.0
+Dacia,JOGGER,2022,64758.0,Occasion,16499.0
+Dacia,Sandero,2019,30934.0,Occasion,12999.0
+Volkswagen,Golf 8,2021,27679.0,Occasion,27399.0
+Cupra,Formentor,2022,36290.0,Occasion,30499.0
+Peugeot,308,2019,76511.0,Occasion,15299.0
+Toyota,C-HR,2017,118539.0,Occasion,18399.0
+Peugeot,208,2018,113548.0,Occasion,8499.0
+Renault,Captur,2020,59057.0,Occasion,17999.0
+Renault,Clio 5,2022,46487.0,Occasion,21899.0
+Peugeot,2008,2022,68685.0,Occasion,18499.0
+Peugeot,5008,2023,34895.0,Occasion,26499.0
+Renault,Arkana,2023,27973.0,Occasion,22499.0
+Citroën,C5 Aircross,2021,97011.0,Occasion,19499.0
+Nissan,Qashqai,2021,29165.0,Occasion,20499.0
+Citroën,C4,2020,38245.0,Occasion,15999.0
+Dacia,Duster,2022,52643.0,Occasion,16999.0
+Opel,Mokka,2021,41192.0,Occasion,15999.0
+Renault,Twingo 3,2021,31035.0,Occasion,13499.0
+Mercedes,Classe A,2020,66186.0,Occasion,22699.0
+Renault,Kadjar,2017,111883.0,Occasion,10499.0
+Citroën,C4 Cactus,2019,69563.0,Occasion,15499.0
+Renault,Mégane 4,2018,94260.0,Occasion,12499.0
+Renault,Zoé,2017,29082.0,Occasion,8299.0
+DS,DS7 CROSSBACK,2019,73564.0,Occasion,22799.0
+Volkswagen,Polo,2017,68670.0,Occasion,15499.0
+BMW,Série 1,2023,12525.0,Occasion,29999.0
+Mini,Mini,2020,47845.0,Occasion,20099.0
+Dacia,SPRING,2021,7445.0,Occasion,11699.0
+DS,DS3 CROSSBACK,2021,34747.0,Occasion,18999.0
+Audi,Q2,2023,32625.0,Occasion,32499.0
+Citroën,GRAND C4 SPACETOURER,2019,90449.0,Occasion,14299.0
+Skoda,Scala,2023,27297.0,Occasion,18499.0
+Toyota,Corolla,2022,18205.0,Occasion,22499.0
+Citroën,C3 Aircross,2022,225.0,Occasion,21299.0
+Jeep,Compass,2022,61483.0,Occasion,24499.0
+Hyundai,Tucson,2021,12880.0,Occasion,33499.0
+Peugeot,308 SW,2022,59930.0,Occasion,22999.0
+Volkswagen,T-Roc,2024,26350.0,Occasion,33999.0
+Audi,A3 Sportback,2019,56594.0,Occasion,23799.0
+Peugeot,508,2021,20787.0,Occasion,26099.0
+Skoda,KAMIQ,2023,17685.0,Occasion,22499.0
+Volkswagen,Tiguan,2020,46736.0,Occasion,26099.0
+Nissan,Juke,2024,13910.0,Occasion,18899.0
+Peugeot,3008,2023,22895.0,Occasion,22499.0
+Citroën,C3,2017,43184.0,Occasion,9999.0
+Fiat,500,2020,43225.0,Occasion,12299.0
+Peugeot,408,2023,8643.0,Occasion,28999.0
+Dacia,JOGGER,2023,40105.0,Occasion,19999.0
+Citroën,C5 X,2023,9437.0,Occasion,21999.0
+Dacia,Sandero,2023,21942.0,Occasion,17199.0
+Volkswagen,Golf 8,2021,43992.0,Occasion,21199.0
+Cupra,Formentor,2022,14008.0,Occasion,29899.0
+Peugeot,308,2017,54657.0,Occasion,11499.0
+Toyota,C-HR,2019,52760.0,Occasion,20799.0
+Renault,Captur,2019,59546.0,Occasion,12999.0
+Peugeot,208,2018,85375.0,Occasion,8999.0
+Renault,Clio 5,2021,27700.0,Occasion,14699.0
+Peugeot,2008,2019,46165.0,Occasion,14999.0
+Peugeot,5008,2023,50410.0,Occasion,27499.0
+Renault,Arkana,2022,30742.0,Occasion,21299.0
+Nissan,Qashqai,2022,10444.0,Occasion,31999.0
+Citroën,C4,2023,13276.0,Occasion,23599.0
+Citroën,C5 Aircross,2020,127512.0,Occasion,15299.0
+Dacia,Duster,2019,71181.0,Occasion,16499.0
+Renault,Twingo 3,2021,19416.0,Occasion,13699.0
+Mercedes,Classe A,2021,46053.0,Occasion,26099.0
+Renault,Kadjar,2021,62985.0,Occasion,17499.0
+Renault,Zoé,2018,60900.0,Occasion,9299.0
+DS,DS7 CROSSBACK,2021,71330.0,Occasion,30799.0
+BMW,Série 1,2023,30598.0,Occasion,27699.0
+Mini,Mini,2020,25105.0,Occasion,18499.0
+Dacia,SPRING,2021,16662.0,Occasion,11299.0
+DS,DS3 Crossback,2022,27841.0,Occasion,24899.0
+Audi,Q2,2024,19675.0,Occasion,30999.0
+Citroën,GRAND C4 SPACETOURER,2022,60575.0,Occasion,24999.0
+Skoda,Scala,2023,24172.0,Occasion,23499.0
+Opel,Mokka,2022,23130.0,Occasion,15999.0
+Volkswagen,Polo,2021,6305.0,Occasion,16799.0
+Renault,Mégane 4,2019,98373.0,Occasion,12799.0
+Toyota,Corolla,2021,64808.0,Occasion,18499.0
+Citroën,C3 Aircross,2018,68085.0,Occasion,10699.0
+Jeep,Compass,2022,34652.0,Occasion,27399.0
+Hyundai,Tucson,2021,44228.0,Occasion,30799.0
+Peugeot,308 SW,2024,11151.0,Occasion,24399.0
+Volkswagen,T-Roc,2021,34280.0,Occasion,21999.0
+Audi,A3 Sportback,2021,62350.0,Occasion,27499.0
+Peugeot,508,2019,68214.0,Occasion,19499.0
+Skoda,Kamiq,2023,35213.0,Occasion,20999.0
+Nissan,Juke,2024,7020.0,Occasion,21299.0
+Peugeot,3008,2023,6225.0,Occasion,26999.0
+Citroën,C3,2023,13890.0,Occasion,13499.0
+Fiat,500,2022,11844.0,Occasion,13799.0
+Dacia,JOGGER,2024,237.0,Occasion,23679.0
+Volkswagen,Golf 8,2024,25650.0,Occasion,30799.0
+Cupra,Formentor,2022,22634.0,Occasion,28399.0
+Dacia,Sandero,2016,28876.0,Occasion,9299.0
+Peugeot,308,2018,136860.0,Occasion,12999.0
+Toyota,C-HR,2020,85428.0,Occasion,21999.0
+Renault,Captur,2021,13088.0,Occasion,16499.0
+Peugeot,208,2022,19050.0,Occasion,19699.0
+Renault,Clio 5,2021,66904.0,Occasion,16499.0
+Peugeot,2008,2024,9865.0,Occasion,23999.0
+Peugeot,5008,2024,6006.0,Occasion,33499.0
+Renault,Arkana,2023,15248.0,Occasion,28699.0
+Nissan,Qashqai,2020,103703.0,Occasion,15499.0
+Citroën,C4,2023,20917.0,Occasion,21999.0
+Citroën,C5 Aircross,2023,13340.0,Occasion,25699.0
+Dacia,Duster,2016,63620.0,Occasion,13999.0
+Renault,Twingo 3,2020,32215.0,Occasion,12499.0
+Mercedes,Classe A,2019,106798.0,Occasion,19499.0
+Renault,Kadjar,2017,69615.0,Occasion,12799.0
+Renault,Zoé,2020,77600.0,Occasion,10299.0
+DS,DS7 CROSSBACK,2020,65165.0,Occasion,25699.0
+BMW,Série 1,2021,30163.0,Occasion,27399.0
+Mini,Mini,2019,91164.0,Occasion,15999.0
+Dacia,SPRING,2022,14990.0,Occasion,11799.0
+DS,DS3 CROSSBACK,2021,55559.0,Occasion,18799.0
+Audi,Q2,2023,18955.0,Occasion,33999.0
+Citroën,GRAND C4 SPACETOURER,2022,68035.0,Occasion,23499.0
+Skoda,Scala,2023,27037.0,Occasion,22999.0
+Renault,Mégane 4,2018,75795.0,Occasion,13999.0
+Volkswagen,Polo,2018,117329.0,Occasion,12999.0
+Citroën,C3 Aircross,2024,9506.0,Occasion,18699.0
+Jeep,Compass,2022,64564.0,Occasion,27699.0
+Peugeot,308 SW,2024,3990.0,Occasion,28399.0
+Volkswagen,T-Roc,2019,61913.0,Occasion,18499.0
+Audi,A3 Sportback,2020,100642.0,Occasion,27999.0
+Skoda,Kamiq,2023,39661.0,Occasion,21299.0
+Hyundai,Tucson,2021,29171.0,Occasion,30999.0
+Nissan,Juke,2021,49680.0,Occasion,15999.0
+Peugeot,508,2019,36353.0,Occasion,21499.0
+Peugeot,3008,2024,6174.0,Occasion,30499.0
+Citroën,C3,2020,60068.0,Occasion,10999.0
+Peugeot,408,2024,8372.0,Occasion,25399.0
+Fiat,500,2022,12362.0,Occasion,13999.0
+Volkswagen,Golf 8,2023,12300.0,Occasion,30999.0
+Dacia,Sandero,2020,14760.0,Occasion,14499.0
+Peugeot,308,2019,69315.0,Occasion,13999.0
+Toyota,C-HR,2021,41617.0,Occasion,22999.0
+Renault,Captur,2022,12772.0,Occasion,22299.0
+Peugeot,208,2024,230.0,Occasion,20999.0
+Renault,Clio 5,2022,27730.0,Occasion,20499.0
+Peugeot,5008,2021,52740.0,Occasion,22999.0
+Renault,Arkana,2022,30878.0,Occasion,22899.0
+Peugeot,2008,2024,7727.0,Occasion,23699.0
+Nissan,Qashqai,2022,42039.0,Occasion,20799.0
+Citroën,C4,2024,4056.0,Occasion,18999.0
+Citroën,C5 Aircross,2020,66024.0,Occasion,19499.0
+Dacia,Duster,2021,76143.0,Occasion,18299.0
+Renault,Twingo 3,2022,26262.0,Occasion,13999.0
+Mercedes,Classe A,2017,104263.0,Occasion,18999.0
+Renault,Kadjar,2017,75952.0,Occasion,14999.0
+Renault,Zoé,2019,62690.0,Occasion,9499.0
+DS,DS7 Crossback,2018,37888.0,Occasion,23599.0
+BMW,Série 1,2022,26498.0,Occasion,26999.0
+Mini,Mini,2021,38744.0,Occasion,20899.0
+Dacia,SPRING,2022,17937.0,Occasion,11499.0
+DS,DS3 CROSSBACK,2019,28436.0,Occasion,20999.0
+Audi,Q2,2023,28815.0,Occasion,32699.0
+Citroën,GRAND C4 SPACETOURER,2019,88832.0,Occasion,16499.0
+Skoda,Scala,2023,22743.0,Occasion,18499.0
+Opel,Mokka,2023,9.0,Occasion,25999.0
+Renault,Mégane 4,2019,87895.0,Occasion,15499.0
+Volkswagen,Polo,2019,59798.0,Occasion,15499.0
+Citroën,C3 Aircross,2023,32056.0,Occasion,15999.0
+Jeep,Compass,2018,89964.0,Occasion,18499.0
+Peugeot,308 SW,2019,70453.0,Occasion,12999.0
+Volkswagen,T-Roc,2024,26430.0,Occasion,33899.0
+Audi,A3 Sportback,2020,23892.0,Occasion,24299.0
+Skoda,Kamiq,2023,21802.0,Occasion,22199.0
+Hyundai,Tucson,2017,136512.0,Occasion,13999.0
+Peugeot,508,2021,35795.0,Occasion,27899.0
+Peugeot,3008,2023,21237.0,Occasion,30799.0
+Citroën,C3,2020,65905.0,Occasion,13999.0
+Peugeot,408,2024,5210.0,Occasion,27999.0
+Fiat,500,2022,11973.0,Occasion,13999.0
+Volkswagen,Golf 8,2021,41732.0,Occasion,22499.0
+Dacia,Sandero,2023,21183.0,Occasion,17499.0
+Peugeot,308,2021,35180.0,Occasion,20999.0
+Toyota,C-HR,2023,26544.0,Occasion,24799.0
+Renault,Captur,2021,60758.0,Occasion,14999.0
+Volkswagen,Passat SW,2021,107063.0,Occasion,21999.0
+Peugeot,208,2024,14959.0,Occasion,23999.0
+Renault,Clio 5,2023,19539.0,Occasion,15399.0
+Peugeot,5008,2023,23366.0,Occasion,33099.0
+Renault,Arkana,2022,23122.0,Occasion,21699.0
+Peugeot,2008,2024,2910.0,Occasion,27599.0
+Nissan,Qashqai,2023,19638.0,Occasion,27699.0
+Citroën,C4,2016,90735.0,Occasion,8999.0
+Citroën,C5 Aircross,2020,45067.0,Occasion,23999.0
+Dacia,Duster,2022,40941.0,Occasion,16599.0
+Fiat,500X,2021,82926.0,Occasion,13599.0
+Renault,Twingo 3,2023,13280.0,Occasion,14999.0
+Mercedes,Classe A,2024,4860.0,Occasion,37899.0
+Renault,Kadjar,2021,35095.0,Occasion,20699.0
+DS,DS7 CROSSBACK,2021,59665.0,Occasion,28499.0
+BMW,Série 1,2021,78726.0,Occasion,20799.0
+Dacia,SPRING,2022,24025.0,Occasion,11399.0
+Audi,Q2,2018,92723.0,Occasion,20499.0
+Citroën,GRAND C4 SPACETOURER,2018,97516.0,Occasion,14799.0
+Skoda,Scala,2022,41456.0,Occasion,18199.0
+Renault,Zoé,2017,30840.0,Occasion,7499.0
+DS,DS3 CROSSBACK,2021,7433.0,Occasion,20499.0
+Mini,Mini,2019,112652.0,Occasion,12299.0
+Citroën,C3 Aircross,2023,13270.0,Occasion,17499.0
+Peugeot,308 SW,2021,45460.0,Occasion,19799.0
+Volkswagen,T-Roc,2023,28158.0,Occasion,32999.0
+Hyundai,Tucson,2021,88854.0,Occasion,19699.0
+Audi,A3 Sportback,2019,93435.0,Occasion,22799.0
+Peugeot,508,2019,73310.0,Occasion,21999.0
+Skoda,Kamiq,2022,12635.0,Occasion,22199.0
+Peugeot,3008,2021,36695.0,Occasion,25499.0
+Citroën,C3,2017,90900.0,Occasion,9499.0
+Fiat,500,2021,11205.0,Occasion,13499.0
+Volkswagen,Golf 8,2023,16625.0,Occasion,36999.0
+Dacia,Sandero,2021,62707.0,Occasion,10699.0
+Peugeot,308,2017,67945.0,Occasion,10299.0
+Toyota,C-HR,2021,42000.0,Occasion,22999.0
+Renault,Captur,2018,78870.0,Occasion,11999.0
+Peugeot,208,2020,68464.0,Occasion,11499.0
+Renault,Clio 5,2023,18255.0,Occasion,20499.0
+Renault,Arkana,2022,17681.0,Occasion,27499.0
+Peugeot,2008,2023,42425.0,Occasion,19999.0
+Peugeot,5008,2020,61260.0,Occasion,22499.0
+Nissan,Qashqai,2023,12930.0,Occasion,28999.0
+Citroën,C4,2024,8000.0,Occasion,24999.0
+Citroën,C5 Aircross,2024,4090.0,Occasion,28999.0
+Mercedes,Classe A,2024,9465.0,Occasion,37699.0
+Renault,Kadjar,2017,111535.0,Occasion,13499.0
+DS,DS7 CROSSBACK,2018,73890.0,Occasion,23999.0
+BMW,Série 1,2020,63124.0,Occasion,21999.0
+Dacia,SPRING,2022,27985.0,Occasion,11499.0
+Audi,Q2,2023,11280.0,Occasion,30999.0
+Skoda,Scala,2023,28487.0,Occasion,18499.0
+Dacia,Duster,2018,72310.0,Occasion,13999.0
+Renault,Twingo 3,2017,65370.0,Occasion,8999.0
+Renault,Zoé,2023,9291.0,Occasion,21499.0
+Mini,Mini,2021,42889.0,Occasion,20099.0
+DS,DS3 CROSSBACK,2021,30165.0,Occasion,20299.0
+Citroën,GRAND C4 SPACETOURER,2019,119015.0,Occasion,16999.0
+Citroën,C3 Aircross,2022,20847.0,Occasion,18999.0
+Peugeot,308 SW,2024,6419.0,Occasion,24499.0
+Volkswagen,T-Roc,2021,119122.0,Occasion,20499.0
+Peugeot,3008,2018,82565.0,Occasion,17499.0
+Citroën,C3,2018,120719.0,Occasion,10599.0
+Fiat,500,2021,44425.0,Occasion,11499.0
+Volkswagen,Golf 8,2024,25380.0,Occasion,30799.0
+Dacia,Sandero,2023,15369.0,Occasion,16499.0
+Peugeot,308,2020,90034.0,Occasion,13999.0
+Toyota,C-HR,2022,15739.0,Occasion,26999.0
+Renault,Captur,2023,18699.0,Occasion,17899.0
+Peugeot,208,2021,37316.0,Occasion,17999.0
+Renault,Clio 5,2021,112066.0,Occasion,12299.0
+Renault,Arkana,2022,22716.0,Occasion,21399.0
+Peugeot,2008,2021,64302.0,Occasion,21499.0
+Nissan,Qashqai,2023,10730.0,Occasion,25799.0
+Peugeot,5008,2023,34141.0,Occasion,26999.0
+Citroën,C4,2024,3881.0,Occasion,22999.0
+Citroën,C5 Aircross,2023,28993.0,Occasion,19499.0
+Mercedes,Classe A,2019,107687.0,Occasion,22999.0
+Renault,Kadjar,2020,84580.0,Occasion,15999.0
+BMW,Série 1,2022,25979.0,Occasion,23199.0
+Dacia,Duster,2017,59748.0,Occasion,13499.0
+Renault,Twingo 3,2017,25633.0,Occasion,14499.0
+Renault,Zoé,2019,37583.0,Occasion,7799.0
+Dacia,SPRING,2020,19380.0,Occasion,10499.0
+Audi,Q2,2023,41665.0,Occasion,32999.0
+Skoda,Scala,2023,12392.0,Occasion,23499.0
+Citroën,C3 Aircross,2022,60490.0,Occasion,13999.0
+Peugeot,308 SW,2024,5805.0,Occasion,24199.0
+Volkswagen,T-Roc,2022,42959.0,Occasion,32999.0
+Peugeot,3008,2024,9043.0,Occasion,30399.0
+Citroën,C3,2019,86055.0,Occasion,9999.0
+Fiat,500,2022,41979.0,Occasion,11999.0
+Volkswagen,Golf 8,2023,10.0,Occasion,32299.0
+Dacia,Sandero,2018,71750.0,Occasion,11999.0
+Peugeot,308,2023,21057.0,Occasion,28399.0
+Toyota,C-HR,2021,51804.0,Occasion,20499.0
+Renault,Captur,2022,13551.0,Occasion,17199.0
+Peugeot,208,2021,47813.0,Occasion,15499.0
+Renault,Clio 5,2020,37062.0,Occasion,17699.0
+Renault,Arkana,2023,14650.0,Occasion,22999.0
+Peugeot,2008,2020,75512.0,Occasion,14499.0
+Nissan,Qashqai,2019,67780.0,Occasion,18299.0
+Peugeot,5008,2019,80949.0,Occasion,21999.0
+Citroën,C4,2023,17080.0,Occasion,17999.0
+Citroën,C5 Aircross,2021,35995.0,Occasion,24999.0
+Mercedes,Classe A,2023,20761.0,Occasion,32999.0
+Renault,Kadjar,2017,80729.0,Occasion,13599.0
+BMW,Série 1,2019,71262.0,Occasion,19599.0
+Dacia,Duster,2021,17358.0,Occasion,22999.0
+Renault,Twingo 3,2017,19409.0,Occasion,14299.0
+Renault,Zoé,2020,40425.0,Occasion,9799.0
+DS,DS7 CROSSBACK,2022,11413.0,Occasion,34999.0
+Citroën,C3 Aircross,2023,7901.0,Occasion,19399.0
+Peugeot,308 SW,2020,42025.0,Occasion,15999.0
+Volkswagen,T-Roc,2018,54368.0,Occasion,20499.0
+Peugeot,3008,2018,49232.0,Occasion,14199.0
+Citroën,C3,2023,15265.0,Occasion,13399.0
+Volkswagen,Golf 8,2024,16950.0,Occasion,38999.0
+Dacia,Sandero,2020,48889.0,Occasion,10499.0
+Peugeot,308,2016,97715.0,Occasion,9799.0
+Toyota,C-HR,2022,24145.0,Occasion,23499.0
+Renault,Captur,2022,43010.0,Occasion,16299.0
+Peugeot,208,2019,57733.0,Occasion,10499.0
+Renault,Clio 5,2023,20049.0,Occasion,18699.0
+Renault,Arkana,2023,31830.0,Occasion,21499.0
+Peugeot,2008,2023,22315.0,Occasion,18999.0
+Nissan,Qashqai,2021,57881.0,Occasion,22499.0
+Peugeot,5008,2024,3410.0,Occasion,33499.0
+Citroën,C4,2022,41825.0,Occasion,17399.0
+Citroën,C5 Aircross,2021,49592.0,Occasion,23999.0
+Mercedes,Classe A,2020,67099.0,Occasion,28999.0
+Renault,Kadjar,2018,121230.0,Occasion,12999.0
+BMW,Série 1,2023,34999.0,Occasion,27699.0
+Renault,Zoé,2019,39010.0,Occasion,8499.0
+DS,DS7 CROSSBACK,2021,64846.0,Occasion,26699.0
+Citroën,C3 Aircross,2020,92837.0,Occasion,13799.0
+Peugeot,308 SW,2024,3975.0,Occasion,28399.0
+Volkswagen,T-Roc,2018,82007.0,Occasion,22999.0
+Peugeot,3008,2019,96770.0,Occasion,15799.0
+Citroën,C3,2021,61900.0,Occasion,9999.0
+Volkswagen,Golf 8,2023,26450.0,Occasion,32899.0
+Dacia,Sandero,2022,13935.0,Occasion,15999.0
+Peugeot,308,2017,76859.0,Occasion,12299.0
+Renault,Captur,2017,78065.0,Occasion,11999.0
+Peugeot,208,2020,36485.0,Occasion,17499.0
+Renault,Clio 5,2021,25625.0,Occasion,15999.0
+Renault,Arkana,2022,18098.0,Occasion,22399.0
+Peugeot,2008,2020,39960.0,Occasion,21499.0
+Peugeot,5008,2023,22710.0,Occasion,33099.0
+Nissan,Qashqai,2019,124470.0,Occasion,16699.0
+Citroën,C4,2023,15800.0,Occasion,17299.0
+Citroën,C5 Aircross,2020,43315.0,Occasion,19999.0
+Renault,Kadjar,2021,34473.0,Occasion,18299.0
+Mercedes,Classe A,2023,14370.0,Occasion,33499.0
+BMW,Série 1,2022,72385.0,Occasion,25099.0
+Renault,Zoé,2020,29045.0,Occasion,10999.0
+Citroën,C3 Aircross,2018,72275.0,Occasion,12099.0
+Peugeot,308 SW,2020,30889.0,Occasion,16999.0
+Volkswagen,T-Roc,2021,32210.0,Occasion,23999.0
+Peugeot,3008,2024,4155.0,Occasion,30499.0
+Citroën,C3,2019,54244.0,Occasion,12499.0
+Volkswagen,Golf 8,2023,23480.0,Occasion,30980.0
+Dacia,Sandero,2021,84712.0,Occasion,12799.0
+Peugeot,308,2021,65975.0,Occasion,15499.0
+Toyota,C-HR,2021,40700.0,Occasion,21999.0
+Renault,Captur,2019,90645.0,Occasion,11799.0
+Peugeot,208,2021,60625.0,Occasion,17499.0
+Renault,Clio 5,2021,40172.0,Occasion,15699.0
+Renault,Arkana,2023,42132.0,Occasion,22899.0
+Peugeot,2008,2018,67086.0,Occasion,11999.0
+Nissan,Qashqai,2019,93223.0,Occasion,17999.0
+Peugeot,5008,2024,6106.0,Occasion,29499.0
+Citroën,C4,2024,16415.0,Occasion,25399.0
+Citroën,C5 Aircross,2023,20271.0,Occasion,20999.0
+Renault,Kadjar,2017,35589.0,Occasion,15799.0
+Mercedes,Classe A,2023,20210.0,Occasion,32899.0
+BMW,Série 1,2022,60918.0,Occasion,23099.0
+Renault,Zoé,2019,46580.0,Occasion,11999.0
+Citroën,C3 Aircross,2020,75747.0,Occasion,14999.0
+Peugeot,308 SW,2018,74598.0,Occasion,11799.0
+Volkswagen,T-Roc,2022,41294.0,Occasion,23499.0
+Peugeot,3008,2024,8380.0,Occasion,29399.0
+Citroën,C3,2021,45715.0,Occasion,10799.0
+Volkswagen,Golf 8,2023,19215.0,Occasion,27499.0
+Dacia,Sandero,2023,17569.0,Occasion,15999.0
+Peugeot,308,2023,22980.0,Occasion,21999.0
+Toyota,C-HR,2018,105546.0,Occasion,14799.0
+Renault,Captur,2017,63288.0,Occasion,12499.0
+Peugeot,208,2019,21835.0,Occasion,10799.0
+Renault,Clio 5,2023,16395.0,Occasion,15899.0
+Renault,Arkana,2023,18425.0,Occasion,22999.0
+Peugeot,2008,2024,9254.0,Occasion,23699.0
+Peugeot,5008,2024,3235.0,Occasion,32499.0
+Nissan,Qashqai,2019,90209.0,Occasion,16299.0
+Citroën,C4,2023,13262.0,Occasion,19499.0
+Citroën,C5 Aircross,2020,46265.0,Occasion,22799.0
+Renault,Kadjar,2021,56105.0,Occasion,18799.0
+Mercedes,Classe A,2023,16158.0,Occasion,33299.0
+BMW,Série 1,2021,72257.0,Occasion,26999.0
+Citroën,C3 Aircross,2024,17122.0,Occasion,18399.0
+Peugeot,308 SW,2024,4585.0,Occasion,24399.0
+Volkswagen,T-Roc,2021,90101.0,Occasion,18499.0
+Peugeot,3008,2018,45775.0,Occasion,14299.0
+Citroën,C3,2023,14658.0,Occasion,13499.0
+Volkswagen,Golf 8,2022,13195.0,Occasion,34299.0
+Peugeot,308,2019,53104.0,Occasion,11799.0
+Toyota,C-HR,2018,71453.0,Occasion,18499.0
+Renault,Captur,2021,26216.0,Occasion,16399.0
+Peugeot,208,2018,31270.0,Occasion,10499.0
+Renault,Arkana,2023,11075.0,Occasion,23999.0
+Renault,Clio 5,2022,38100.0,Occasion,15499.0
+Peugeot,2008,2017,81970.0,Occasion,9999.0
+Peugeot,5008,2018,65685.0,Occasion,17999.0
+Nissan,Qashqai,2019,64643.0,Occasion,16699.0
+Citroën,C4,2024,4420.0,Occasion,24999.0
+Citroën,C5 Aircross,2024,7015.0,Occasion,27499.0
+Renault,Kadjar,2019,69397.0,Occasion,18299.0
+Mercedes,Classe A,2024,12527.0,Occasion,37499.0
+BMW,Série 1,2023,16156.0,Occasion,29999.0
+Citroën,C3 Aircross,2023,20993.0,Occasion,16699.0
+Peugeot,308 SW,2018,99281.0,Occasion,10799.0
+Peugeot,3008,2017,107665.0,Occasion,11999.0
+Citroën,C3,2019,21853.0,Occasion,10799.0
+Volkswagen,Golf 8,2023,3530.0,Occasion,40799.0
+Peugeot,308,2023,12177.0,Occasion,28999.0
+Toyota,C-HR,2021,61745.0,Occasion,19999.0
+Renault,Captur,2019,73355.0,Occasion,14299.0
+Peugeot,208,2019,143950.0,Occasion,11699.0
+Renault,Arkana,2022,14576.0,Occasion,23999.0
+Peugeot,2008,2022,50058.0,Occasion,22499.0
+Renault,Clio 5,2023,18421.0,Occasion,16399.0
+Peugeot,5008,2024,8741.0,Occasion,33299.0
+Nissan,Qashqai,2020,62952.0,Occasion,18499.0
+Citroën,C4,2021,50776.0,Occasion,18299.0
+Citroën,C5 Aircross,2024,4201.0,Occasion,28999.0
+Renault,Kadjar,2017,51360.0,Occasion,15999.0
+Mercedes,Classe A,2024,11030.0,Occasion,37499.0
+BMW,Série 1,2021,78259.0,Occasion,20099.0
+Citroën,C3 Aircross,2022,55540.0,Occasion,16299.0
+Peugeot,308 SW,2022,49425.0,Occasion,21999.0
+Peugeot,3008,2023,13526.0,Occasion,27699.0
+Citroën,C3,2018,110231.0,Occasion,10499.0
+Volkswagen,Golf 8,2022,4060.0,Occasion,22999.0
+Peugeot,308,2017,109310.0,Occasion,12999.0
+Toyota,C-HR,2021,50692.0,Occasion,20999.0
+Renault,Captur,2021,19399.0,Occasion,17199.0
+Peugeot,208,2023,7090.0,Occasion,15499.0
+Renault,Arkana,2021,28477.0,Occasion,23499.0
+Renault,Clio 5,2020,85574.0,Occasion,12999.0
+Peugeot,2008,2022,21544.0,Occasion,16699.0
+Peugeot,5008,2018,95282.0,Occasion,19799.0
+Nissan,Qashqai,2020,71336.0,Occasion,18799.0
+Citroën,C4,2017,104775.0,Occasion,11299.0
+Citroën,C5 Aircross,2023,19185.0,Occasion,21999.0
+Renault,Kadjar,2016,101225.0,Occasion,14299.0
+Mercedes,Classe A,2024,19798.0,Occasion,37499.0
+BMW,Série 1,2023,19486.0,Occasion,25099.0
+Citroën,C3 Aircross,2019,74606.0,Occasion,10499.0
+Peugeot,308 SW,2021,49985.0,Occasion,18999.0
+Peugeot,3008,2020,58916.0,Occasion,19499.0
+Citroën,C3,2019,71037.0,Occasion,12799.0
+Volkswagen,Golf 8,2023,10.0,Occasion,34299.0
+Peugeot,308,2023,24888.0,Occasion,20499.0
+Renault,Captur,2017,52998.0,Occasion,12799.0
+Peugeot,208,2022,17278.0,Occasion,19999.0
+Renault,Clio 5,2023,14146.0,Occasion,16199.0
+Peugeot,2008,2018,83420.0,Occasion,10499.0
+Peugeot,5008,2019,63797.0,Occasion,18899.0
+Nissan,Qashqai,2019,99430.0,Occasion,15499.0
+Citroën,C4,2023,24017.0,Occasion,22999.0
+Citroën,C5 Aircross,2020,108438.0,Occasion,15299.0
+Renault,Kadjar,2020,105900.0,Occasion,15499.0
+BMW,Série 1,2023,19786.0,Occasion,29999.0
+Mercedes,CLASSE A,2020,71879.0,Occasion,23999.0
+Citroën,C3 Aircross,2023,12900.0,Occasion,17999.0
+Peugeot,308 SW,2019,45239.0,Occasion,14499.0
+Peugeot,3008,2022,21277.0,Occasion,26999.0
+Citroën,C3,2021,34155.0,Occasion,12299.0
+Volkswagen,Golf 8,2024,18720.0,Occasion,38799.0
+Peugeot,308,2024,10327.0,Occasion,27999.0
+Renault,Captur,2023,17802.0,Occasion,19199.0
+Peugeot,208,2020,40423.0,Occasion,17499.0
+Renault,Arkana,2023,19112.0,Occasion,23499.0
+Peugeot,2008,2017,53509.0,Occasion,10499.0
+Peugeot,5008,2019,111224.0,Occasion,17299.0
+Nissan,Qashqai,2019,68135.0,Occasion,18799.0
+Citroën,C5 Aircross,2024,5425.0,Occasion,27499.0
+Citroën,C4,2023,12364.0,Occasion,22999.0
+Renault,Kadjar,2019,71114.0,Occasion,15199.0
+BMW,Série 1,2023,28736.0,Occasion,23899.0
+Mercedes,Classe A,2021,56220.0,Occasion,23599.0
+Citroën,C3 Aircross,2021,14734.0,Occasion,14999.0
+Peugeot,308 SW,2020,123367.0,Occasion,12499.0
+Peugeot,3008,2019,128330.0,Occasion,15799.0
+Citroën,C3,2020,70755.0,Occasion,13799.0
+Volkswagen,Golf 8,2024,28650.0,Occasion,37999.0
+Peugeot,308,2021,15080.0,Occasion,28799.0
+Renault,Captur,2016,115605.0,Occasion,10999.0
+Peugeot,208,2020,76045.0,Occasion,12199.0
+Renault,Clio 5,2023,13904.0,Occasion,16499.0
+Peugeot,2008,2021,47681.0,Occasion,19999.0
+Peugeot,5008,2019,61791.0,Occasion,18299.0
+Nissan,Qashqai,2019,79856.0,Occasion,16199.0
+Citroën,C5 Aircross,2021,47225.0,Occasion,24499.0
+Citroën,C4,2022,28734.0,Occasion,16499.0
+Renault,Kadjar,2018,91771.0,Occasion,14999.0
+BMW,Série 1,2022,34034.0,Occasion,23899.0
+Mercedes,Classe A,2019,97767.0,Occasion,20999.0
+Citroën,C3 Aircross,2022,61937.0,Occasion,13999.0
+Peugeot,308 SW,2021,87624.0,Occasion,17499.0
+Peugeot,3008,2021,74980.0,Occasion,14999.0
+Citroën,C3,2023,14323.0,Occasion,13399.0
+Volkswagen,Golf 8,2020,17285.0,Occasion,21499.0
+Peugeot,308,2021,30581.0,Occasion,15299.0
+Renault,Captur,2023,22912.0,Occasion,18999.0
+Peugeot,208,2017,59193.0,Occasion,9799.0
+Peugeot,2008,2018,99561.0,Occasion,10299.0
+Peugeot,5008,2018,90232.0,Occasion,16499.0
+Nissan,Qashqai,2019,68246.0,Occasion,17999.0
+Citroën,C5 Aircross,2024,4577.0,Occasion,28999.0
+Citroën,C4,2023,11309.0,Occasion,19399.0
+Renault,Kadjar,2019,107522.0,Occasion,13499.0
+BMW,Série 1,2019,75413.0,Occasion,16099.0
+Citroën,C3 Aircross,2024,12633.0,Occasion,17999.0
+Peugeot,308 SW,2019,51744.0,Occasion,18699.0
+Peugeot,3008,2017,107616.0,Occasion,13799.0
+Citroën,C3,2022,26905.0,Occasion,12999.0
+Volkswagen,Golf 8,2021,34075.0,Occasion,21999.0
+Peugeot,308,2019,49967.0,Occasion,11299.0
+Renault,Captur,2021,25100.0,Occasion,16599.0
+Peugeot,208,2023,8502.0,Occasion,20499.0
+Renault,Clio 5,2023,34947.0,Occasion,15999.0
+Peugeot,2008,2019,36268.0,Occasion,16499.0
+Peugeot,5008,2024,3824.0,Occasion,33499.0
+Nissan,Qashqai,2021,74901.0,Occasion,18699.0
+Citroën,C5 Aircross,2020,52374.0,Occasion,22499.0
+Citroën,C4,2023,20835.0,Occasion,17899.0
+Renault,Kadjar,2020,130942.0,Occasion,13799.0
+BMW,Série 1,2018,94264.0,Occasion,18499.0
+Citroën,C3 Aircross,2024,16220.0,Occasion,17999.0
+Peugeot,308 SW,2020,126640.0,Occasion,12999.0
+Peugeot,3008,2020,73250.0,Occasion,20799.0
+Citroën,C3,2023,17688.0,Occasion,15399.0
+Volkswagen,Golf 8,2023,23060.0,Occasion,28999.0
+Peugeot,308,2019,66605.0,Occasion,15299.0
+Renault,Captur,2018,49439.0,Occasion,13999.0
+Peugeot,208,2024,15480.0,Occasion,23999.0
+Renault,Clio 5,2021,30555.0,Occasion,14499.0
+Peugeot,2008,2022,8040.0,Occasion,19499.0
+Peugeot,5008,2024,23299.0,Occasion,32699.0
+Nissan,Qashqai,2023,36224.0,Occasion,29799.0
+Citroën,C5 Aircross,2019,50530.0,Occasion,15999.0
+Citroën,C4,2023,6147.0,Occasion,23899.0
+Renault,Kadjar,2019,69350.0,Occasion,17299.0
+Citroën,C3 Aircross,2020,52711.0,Occasion,12499.0
+Peugeot,308 SW,2024,14468.0,Occasion,24399.0
+Peugeot,3008,2019,75270.0,Occasion,15999.0
+Citroën,C3,2023,14509.0,Occasion,17499.0
+Volkswagen,Golf 8,2021,35500.0,Occasion,26399.0
+Peugeot,308,2020,49320.0,Occasion,14299.0
+Renault,Captur,2021,17931.0,Occasion,16899.0
+Peugeot,208,2021,68885.0,Occasion,11999.0
+Renault,Clio 5,2023,18980.0,Occasion,15899.0
+Peugeot,2008,2020,112965.0,Occasion,15499.0
+Peugeot,5008,2024,4545.0,Occasion,32499.0
+Nissan,Qashqai,2020,70124.0,Occasion,18099.0
+Citroën,C5 Aircross,2024,7165.0,Occasion,27499.0
+Citroën,C4,2023,13954.0,Occasion,22399.0
+Citroën,C3 Aircross,2020,67738.0,Occasion,14499.0
+Peugeot,308 SW,2018,109145.0,Occasion,10499.0
+Peugeot,3008,2023,30181.0,Occasion,30499.0
+Citroën,C3,2022,45963.0,Occasion,12799.0
+Volkswagen,Golf 8,2024,8270.0,Occasion,30999.0
+Peugeot,308,2022,28534.0,Occasion,21599.0
+Renault,Captur,2017,42531.0,Occasion,12999.0
+Peugeot,208,2019,43150.0,Occasion,9999.0
+Renault,Clio 5,2019,32718.0,Occasion,15999.0
+Peugeot,2008,2023,39105.0,Occasion,19999.0
+Peugeot,5008,2024,9855.0,Occasion,31899.0
+Nissan,Qashqai,2019,102956.0,Occasion,19199.0
+Citroën,C5 Aircross,2021,49613.0,Occasion,21999.0
+Citroën,C4,2024,5235.0,Occasion,24999.0
+Renault,Kadjar,2016,99182.0,Occasion,12499.0
+Citroën,C3 Aircross,2022,60990.0,Occasion,15999.0
+Peugeot,308 SW,2024,9600.0,Occasion,24399.0
+Peugeot,3008,2016,140811.0,Occasion,10999.0
+Citroën,C3,2020,39925.0,Occasion,10999.0
+Volkswagen,Golf 8,2021,60488.0,Occasion,22999.0
+Peugeot,308,2022,51250.0,Occasion,20499.0
+Renault,Captur,2021,20534.0,Occasion,16699.0
+Peugeot,208,2021,59300.0,Occasion,13799.0
+Renault,Clio 5,2020,81338.0,Occasion,12999.0
+Peugeot,2008,2019,62492.0,Occasion,12999.0
+Peugeot,5008,2019,59915.0,Occasion,20999.0
+Nissan,Qashqai,2019,67947.0,Occasion,18199.0
+Citroën,C5 Aircross,2020,60830.0,Occasion,21999.0
+Citroën,C4,2024,4664.0,Occasion,20399.0
+Renault,Kadjar,2020,62425.0,Occasion,16999.0
+Citroën,C3 Aircross,2018,78379.0,Occasion,10999.0
+Peugeot,308 SW,2019,120994.0,Occasion,12999.0
+Peugeot,3008,2023,16173.0,Occasion,23999.0
+Citroën,C3,2023,16125.0,Occasion,13499.0
+Volkswagen,Golf 8,2024,22200.0,Occasion,33999.0
+Peugeot,308,2020,98777.0,Occasion,14299.0
+Renault,Captur,2021,37053.0,Occasion,20999.0
+Peugeot,208,2019,35065.0,Occasion,10799.0
+Renault,Clio 5,2023,17991.0,Occasion,14699.0
+Peugeot,2008,2021,118197.0,Occasion,17499.0
+Peugeot,5008,2017,98458.0,Occasion,19299.0
+Citroën,C5 Aircross,2021,82610.0,Occasion,21499.0
+Citroën,C4,2024,5113.0,Occasion,24999.0
+Renault,Kadjar,2019,111357.0,Occasion,13499.0
+Citroën,C3 Aircross,2018,98450.0,Occasion,12299.0
+Peugeot,308 SW,2024,7610.0,Occasion,24499.0
+Peugeot,3008,2024,16627.0,Occasion,33499.0
+Citroën,C3,2023,14105.0,Occasion,13499.0
+Volkswagen,Golf 8,2021,61923.0,Occasion,22999.0
+Peugeot,308,2020,27252.0,Occasion,13999.0
+Renault,Captur,2024,21565.0,Occasion,22099.0
+Peugeot,208,2017,142416.0,Occasion,9499.0
+Renault,Clio 5,2023,10591.0,Occasion,15899.0
+Peugeot,2008,2018,52410.0,Occasion,10799.0
+Peugeot,5008,2020,51669.0,Occasion,22199.0
+Citroën,C5 Aircross,2019,110200.0,Occasion,18799.0
+Citroën,C4,2022,29399.0,Occasion,18999.0
+Renault,Kadjar,2020,100668.0,Occasion,14799.0
+Citroën,C3 Aircross,2024,15494.0,Occasion,17999.0
+Peugeot,308 SW,2019,55503.0,Occasion,15799.0
+Peugeot,3008,2023,9957.0,Occasion,27899.0
+Citroën,C3,2023,15520.0,Occasion,13399.0
+Volkswagen,Golf 8,2022,82081.0,Occasion,22499.0
+Peugeot,308,2022,38789.0,Occasion,25499.0
+Renault,Captur,2024,15742.0,Occasion,22099.0
+Peugeot,208,2020,65937.0,Occasion,14999.0
+Renault,Clio 5,2020,32076.0,Occasion,12499.0
+Peugeot,2008,2021,42441.0,Occasion,19999.0
+Peugeot,5008,2019,76746.0,Occasion,18999.0
+Citroën,C5 Aircross,2024,5590.0,Occasion,27499.0
+Citroën,C4,2022,42659.0,Occasion,15999.0
+Renault,Kadjar,2020,95806.0,Occasion,16499.0
+Citroën,C3 Aircross,2022,51735.0,Occasion,17199.0
+Peugeot,308 SW,2021,71395.0,Occasion,16199.0
+Peugeot,3008,2024,13844.0,Occasion,23999.0
+Citroën,C3,2023,10035.0,Occasion,15299.0
+Volkswagen,Golf 8,2023,17300.0,Occasion,38999.0
+Peugeot,308,2019,69005.0,Occasion,12999.0
+Renault,Captur,2020,31567.0,Occasion,15699.0
+Peugeot,208,2021,39520.0,Occasion,13799.0
+Renault,Clio 5,2021,35610.0,Occasion,14499.0
+Peugeot,2008,2024,7218.0,Occasion,19499.0
+Peugeot,5008,2024,3941.0,Occasion,29499.0
+Citroën,C5 Aircross,2019,42980.0,Occasion,15299.0
+Citroën,C4,2024,3785.0,Occasion,22999.0
+Renault,Kadjar,2019,105893.0,Occasion,14999.0
+Citroën,C3 Aircross,2018,84845.0,Occasion,10999.0
+Peugeot,308 SW,2019,72714.0,Occasion,15799.0
+Peugeot,3008,2023,11505.0,Occasion,26799.0
+Citroën,C3,2021,28500.0,Occasion,11999.0
+Volkswagen,Golf 8,2023,18260.0,Occasion,37699.0
+Peugeot,308,2022,69047.0,Occasion,16999.0
+Renault,Captur,2013,28487.0,Occasion,11999.0
+Peugeot,208,2023,20519.0,Occasion,18499.0
+Renault,Clio 5,2020,34918.0,Occasion,14999.0
+Peugeot,2008,2016,62802.0,Occasion,13699.0
+Peugeot,5008,2024,3062.0,Occasion,33499.0
+Citroën,C5 Aircross,2020,58315.0,Occasion,19499.0
+Citroën,C4,2022,22725.0,Occasion,22099.0
+Renault,Kadjar,2021,31420.0,Occasion,20799.0
+Citroën,C3 Aircross,2024,14318.0,Occasion,17999.0
+Peugeot,308 SW,2018,110835.0,Occasion,10499.0
+Peugeot,3008,2017,116523.0,Occasion,13299.0
+Citroën,C3,2023,16590.0,Occasion,15899.0
+Volkswagen,Golf 8,2023,24300.0,Occasion,37499.0
+Peugeot,308,2024,8400.0,Occasion,24999.0
+Renault,Captur,2022,35336.0,Occasion,21499.0
+Peugeot,208,2023,23872.0,Occasion,20099.0
+Renault,Clio 5,2021,53616.0,Occasion,13999.0
+Peugeot,2008,2023,100.0,Occasion,19999.0
+Peugeot,5008,2024,3151.0,Occasion,33499.0
+Citroën,C5 Aircross,2021,60185.0,Occasion,23799.0
+Renault,Kadjar,2021,46035.0,Occasion,19699.0
+Citroën,C3 Aircross,2023,23068.0,Occasion,17999.0
+Peugeot,308 SW,2020,57769.0,Occasion,14999.0
+Peugeot,3008,2023,13678.0,Occasion,22999.0
+Citroën,C3,2023,8772.0,Occasion,15499.0
+Volkswagen,Golf 8,2024,26250.0,Occasion,38199.0
+Peugeot,308,2022,78680.0,Occasion,23999.0
+Renault,Captur,2022,9273.0,Occasion,20999.0
+Peugeot,2008,2024,6290.0,Occasion,19999.0
+Peugeot,208,2019,85778.0,Occasion,9799.0
+Renault,Clio 5,2023,14411.0,Occasion,16499.0
+Peugeot,2008,2019,116007.0,Occasion,11299.0
+Peugeot,5008,2019,57755.0,Occasion,19999.0
+Citroën,C5 Aircross,2019,78068.0,Occasion,18499.0
+Citroën,C4,2024,17043.0,Occasion,20999.0
+Renault,Kadjar,2021,85180.0,Occasion,16999.0
+Citroën,C3 Aircross,2018,72038.0,Occasion,12299.0
+Peugeot,308 SW,2019,51800.0,Occasion,14999.0
+Peugeot,3008,2020,38293.0,Occasion,23499.0
+Citroën,C3,2023,13390.0,Occasion,13999.0
+Peugeot,308,2023,29636.0,Occasion,21399.0
+Renault,Captur,2023,17300.0,Occasion,17899.0
+Peugeot,208,2015,106164.0,Occasion,8799.0
+Peugeot,5008,2018,95437.0,Occasion,17799.0
+Citroën,C5 Aircross,2019,135150.0,Occasion,14999.0
+Citroën,C4,2023,7587.0,Occasion,20399.0
+Citroën,C3 Aircross,2019,55487.0,Occasion,11999.0
+Peugeot,308 SW,2024,6210.0,Occasion,27999.0
+Peugeot,3008,2020,73835.0,Occasion,18499.0
+Citroën,C3,2021,59235.0,Occasion,12399.0
+Volkswagen,Golf 8,2022,75433.0,Occasion,18499.0
+Peugeot,308,2022,35623.0,Occasion,28499.0
+Renault,Captur,2021,31444.0,Occasion,21499.0
+Peugeot,208,2023,9477.0,Occasion,18399.0
+Peugeot,2008,2022,28046.0,Occasion,19999.0
+Peugeot,5008,2024,5638.0,Occasion,33299.0
+Citroën,C5 Aircross,2020,75464.0,Occasion,18999.0
+Citroën,C4,2024,1237.0,Occasion,22999.0
+Renault,Kadjar,2017,91910.0,Occasion,11999.0
+Citroën,C3 Aircross,2019,49257.0,Occasion,11999.0
+Peugeot,3008,2023,21880.0,Occasion,22699.0
+Citroën,C3,2021,113487.0,Occasion,11499.0
+Volkswagen,Golf 8,2022,21615.0,Occasion,26999.0
+Peugeot,308,2017,55942.0,Occasion,11999.0
+Renault,Captur,2019,29940.0,Occasion,13399.0
+Peugeot,208,2021,35570.0,Occasion,18799.0
+Peugeot,2008,2021,77487.0,Occasion,19299.0
+Peugeot,5008,2024,3980.0,Occasion,29499.0
+Citroën,C5 Aircross,2021,47740.0,Occasion,17799.0
+Citroën,C4,2023,13850.0,Occasion,19399.0
+Renault,Kadjar,2021,38852.0,Occasion,18999.0
+Citroën,C3 Aircross,2021,43994.0,Occasion,13799.0
+Peugeot,3008,2023,10085.0,Occasion,26799.0
+Citroën,C3,2021,53730.0,Occasion,11499.0
+Volkswagen,Golf 8,2023,10.0,Occasion,33299.0
+Peugeot,308,2022,34631.0,Occasion,16999.0
+Peugeot,208,2020,59084.0,Occasion,12699.0
+Peugeot,5008,2024,10850.0,Occasion,31999.0
+Peugeot,2008,2021,77777.0,Occasion,19999.0
+Citroën,C5 Aircross,2022,46105.0,Occasion,18999.0
+Citroën,C4,2018,68731.0,Occasion,9999.0
+Renault,Kadjar,2020,37974.0,Occasion,18499.0
+Citroën,C3 Aircross,2024,16394.0,Occasion,17999.0
+Peugeot,3008,2024,2553.0,Occasion,30799.0
+Citroën,C3,2022,47840.0,Occasion,12799.0
+Peugeot,308,2020,61717.0,Occasion,13999.0
+Peugeot,208,2023,125.0,Occasion,20999.0
+Peugeot,5008,2022,41654.0,Occasion,27199.0
+Peugeot,2008,2020,80069.0,Occasion,13399.0
+Citroën,C5 Aircross,2022,45200.0,Occasion,22999.0
+Citroën,C4,2017,102170.0,Occasion,11299.0
+Renault,Kadjar,2017,100975.0,Occasion,13799.0
+Citroën,C3 Aircross,2023,20189.0,Occasion,17499.0
+Peugeot,3008,2023,11000.0,Occasion,22399.0
+Citroën,C3,2022,48160.0,Occasion,12799.0
+Volkswagen,Golf 8,2023,21695.0,Occasion,24899.0
+Peugeot,308,2022,44621.0,Occasion,25999.0
+Peugeot,208,2024,8261.0,Occasion,17499.0
+Peugeot,5008,2024,4078.0,Occasion,29499.0
+Citroën,C5 Aircross,2021,46551.0,Occasion,16999.0
+Peugeot,2008,2024,9611.0,Occasion,23699.0
+Citroën,C4,2024,4891.0,Occasion,20399.0
+Citroën,C3 Aircross,2019,84740.0,Occasion,11699.0
+Peugeot,3008,2024,9163.0,Occasion,30299.0
+Citroën,C3,2024,11908.0,Occasion,16399.0
+Volkswagen,Golf 8,2023,20855.0,Occasion,28899.0
+Peugeot,308,2020,51051.0,Occasion,15999.0
+Peugeot,208,2020,53950.0,Occasion,14999.0
+Peugeot,5008,2023,28498.0,Occasion,33199.0
+Citroën,C5 Aircross,2023,19600.0,Occasion,23399.0
+Peugeot,2008,2020,47572.0,Occasion,22299.0
+Citroën,C4,2024,12092.0,Occasion,19399.0
+Citroën,C3 Aircross,2023,20868.0,Occasion,19199.0
+Peugeot,3008,2019,119555.0,Occasion,14999.0
+Citroën,C3,2023,4834.0,Occasion,15499.0
+Peugeot,308,2018,86305.0,Occasion,11399.0
