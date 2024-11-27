@@ -22,6 +22,7 @@ def get_db():
 
 # Charger les modèles nécessaires
 random_forest_model = joblib.load("./models/random_forest_model.pkl")
+logistic_model = joblib.load("./models/logistic_regression_model.pkl")
 
 @app.get("/vehicules/", response_model=list[schemas.Vehicule])
 def read_vehicules(skip: int = 0, limit: int = 10, db: Session = Depends(get_db)):
@@ -64,8 +65,34 @@ class PredictRequest(BaseModel):
             }
         }
 
-@app.post("/predict_random_forest")
-def predict_random_forest(request: PredictRequest):
+# @app.post("/predict_random_forest")
+# def predict_random_forest(request: PredictRequest):
+#     try:
+#         # Convertir les données de la requête en DataFrame
+#         input_data = pd.DataFrame([request.dict()])
+#         logging.info(f"Input data: {input_data}")
+
+#         # S'assurer que les colonnes correspondent aux colonnes utilisées lors de l'entraînement
+#         column_order = [
+#             'Kilométrage', 'Année', 'Marque', 'Type de Carburant', 
+#             'Transmission', 'Modèle', 'Etat'
+#         ]
+        
+#         # Adapter les noms des colonnes à ceux du modèle
+#         input_data.columns = column_order
+#         logging.info(f"Input data with correct columns: {input_data}")
+
+#         # Faire la prédiction directement avec le modèle
+#         prediction = random_forest_model.predict(input_data)
+#         return {"prediction": float(prediction[0])}
+    
+#     except Exception as e:
+#         logging.error(f"Erreur lors de la prédiction: {e}")
+#         raise HTTPException(status_code=400, detail="Erreur lors de la prédiction")
+    
+    
+@app.post("/predict_combined")
+def predict_combined(request: PredictRequest):
     try:
         # Convertir les données de la requête en DataFrame
         input_data = pd.DataFrame([request.dict()])
@@ -76,15 +103,26 @@ def predict_random_forest(request: PredictRequest):
             'Kilométrage', 'Année', 'Marque', 'Type de Carburant', 
             'Transmission', 'Modèle', 'Etat'
         ]
-        
+
         # Adapter les noms des colonnes à ceux du modèle
         input_data.columns = column_order
         logging.info(f"Input data with correct columns: {input_data}")
 
-        # Faire la prédiction directement avec le modèle
-        prediction = random_forest_model.predict(input_data)
-        return {"prediction": float(prediction[0])}
+        # Prédiction du prix avec le modèle Random Forest
+        predicted_price = random_forest_model.predict(input_data)
+        logging.info(f"Predicted price: {predicted_price}")
+
+        # Classification de la transaction (Bonne ou Mauvaise affaire) avec le modèle Logistique
+        deal_classification = logistic_model.predict(input_data)
+        label = "Bonne affaire" if deal_classification[0] == 1 else "Mauvaise affaire"
+        logging.info(f"Classification: {label}")
+
+        # Retourner les deux prédictions
+        return {
+            "predicted_price": float(predicted_price[0]),
+            "deal_classification": label
+        }
     
     except Exception as e:
-        logging.error(f"Erreur lors de la prédiction: {e}")
-        raise HTTPException(status_code=400, detail="Erreur lors de la prédiction")
+        logging.error(f"Erreur lors de la prédiction combinée: {e}")
+        raise HTTPException(status_code=400, detail="Erreur lors de la prédiction combinée")
