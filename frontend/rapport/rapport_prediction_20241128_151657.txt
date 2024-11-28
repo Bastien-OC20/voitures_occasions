@@ -1,0 +1,13 @@
+
+                Rapport de Prédiction
+                ---------------------
+                Marque: Peugeot
+                Modèle: 2008
+                Année: 2024
+                Kilométrage: 100000
+                État: Occasion
+                Carburant: Essence
+                Transmission: Auto.
+                Prédiction du prix: 19090.75
+                Évaluation: Abordable
+                
