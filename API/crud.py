@@ -8,7 +8,7 @@ def get_vehicules(db: Session, skip: int = 0, limit: int = 10):
 
 # Fonction pour créer un nouveau véhicule
 def create_vehicule(db: Session, vehicule: schemas.VehiculeCreate):
-    db_vehicule = models.Vehicule(**vehicule.dict())
+    db_vehicule = models.Vehicule(**vehicule.model_dump())
     db.add(db_vehicule)
     db.commit()
     db.refresh(db_vehicule)
@@ -19,7 +19,7 @@ def update_vehicule(db: Session, vehicule_id: int, vehicule_update: schemas.Vehi
     db_vehicule = db.query(models.Vehicule).filter(models.Vehicule.id == vehicule_id).first()
     if not db_vehicule:
         raise HTTPException(status_code=404, detail="Véhicule non trouvé")
-    update_data = vehicule_update.dict(exclude_unset=True)
+    update_data = vehicule_update.model_dump(exclude_unset=True)
     for key, value in update_data.items():
         setattr(db_vehicule, key, value)
     db.commit()

@@ -1,0 +1,13 @@
+
+                Rapport de Prédiction
+                ---------------------
+                Marque: Citroën
+                Modèle: c4
+                Année: 2023
+                Kilométrage: 80000
+                État: Occasion
+                Carburant: Diesel
+                Transmission: Auto.
+                Prédiction du prix: 23144.25
+                Évaluation: Abordable
+                

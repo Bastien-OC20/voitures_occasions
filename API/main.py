@@ -94,7 +94,7 @@ def predict(request: schemas.PredictRequest):
         logging.info(f"Logistic Regression prediction: {lr_prediction}")
 
         # Déterminer si le prix est bon ou mauvais
-        price_evaluation = "Bon prix" if lr_prediction == 1 else "Mauvais prix"
+        price_evaluation = "Abordable" if lr_prediction == 1 else "Pas abordable"
 
         return {
             "random_forest_prediction": float(rf_prediction),
