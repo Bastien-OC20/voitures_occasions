@@ -24,8 +24,12 @@ jobs:
     - name: Start FastAPI
       run: |
         nohup uvicorn app:app --host 0.0.0.0 --port 8000 > fastapi.log 2>&1 &
-        sleep 5
-        curl --fail http://127.0.0.1:8000 || exit 1
+        sleep 10
+        curl --retry 5 --retry-delay 2 --fail http://127.0.0.1:8000 || (cat fastapi.log && exit 1)
+
+    - name: Show FastAPI logs on failure
+      if: failure()
+      run: cat fastapi.log
 
   streamlit:
     needs: setup
@@ -34,8 +38,12 @@ jobs:
     - name: Start Streamlit
       run: |
         nohup streamlit run app.py --server.port 8501 > streamlit.log 2>&1 &
-        sleep 5
-        curl --fail http://127.0.0.1:8501 || exit 1
+        sleep 10
+        curl --retry 5 --retry-delay 2 --fail http://127.0.0.1:8501 || (cat streamlit.log && exit 1)
+
+    - name: Show Streamlit logs on failure
+      if: failure()
+      run: cat streamlit.log
 
   tests:
     needs: [fastapi, streamlit]
