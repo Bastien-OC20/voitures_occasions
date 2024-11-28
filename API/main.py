@@ -44,6 +44,7 @@ logistic_regression_model = joblib.load("./models/logistic_regression_model.pkl"
 def read_root():
     return {"message": "Bienvenue sur l'API de prédiction de prix de voitures"}
 
+
 @app.get("/vehicules/", response_model=list[schemas.Vehicule])
 def read_vehicules(skip: int = 0, limit: int = 10, db: Session = Depends(get_db)):
     return crud.get_vehicules(db, skip=skip, limit=limit)
@@ -66,6 +67,7 @@ def delete_vehicule(vehicule_id: int, db: Session = Depends(get_db)):
 
 @app.post("/predict")
 def predict(request: schemas.PredictRequest):
+
     try:
         # Convertir les données de la requête en DataFrame
         input_data = pd.DataFrame([request.model_dump()])
@@ -104,3 +106,4 @@ def predict(request: schemas.PredictRequest):
     except Exception as e:
         logging.error(f"Erreur lors de la prédiction: {e}")
         raise HTTPException(status_code=400, detail="Erreur lors de la prédiction")
+

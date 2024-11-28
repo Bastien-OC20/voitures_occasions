@@ -1,3 +1,4 @@
+
 from sqlalchemy.orm import Session, joinedload
 from fastapi import HTTPException
 from . import models, schemas
@@ -45,3 +46,4 @@ def delete_vehicule(db: Session, vehicule_id: int):
     except Exception as e:
         db.rollback()  # Annuler la transaction en cas d'erreur
         raise HTTPException(status_code=500, detail=f"Erreur serveur lors de la suppression du véhicule: {str(e)}")
+

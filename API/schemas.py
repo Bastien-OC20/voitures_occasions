@@ -91,4 +91,6 @@ class Vehicule(VehiculeBase):
     transmission: Optional[Transmission] = None
 
     class Config:
+
         from_attributes = True
+
