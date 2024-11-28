@@ -1,3 +1,4 @@
+
 # **Gestion des Voitures - Analyse et Modélisation des Prix**
 
 Ce projet vise à analyser les caractéristiques des voitures d'occasion et à prédire leur prix à l'aide de modèles de machine learning, notamment **Random Forest** et **régression logistique**. Ce document fournit un aperçu des objectifs, de la structure et des outils utilisés dans le projet.
@@ -221,3 +222,4 @@ Les contributions sont les bienvenues ! Veuillez soumettre une pull request ou o
 ## **Licence**
 
 Ce projet est sous licence MIT. Voir le fichier [LICENSE](LICENSE) pour plus de détails.
+

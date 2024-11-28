@@ -32,3 +32,11 @@ class Marque(Base):
     __tablename__ = "Marque"
     id_marque = Column("ID_Marque", Integer, primary_key=True, index=True)
     nom = Column(String)
+
+class User(Base):
+    __tablename__ = "Users"
+
+    id = Column(Integer, primary_key=True, index=True)
+    email = Column(String, unique=True, index=True, nullable=False)
+    nom = Column(String, nullable=False)
+    password = Column(String, nullable=False)
