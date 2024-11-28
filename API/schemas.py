@@ -12,7 +12,7 @@ class Carburant(CarburantBase):
     id_carburant: int
 
     class Config:
-        orm_mode = True
+        from_attributes = True
 
 class TransmissionBase(BaseModel):
     type: str
@@ -24,7 +24,7 @@ class Transmission(TransmissionBase):
     id_transmission: int
 
     class Config:
-        orm_mode = True
+        from_attributes = True
 
 class MarqueBase(BaseModel):
     nom: str
@@ -36,7 +36,7 @@ class Marque(MarqueBase):
     id_marque: int
 
     class Config:
-        orm_mode = True
+        from_attributes = True
 
 class VehiculeBase(BaseModel):
     marque_id: int
@@ -51,23 +51,29 @@ class VehiculeBase(BaseModel):
 class VehiculeCreate(VehiculeBase):
     pass
 
+
 class PredictRequest(BaseModel):
     kilometrage: float
     annee: int
     marque: str
     carburant: str
     transmission: str
+    modele: str
+    etat: str
 
     class Config:
-        schema_extra = {
+        json_schema_extra = {
             "example": {
                 "kilometrage": 15000,
                 "annee": 2019,
                 "marque": "Peugeot",
                 "carburant": "Essence",
-                "transmission": "Manuelle"
+                "transmission": "Manuelle",
+                "modele": "208",
+                "etat": "Occasion",
             }
         }
+
 
 class VehiculeUpdate(BaseModel):
     marque_id: Optional[int] = None
@@ -85,32 +91,6 @@ class Vehicule(VehiculeBase):
     transmission: Optional[Transmission] = None
 
     class Config:
-        orm_mode = True
-        
-class UserCreate(BaseModel):
-    email: str
-    nom: str
-    password: str
 
-# Schéma pour la lecture d'un utilisateur (par exemple, lors de la récupération de ses informations)
-class UserRead(BaseModel):
-    id: int
-    email: str
-    nom: str
+        from_attributes = True
 
-    class Config:
-        orm_mode = True
-
-# Schéma pour la mise à jour d'un utilisateur
-class UserUpdate(BaseModel):
-    email: Optional[str] = None
-    nom: Optional[str] = None
-    password: Optional[str] = None
-    
-class User(BaseModel):
-    id: int
-    email: str
-    nom: str
-
-    class Config:
-        orm_mode = True

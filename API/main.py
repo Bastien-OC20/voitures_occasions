@@ -1,4 +1,5 @@
 from fastapi import FastAPI, HTTPException, Depends
+from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from sqlalchemy.orm import Session
 from API import models, schemas, crud
@@ -12,6 +13,21 @@ logging.basicConfig(level=logging.INFO)
 
 app = FastAPI()
 
+# Configurer CORS
+origins = [
+    "http://localhost:8000",
+    "http://localhost:8501",  
+    "http://127.0.0.1:8501",  
+]
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=origins,
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
 # Dépendance pour obtenir une session DB
 def get_db():
     db = SessionLocal()
@@ -22,7 +38,12 @@ def get_db():
 
 # Charger les modèles nécessaires
 random_forest_model = joblib.load("./models/random_forest_model.pkl")
-logistic_model = joblib.load("./models/logistic_regression_model.pkl")
+logistic_regression_model = joblib.load("./models/logistic_regression_model.pkl")
+
+@app.get("/")
+def read_root():
+    return {"message": "Bienvenue sur l'API de prédiction de prix de voitures"}
+
 
 @app.get("/vehicules/", response_model=list[schemas.Vehicule])
 def read_vehicules(skip: int = 0, limit: int = 10, db: Session = Depends(get_db)):
@@ -43,109 +64,46 @@ def update_vehicule(vehicule_id: int, vehicule_update: schemas.VehiculeUpdate, d
 def delete_vehicule(vehicule_id: int, db: Session = Depends(get_db)):
     return crud.delete_vehicule(db=db, vehicule_id=vehicule_id)
 
-class PredictRequest(BaseModel):
-    kilometrage: float
-    annee: int
-    marque: str
-    carburant: str
-    transmission: str
-    modele: str
-    etat: str
 
-    class Config:
-        schema_extra = {
-            "example": {
-                "kilometrage": 15000,
-                "annee": 2019,
-                "marque": "Peugeot",
-                "carburant": "Essence",
-                "transmission": "Manuelle",
-                "modele": "208",
-                "etat": "Occasion"
-            }
-        }
+@app.post("/predict")
+def predict(request: schemas.PredictRequest):
 
-# @app.post("/predict_random_forest")
-# def predict_random_forest(request: PredictRequest):
-#     try:
-#         # Convertir les données de la requête en DataFrame
-#         input_data = pd.DataFrame([request.dict()])
-#         logging.info(f"Input data: {input_data}")
-
-#         # S'assurer que les colonnes correspondent aux colonnes utilisées lors de l'entraînement
-#         column_order = [
-#             'Kilométrage', 'Année', 'Marque', 'Type de Carburant', 
-#             'Transmission', 'Modèle', 'Etat'
-#         ]
-        
-#         # Adapter les noms des colonnes à ceux du modèle
-#         input_data.columns = column_order
-#         logging.info(f"Input data with correct columns: {input_data}")
-
-#         # Faire la prédiction directement avec le modèle
-#         prediction = random_forest_model.predict(input_data)
-#         return {"prediction": float(prediction[0])}
-    
-#     except Exception as e:
-#         logging.error(f"Erreur lors de la prédiction: {e}")
-#         raise HTTPException(status_code=400, detail="Erreur lors de la prédiction")
-    
-    
-@app.post("/predict_combined")
-def predict_combined(request: PredictRequest):
     try:
         # Convertir les données de la requête en DataFrame
-        input_data = pd.DataFrame([request.dict()])
+        input_data = pd.DataFrame([request.model_dump()])
         logging.info(f"Input data: {input_data}")
 
-        # S'assurer que les colonnes correspondent aux colonnes utilisées lors de l'entraînement
-        column_order = [
-            'Kilométrage', 'Année', 'Marque', 'Type de Carburant', 
-            'Transmission', 'Modèle', 'Etat'
-        ]
+        # Renommer les colonnes pour correspondre à celles utilisées lors de l'entraînement
+        input_data = input_data.rename(
+            columns={
+                "kilometrage": "Kilométrage",
+                "annee": "Année",
+                "marque": "Marque",
+                "carburant": "Type de Carburant",
+                "transmission": "Transmission",
+                "modele": "Modèle",
+                "etat": "Etat",
+            }
+        )
+        logging.info(f"Input data with correct column names: {input_data}")
 
-        # Adapter les noms des colonnes à ceux du modèle
-        input_data.columns = column_order
-        logging.info(f"Input data with correct columns: {input_data}")
+        # Faire la prédiction directement avec le modèle Random Forest
+        rf_prediction = random_forest_model.predict(input_data)[0]
+        logging.info(f"Random Forest prediction: {rf_prediction}")
 
-        # Prédiction du prix avec le modèle Random Forest
-        predicted_price = random_forest_model.predict(input_data)
-        logging.info(f"Predicted price: {predicted_price}")
+        # Faire la prédiction directement avec le modèle de régression logistique
+        lr_prediction = logistic_regression_model.predict(input_data)[0]
+        logging.info(f"Logistic Regression prediction: {lr_prediction}")
 
-        # Classification de la transaction (Bonne ou Mauvaise affaire) avec le modèle Logistique
-        deal_classification = logistic_model.predict(input_data)
-        label = "Bonne affaire" if deal_classification[0] == 1 else "Mauvaise affaire"
-        logging.info(f"Classification: {label}")
+        # Déterminer si le prix est bon ou mauvais
+        price_evaluation = "Abordable" if lr_prediction == 1 else "Pas abordable"
 
-        # Retourner les deux prédictions
         return {
-            "predicted_price": float(predicted_price[0]),
-            "deal_classification": label
+            "random_forest_prediction": float(rf_prediction),
+            "logistic_regression_evaluation": price_evaluation,
         }
-    
+
     except Exception as e:
-        logging.error(f"Erreur lors de la prédiction combinée: {e}")
-        raise HTTPException(status_code=400, detail="Erreur lors de la prédiction combinée")
+        logging.error(f"Erreur lors de la prédiction: {e}")
+        raise HTTPException(status_code=400, detail="Erreur lors de la prédiction")
 
-# Endpoints CRUD pour les utilisateurs
-@app.get("/users/", response_model=list[schemas.User])
-def read_users(skip: int = 0, limit: int = 10, db: Session = Depends(get_db)):
-    return crud.get_all_users(db, skip=skip, limit=limit)
-
-@app.post("/users/", response_model=schemas.User, status_code=201)
-def create_user(user: schemas.UserCreate, db: Session = Depends(get_db)):
-    return crud.create_user(db=db, user=user)
-
-@app.put("/users/{user_id}", response_model=schemas.User)
-def update_user(user_id: int, user_update: schemas.UserUpdate, db: Session = Depends(get_db)):
-    db_user = crud.update_user(db=db, user_id=user_id, user_update=user_update)
-    if db_user is None:
-        raise HTTPException(status_code=404, detail="Utilisateur non trouvé")
-    return db_user
-
-@app.delete("/users/{user_id}", response_model=dict)
-def delete_user(user_id: int, db: Session = Depends(get_db)):
-    user_deleted = crud.delete_user(db=db, user_id=user_id)
-    if user_deleted is None:
-        raise HTTPException(status_code=404, detail="Utilisateur non trouvé")
-    return {"message": "Utilisateur supprimé avec succès"}

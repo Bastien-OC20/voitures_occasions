@@ -1,0 +1,95 @@
+on: [push, pull_request]
+
+jobs:
+  setup:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.12.7'
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+
+  fastapi:
+    needs: setup
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.12.7'
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+
+    - name: Start FastAPI
+      run: |
+        nohup uvicorn API.main:app --reload --http h11 --host 0.0.0.0 --port 8000 > fastapi.log 2>&1 &
+        sleep 10
+        curl --retry 5 --retry-delay 2 --fail http://127.0.0.1:8000 || (cat fastapi.log && exit 1)
+
+    - name: Show FastAPI logs on failure
+      if: failure()
+      run: cat fastapi.log
+
+  streamlit:
+    needs: setup
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.12.7'
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+
+    - name: Start Streamlit
+      run: |
+        nohup streamlit run frontend/app.py --server.port 8501 > streamlit.log 2>&1 &
+        sleep 10
+        curl --retry 5 --retry-delay 2 --fail http://127.0.0.1:8501 || (cat streamlit.log && exit 1)
+
+    - name: Show Streamlit logs on failure
+      if: failure()
+      run: cat streamlit.log
+
+  tests:
+    needs: fastapi
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.12.7'
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+
+    - name: Wait for FastAPI to be ready
+      run: |
+        nohup uvicorn API.main:app --reload --http h11 --host 0.0.0.0 --port 8000 > fastapi.log 2>&1 &
+        sleep 10
+        curl --retry 5 --retry-delay 2 --fail http://127.0.0.1:8000 || (cat fastapi.log && exit 1)
