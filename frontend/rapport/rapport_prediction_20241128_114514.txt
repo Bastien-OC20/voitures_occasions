@@ -1,0 +1,13 @@
+
+                Rapport de Prédiction
+                ---------------------
+                Marque: Mercedes
+                Modèle: cl200
+                Année: 2024
+                Kilométrage: 72000
+                État: Occasion
+                Carburant: Diesel
+                Transmission: Auto.
+                Prédiction du prix: 30567.0
+                Évaluation: Abordable
+                

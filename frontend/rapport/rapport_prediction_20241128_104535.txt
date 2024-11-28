@@ -1,0 +1,13 @@
+
+                Rapport de Prédiction
+                ---------------------
+                Marque: Peugeot
+                Modèle: 2008
+                Année: 2023
+                Kilométrage: 10000
+                État: Occasion
+                Carburant: Essence
+                Transmission: Automatique
+                Prédiction du prix: 21328.25
+                Évaluation: Abordable
+                
