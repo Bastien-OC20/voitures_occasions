@@ -72,7 +72,7 @@ jobs:
       run: cat streamlit.log
 
   tests:
-    needs: [fastapi, streamlit]
+    needs: fastapi
     runs-on: ubuntu-latest
     steps:
     - name: Checkout code
