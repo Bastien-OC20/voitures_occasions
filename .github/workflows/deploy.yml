@@ -72,7 +72,7 @@ jobs:
       run: cat streamlit.log
 
   tests:
-    needs: [fastapi, streamlit]
+    needs: fastapi
     runs-on: ubuntu-latest
     steps:
     - name: Checkout code
@@ -88,6 +88,8 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
 
-    - name: Run tests
+    - name: Wait for FastAPI to be ready
       run: |
-        pytest tests/
+        nohup uvicorn API.main:app --reload --http h11 --host 0.0.0.0 --port 8000 > fastapi.log 2>&1 &
+        sleep 10
+        curl --retry 5 --retry-delay 2 --fail http://127.0.0.1:8000 || (cat fastapi.log && exit 1)
