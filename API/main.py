@@ -37,8 +37,8 @@ def get_db():
         db.close()
 
 # Charger les modèles nécessaires
-Gradient_Boosting_model = joblib.load("./models/pkl/gradient_boosting_model.pkl")
-Logistic_Regression_model = joblib.load("./models/pkl/logistic_regression_model.pkl")
+Gradient_Boosting_model = joblib.load("./models/pkl/Gradient_Boosting_model.pkl")
+Logistic_Regression_model = joblib.load("./models/pkl/Logistic_Regression_model.pkl")
 
 @app.get("/")
 def read_root():
