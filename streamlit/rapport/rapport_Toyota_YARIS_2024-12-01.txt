@@ -1,0 +1,14 @@
+
+                Rapport de Prédiction du Prix du Véhicule
+
+                Marque: Toyota
+                Modèle: YARIS
+                Carburant: Hybride
+                Transmission: Auto
+                Année: 2022
+                Kilométrage: 10000 km
+                État: Occasion
+
+                Prix prédit: 25253.050754889657 €
+                Évaluation de l'abordabilité: Abordable
+                

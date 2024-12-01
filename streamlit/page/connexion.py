@@ -1,7 +1,15 @@
+import os
+import sys
+import re
 import streamlit as st
 import bcrypt
-import csv
-import re
+from sqlalchemy.orm import Session
+
+# Ajouter le chemin du dossier parent au sys.path
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+
+from API.database import SessionLocal
+from API.models import User
 
 # Fonction pour afficher la page de connexion
 def show_login_page():
@@ -11,18 +19,20 @@ def show_login_page():
     
     if st.button("Se connecter", key="login_button"):
         user_found = False
-        with open('./frontend/data/users.csv', mode='r') as file:
-            reader = csv.reader(file)
-            for row in reader:
-                if len(row) == 3:  # Vérifier que la ligne contient bien trois valeurs
-                    stored_username, stored_mail, stored_hashed_password = row
-                    if username == stored_username and bcrypt.checkpw(password.encode('utf-8'), stored_hashed_password.encode('utf-8')):
-                        user_found = True
-                        break
+        db = SessionLocal()
+        user = db.query(User).filter(User.nom == username).first()
+        
+        if user and bcrypt.checkpw(password.encode('utf-8'), user.password.encode('utf-8')):
+            user_found = True
+            user_id = user.id  # Extraire l'ID de l'utilisateur avant de fermer la session
+            user_nom = user.nom  # Extraire le nom de l'utilisateur avant de fermer la session
+        
+        db.close()
         
         if user_found:
             st.session_state["logged_in"] = True
-            st.session_state["username"] = username  # Définir le nom d'utilisateur
+            st.session_state["user_id"] = user_id  # Utiliser l'ID extrait
+            st.session_state["user_nom"] = user_nom  # Utiliser le nom extrait
             st.session_state["show_signup"] = False
             st.success("Connexion réussie ! Redirection vers la page d'accueil...")
             st.experimental_user()
@@ -57,15 +67,18 @@ def show_signup_page():
         elif not re.match(password_regex, new_password):
             st.error("Le mot de passe doit comporter au moins 8 caractères, dont au moins une lettre et un chiffre.")
         elif new_username and new_mail and new_password:
-            hashed_password = bcrypt.hashpw(new_password.encode('utf-8'), bcrypt.gensalt())
+            hashed_password = bcrypt.hashpw(new_password.encode('utf-8'), bcrypt.gensalt()).decode('utf-8')
 
-            with open('./frontend/data/users.csv', mode='a', newline='') as file:
-                writer = csv.writer(file)
-                writer.writerow([new_username, new_mail, hashed_password.decode('utf-8')])
+            db = SessionLocal()
+            new_user = User(nom=new_username, email=new_mail, password=hashed_password)
+            db.add(new_user)
+            db.commit()
+            user_id = new_user.id  # Extraire l'ID de l'utilisateur avant de fermer la session
+            db.close()
             
             st.success("Inscription réussie ! Redirection vers la page d'accueil...")
             st.session_state["logged_in"] = True
-            st.session_state["username"] = new_username  # Définir le nom d'utilisateur
+            st.session_state["user_id"] = user_id  # Utiliser l'ID extrait
             st.session_state["show_signup"] = False
             st.experimental_user()
         else:

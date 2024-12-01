@@ -1,56 +1,48 @@
-from pydantic import BaseModel, Field
-from typing import Optional
+from pydantic import BaseModel, Field, EmailStr
+from typing import Optional, List
 from datetime import datetime
 
-class CarburantBase(BaseModel):
-    type: str
-
-class CarburantCreate(CarburantBase):
-    pass
-
-class Carburant(CarburantBase):
+class Carburant(BaseModel):
     id_carburant: int
-
-    class Config:
-        from_attributes = True
-
-class TransmissionBase(BaseModel):
     type: str
 
-class TransmissionCreate(TransmissionBase):
-    pass
+    class Config:
+        from_attribute = True
 
-class Transmission(TransmissionBase):
+class Transmission(BaseModel):
     id_transmission: int
+    type: str
 
     class Config:
-        from_attributes = True
+        from_attribute = True
 
-class MarqueBase(BaseModel):
+class Marque(BaseModel):
+    id_marque: int
     nom: str
 
-class MarqueCreate(MarqueBase):
-    pass
+    class Config:
+        from_attribute = True
 
-class Marque(MarqueBase):
-    id_marque: int
+class Modele(BaseModel):
+    id_modele: int
+    nom: str
+    marque_id: int
 
     class Config:
-        from_attributes = True
+        from_attribute = True
 
 class VehiculeBase(BaseModel):
-    marque_id: int
-    modele: str
-    annee: int = Field(..., ge=1950, le=datetime.now().year)
-    kilometrage: int = Field(..., ge=0)
-    prix: float = Field(..., ge=0)
-    etat: str
-    carburant_id: int
-    transmission_id: int
+    annee: Optional[int] = None
+    kilometrage: Optional[float] = None
+    prix: Optional[float] = None
+    etat: Optional[str] = None
+    marque_id: Optional[int] = None
+    modele_id: Optional[int] = None
+    carburant_id: Optional[int] = None
+    transmission_id: Optional[int] = None
 
 class VehiculeCreate(VehiculeBase):
     pass
-
 
 class PredictRequest(BaseModel):
     kilometrage: float
@@ -74,23 +66,34 @@ class PredictRequest(BaseModel):
             }
         }
 
-
-class VehiculeUpdate(BaseModel):
-    marque_id: Optional[int] = None
-    modele: Optional[str] = None
-    annee: Optional[int] = None
-    kilometrage: Optional[int] = None
-    prix: Optional[float] = None
-    etat: Optional[str] = None
-    carburant_id: Optional[int] = None
-    transmission_id: Optional[int] = None
+class VehiculeUpdate(VehiculeBase):
+    pass
 
 class Vehicule(VehiculeBase):
     id: int
     carburant: Optional[Carburant] = None
     transmission: Optional[Transmission] = None
+    modele: Optional[Modele] = None
+    marque: Optional[Marque] = None
 
     class Config:
+        from_attribute = True
 
-        from_attributes = True
+class UserBase(BaseModel):
+    email: EmailStr
+    nom: str
+    is_active: Optional[bool] = True
+    is_superuser: Optional[bool] = False
+    profile_image: Optional[str] = None
 
+class UserCreate(UserBase):
+    password: str
+
+class UserUpdate(UserBase):
+    password: Optional[str] = None
+
+class User(UserBase):
+    id: int
+
+    class Config:
+        from_attribute = True

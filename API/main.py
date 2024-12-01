@@ -17,7 +17,7 @@ app = FastAPI()
 origins = [
     "http://localhost:8000",
     "http://localhost:8501",  
-    "http://127.0.0.1:8501",  
+    "http://127.0.0.1:8080",  
 ]
 
 app.add_middleware(
@@ -37,8 +37,8 @@ def get_db():
         db.close()
 
 # Charger les modèles nécessaires
-random_forest_model = joblib.load("./models/random_forest_model.pkl")
-logistic_regression_model = joblib.load("./models/logistic_regression_model.pkl")
+Gradient_Boosting_model = joblib.load("./models/pkl/gradient_boosting_model.pkl")
+Logistic_Regression_model = joblib.load("./models/pkl/logistic_regression_model.pkl")
 
 @app.get("/")
 def read_root():
@@ -48,6 +48,13 @@ def read_root():
 @app.get("/vehicules/", response_model=list[schemas.Vehicule])
 def read_vehicules(skip: int = 0, limit: int = 10, db: Session = Depends(get_db)):
     return crud.get_vehicules(db, skip=skip, limit=limit)
+
+@app.get("/vehicules/{vehicule_id}", response_model=schemas.Vehicule)
+def read_vehicule(vehicule_id: int, db: Session = Depends(get_db)):
+    vehicule = crud.get_vehicule(db, vehicule_id=vehicule_id)
+    if vehicule is None:
+        raise HTTPException(status_code=404, detail="Véhicule non trouvé")
+    return vehicule
 
 @app.post("/vehicules/", response_model=schemas.Vehicule, status_code=201)
 def create_vehicule(vehicule: schemas.VehiculeCreate, db: Session = Depends(get_db)):
@@ -64,6 +71,29 @@ def update_vehicule(vehicule_id: int, vehicule_update: schemas.VehiculeUpdate, d
 def delete_vehicule(vehicule_id: int, db: Session = Depends(get_db)):
     return crud.delete_vehicule(db=db, vehicule_id=vehicule_id)
 
+@app.get("/users/", response_model=list[schemas.User])
+def read_users(skip: int = 0, limit: int = 10, db: Session = Depends(get_db)):
+    users = crud.get_users(db, skip=skip, limit=limit)
+    return users
+
+@app.get("/users/{user_id}", response_model=schemas.User)
+def read_user(user_id: int, db: Session = Depends(get_db)):
+    user = crud.get_user(db, user_id=user_id)
+    if user is None:
+        raise HTTPException(status_code=404, detail="Utilisateur non trouvé")
+    return user
+
+@app.post("/users/", response_model=schemas.User)
+def create_user(user: schemas.UserCreate, db: Session = Depends(get_db)):
+    return crud.create_user(db=db, user=user)
+
+@app.put("/users/{user_id}", response_model=schemas.User)
+def update_user(user_id: int, user: schemas.UserUpdate, db: Session = Depends(get_db)):
+    return crud.update_user(db=db, user_id=user_id, user_update=user)
+
+@app.delete("/users/{user_id}")
+def delete_user(user_id: int, db: Session = Depends(get_db)):
+    return crud.delete_user(db=db, user_id=user_id)
 
 @app.post("/predict")
 def predict(request: schemas.PredictRequest):
@@ -76,34 +106,33 @@ def predict(request: schemas.PredictRequest):
         # Renommer les colonnes pour correspondre à celles utilisées lors de l'entraînement
         input_data = input_data.rename(
             columns={
-                "kilometrage": "Kilométrage",
-                "annee": "Année",
+                "kilometrage": "Kilometrage",
+                "annee": "Annee",
                 "marque": "Marque",
-                "carburant": "Type de Carburant",
+                "carburant": "Carburant",
                 "transmission": "Transmission",
-                "modele": "Modèle",
+                "modele": "Modele",
                 "etat": "Etat",
             }
         )
         logging.info(f"Input data with correct column names: {input_data}")
 
-        # Faire la prédiction directement avec le modèle Random Forest
-        rf_prediction = random_forest_model.predict(input_data)[0]
-        logging.info(f"Random Forest prediction: {rf_prediction}")
+        # Faire la prédiction directement avec le modèle Gradient Boosting
+        rf_prediction = Gradient_Boosting_model.predict(input_data)[0]
+        logging.info(f"Gradient Boosting prediction: {rf_prediction}")
 
         # Faire la prédiction directement avec le modèle de régression logistique
-        lr_prediction = logistic_regression_model.predict(input_data)[0]
+        lr_prediction = Logistic_Regression_model.predict(input_data)[0]
         logging.info(f"Logistic Regression prediction: {lr_prediction}")
 
         # Déterminer si le prix est bon ou mauvais
         price_evaluation = "Abordable" if lr_prediction == 1 else "Pas abordable"
 
         return {
-            "random_forest_prediction": float(rf_prediction),
-            "logistic_regression_evaluation": price_evaluation,
+            "Gradient_Boosting_prediction": float(rf_prediction),
+            "Logistic_Regression_evaluation": price_evaluation,
         }
 
     except Exception as e:
         logging.error(f"Erreur lors de la prédiction: {e}")
         raise HTTPException(status_code=400, detail="Erreur lors de la prédiction")
-
