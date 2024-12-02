@@ -8,7 +8,9 @@ function NavBar() {
   return (
     <AppBar position="static">
       <Toolbar>
-        <img src={logo} alt="Prédict Car Logo" style={{ height: '50px', marginRight: '10px' }} />
+        <Button onClick={() => navigate('/')}>
+          <img src={logo} alt="Prédict Car Logo" style={{ height: '50px', marginRight: '10px' }} />
+        </Button>
         <Typography variant="h6" sx={{ flexGrow: 1 }}>
         </Typography>
         <Button color="inherit" onClick={() => navigate('/')}>
