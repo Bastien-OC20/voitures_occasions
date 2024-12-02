@@ -16,15 +16,15 @@ export default function Footer() {
       </Typography>
 
       <Typography variant="body2" mt={2}>
-        <Link href="https://rands.netlify.app/" color="inherit" underline="hover">
+        <Link href="https://rands.netlify.app/" color="inherit" underline="hover" target="_blank" rel="noopener noreferrer">
           Sébastien Rapuzzi
         </Link>
         {' | '}
-        <Link href="https://www.linkedin.com/in/yamine-aissani-876514254/" color="inherit" underline="hover">
+        <Link href="https://www.linkedin.com/in/yamine-aissani-876514254/" color="inherit" underline="hover" target="_blank" rel="noopener noreferrer">
           Yamine Aissani
         </Link>
         {' | '}
-        <Link href="https://www.mathieu-soussignan.com" color="inherit" underline="hover">
+        <Link href="https://www.mathieu-soussignan.com" color="inherit" underline="hover" target="_blank" rel="noopener noreferrer">
           Mathieu Soussignan
         </Link>
       </Typography>
