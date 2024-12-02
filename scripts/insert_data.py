@@ -2,7 +2,7 @@ import sqlite3
 import pandas as pd
 
 # Charger les données du fichier CSV
-df = pd.read_csv('voitures_aramisauto_nettoye.csv')
+df = pd.read_csv('../data/cleaned/voitures_aramisauto_nettoye.csv')
 
 # Se connecter à la base de données SQLite
 conn = sqlite3.connect('voitures_aramisauto.db')
