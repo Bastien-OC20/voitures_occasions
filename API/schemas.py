@@ -59,7 +59,7 @@ class PredictRequest(BaseModel):
     transmission: str
 
     class Config:
-        schema_extra = {
+        json_schema_extra = {
             "example": {
                 "kilometrage": 15000,
                 "annee": 2019,
