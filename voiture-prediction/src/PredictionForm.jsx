@@ -19,7 +19,7 @@ function PredictionForm() {
   const [formData, setFormData] = useState({
     kilometrage: 15000,
     annee: 2020,
-    marque: '',
+    marque: 'Peugeot',
     carburant: 'Essence',
     transmission: 'Manuelle',
     modele: '208',
@@ -29,9 +29,9 @@ function PredictionForm() {
   const [loading, setLoading] = useState(false);
 
   const marquesDisponibles = [
-    'Audi', 'BMW', 'Citroën', 'Dacia', 'Fiat', 'Ford', 'Honda', 'Hyundai', 'Jeep', 
-    'Kia', 'Lexus', 'Mazda', 'Mercedes-Benz', 'Mini', 'Mitsubishi', 'Nissan', 'Opel', 
-    'Peugeot', 'Renault', 'Seat', 'Skoda', 'Smart', 'Subaru', 'Suzuki', 'Tesla', 
+    'Audi', 'BMW', 'Citroën', 'Dacia', 'Fiat', 'Ford', 'Honda', 'Hyundai', 'Jeep',
+    'Kia', 'Lexus', 'Mazda', 'Mercedes-Benz', 'Mini', 'Mitsubishi', 'Nissan', 'Opel',
+    'Peugeot', 'Renault', 'Seat', 'Skoda', 'Smart', 'Subaru', 'Suzuki', 'Tesla',
     'Toyota', 'Volkswagen', 'Volvo'
   ];
 
@@ -71,8 +71,11 @@ function PredictionForm() {
         Prédiction des Voitures d&apos;Occasion
       </Typography>
       <Box component="form" onSubmit={handleSubmit} sx={{ display: 'flex', flexDirection: 'column', gap: 2 }}>
+        
+        {/* Section Kilométrage et Année */}
+        <Typography variant="h6">Caractéristiques du Véhicule</Typography>
         <FormControl fullWidth>
-          <InputLabel>Kilométrage</InputLabel>
+          <Typography gutterBottom>Kilométrage (en km)</Typography>
           <Slider
             value={formData.kilometrage}
             onChange={handleSliderChange('kilometrage')}
@@ -84,6 +87,7 @@ function PredictionForm() {
           />
         </FormControl>
         <FormControl fullWidth>
+          <Typography gutterBottom>Année de Mise en Circulation</Typography>
           <Slider
             value={formData.annee}
             onChange={handleSliderChange('annee')}
@@ -93,8 +97,8 @@ function PredictionForm() {
             valueLabelDisplay="auto"
             name="annee"
           />
-          <InputLabel>Année</InputLabel>
         </FormControl>
+
         <FormControl fullWidth>
           <InputLabel>Marque</InputLabel>
           <Select
@@ -109,6 +113,7 @@ function PredictionForm() {
             ))}
           </Select>
         </FormControl>
+
         <TextField
           label="Modèle"
           variant="outlined"
@@ -128,14 +133,19 @@ function PredictionForm() {
             <MenuItem value="Automatique">Automatique</MenuItem>
           </Select>
         </FormControl>
-        <TextField
-          label="Type de Carburant"
-          variant="outlined"
-          name="carburant"
-          type="text"
-          value={formData.carburant}
-          onChange={handleChange}
-        />
+        <FormControl fullWidth>
+          <InputLabel>Type de Carburant</InputLabel>
+          <Select
+            name="carburant"
+            value={formData.carburant}
+            onChange={handleChange}
+          >
+            <MenuItem value="Essence">Essence</MenuItem>
+            <MenuItem value="Diesel">Diesel</MenuItem>
+            <MenuItem value="Hybride">Hybride</MenuItem>
+            <MenuItem value="Électrique">Électrique</MenuItem>
+          </Select>
+        </FormControl>
         <TextField
           label="État"
           variant="outlined"
