@@ -12,7 +12,8 @@ import {
   MenuItem,
   Slider,
   LinearProgress,
-  Paper,
+  Card,
+  CardContent
 } from '@mui/material';
 
 function PredictionForm() {
@@ -158,6 +159,7 @@ function PredictionForm() {
           Prédire le Prix
         </Button>
       </Box>
+
       {loading && (
         <Box mt={2}>
           <LinearProgress />
@@ -166,15 +168,22 @@ function PredictionForm() {
           </Typography>
         </Box>
       )}
+
+      {/* Utilisation des cartes pour afficher le résultat */}
       {prediction && (
-        <Box mt={4} component={Paper} elevation={3} p={3} sx={{ backgroundColor: prediction.deal_classification === 'Bonne affaire' ? '#c8e6c9' : '#ffcdd2' }}>
-          <Typography variant="h6" align="center">
-            Prix estimé : {prediction.predicted_price} €
-          </Typography>
-          <Typography variant="h6" align="center">
-            Classification : {prediction.deal_classification}
-          </Typography>
-        </Box>
+        <Card sx={{ maxWidth: 500, margin: '20px auto', backgroundColor: prediction.deal_classification === 'Bonne affaire' ? '#c8e6c9' : '#ffcdd2' }}>
+          <CardContent>
+            <Typography variant="h6" gutterBottom>
+              Résultat de la Prédiction
+            </Typography>
+            <Typography variant="body1">
+              Prix Estimé : {prediction.predicted_price} €
+            </Typography>
+            <Typography variant="body1">
+              Classification de l&apos;offre : {prediction.deal_classification}
+            </Typography>
+          </CardContent>
+        </Card>
       )}
     </Container>
   );
