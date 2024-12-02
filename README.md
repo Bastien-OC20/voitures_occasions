@@ -117,9 +117,10 @@ L'API FastAPI fournit des endpoints pour la prédiction des prix, et la gestion 
 ## Crédits
 
 - **Équipe de Développement :** Projet réalisé dans le cadre d'une formation en développement IA. Merci à toute l'équipe pour la collaboration, l'engagement et la persévérance tout au long du projet !
-  - [Sébastien Rapuzzi](https://rands.netlify.app/)
-  - [Yamine Aissani](https://www.linkedin.com/in/yamine-aissani-876514254/)
-  - [Mathieu Soussignan](https://mathieu-soussignan.com)
+
+  - [Sébastien Rapuzzi](https://rands.netlify.app/).
+  - [Yamine Aissani](https://www.linkedin.com/in/yamine-aissani-876514254/).
+  - [Mathieu Soussignan](https://www.mathieu-soussignan.com).
 
 - **Images et Logos :** Les images utilisées pour le design de l'application sont libres de droits, contribuant à une interface visuelle attrayante sans compromettre la conformité légale.
 
