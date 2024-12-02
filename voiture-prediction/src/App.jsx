@@ -27,7 +27,9 @@ function App() {
       <Box
         sx={{
           minHeight: '100vh',
-          backgroundColor: theme.palette.background.default,
+          background: darkMode
+            ? "linear-gradient(135deg, #121212 30%, #333333 90%)" // Gradient en mode sombre
+            : "linear-gradient(135deg, #c6deef 30%, #f0f4f8 90%)", // Gradient en mode clair
         }}
       >
         <NavBar darkMode={darkMode} setDarkMode={setDarkMode} />
