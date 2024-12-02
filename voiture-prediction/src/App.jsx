@@ -5,6 +5,7 @@ import HomePage from './pages/HomePage';
 import NavBar from './pages/NavBar';
 import PredictionForm from './PredictionForm';
 import VisualizationPage from "./pages/VisualizationPage";
+import Footer from './components/Footer';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 import { CssBaseline, Box } from '@mui/material';
 
@@ -27,9 +28,10 @@ function App() {
       <Box
         sx={{
           minHeight: '100vh',
-          background: darkMode
-            ? "linear-gradient(135deg, #121212 30%, #333333 90%)" // Gradient en mode sombre
-            : "linear-gradient(135deg, #c6deef 30%, #f0f4f8 90%)", // Gradient en mode clair
+          backgroundColor: theme.palette.background.default,
+          display: 'flex',
+          flexDirection: 'column',
+          justifyContent: 'space-between',
         }}
       >
         <NavBar darkMode={darkMode} setDarkMode={setDarkMode} />
@@ -76,6 +78,7 @@ function App() {
             />
           </Routes>
         </AnimatePresence>
+        <Footer /> {/* Ajouter le footer ici */}
       </Box>
     </ThemeProvider>
   );
