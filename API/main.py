@@ -10,6 +10,7 @@ import logging
 from sklearn.cluster import KMeans
 from sklearn.preprocessing import StandardScaler
 import os
+import sqlite3
 
 # Utiliser un chemin absolu basé sur le dossier actuel
 base_dir = os.path.dirname(os.path.abspath(__file__))
@@ -151,9 +152,34 @@ def delete_user(user_id: int, db: Session = Depends(get_db)):
 # Utiliser des variables différentes pour chaque dataframe
 @router.get("/data/year-brand-distribution")
 def get_year_brand_distribution():
-    # Group by both 'Année' and 'Marque'
-    counts_by_year_and_brand = year_brand_df.groupby(["Année", "Marque"]).size().reset_index(name="Count")
-    return counts_by_year_and_brand.to_dict(orient="records")
+    # Connexion à la base de données SQLite
+    conn = sqlite3.connect("voitures_aramisauto.db")
+    
+    # Requête SQL pour agréger les données par année et marque
+    query = """
+    SELECT m.Nom AS Marque, v.Annee, COUNT(*) AS Count
+    FROM Vehicule v
+    JOIN Marque m ON v.Marque_ID = m.ID_Marque
+    GROUP BY m.Nom, v.Annee
+    ORDER BY v.Annee, m.Nom;
+    """
+    
+    # Exécuter la requête et charger les résultats dans un DataFrame
+    year_brand_df = pd.read_sql_query(query, conn)
+    
+    # Fermer la connexion
+    conn.close()
+    
+    # Voir les données agrégées avant de les renvoyer
+    print("Aperçu des données agrégées par année et marque :")
+    print(year_brand_df.head())
+    
+    # Convertir le DataFrame en liste de dictionnaires pour l'API
+    response_data = year_brand_df.to_dict(orient="records")
+    
+    # Retourner les données au frontend
+    return response_data
+
 
 @router.get("/data/clustering")
 def get_clustering_data():
