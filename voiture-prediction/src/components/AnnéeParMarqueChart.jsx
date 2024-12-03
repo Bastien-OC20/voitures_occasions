@@ -18,18 +18,16 @@ function AnnéeParMarqueChart() {
         );
 
         if (response.data && Array.isArray(response.data) && response.data.length > 0) {
+          // Organiser les données pour une utilisation facile dans le graphique
           const dataByYearAndBrand = response.data.reduce((acc, item) => {
-            const year = item["Année"];
+            const year = item["Annee"];
             const brand = item["Marque"];
             const count = item["Count"];
 
             if (!acc[brand]) {
               acc[brand] = {};
             }
-            if (!acc[brand][year]) {
-              acc[brand][year] = 0;
-            }
-            acc[brand][year] += count;
+            acc[brand][year] = count;
 
             return acc;
           }, {});
